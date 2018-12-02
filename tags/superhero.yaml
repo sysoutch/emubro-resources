@@ -1,8 +1,7 @@
 ---
-superhero:
-  de:
-  - Superheld
-  en:
-  - Superhero
-  fr:
-  - Super-héros
+de:
+- Superheld
+en:
+- Superhero
+fr:
+- Super-héros

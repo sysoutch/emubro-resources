@@ -1,7 +1,6 @@
 ---
-chess:
-  de:
-  - Schach
-  en:
-  - Chess
-  fr: ''
+de:
+- Schach
+en:
+- Chess
+fr: ''

@@ -1,7 +1,6 @@
 ---
-pinball:
-  de:
-  - Flipper
-  en:
-  - Pinball
-  fr: ''
+de:
+- Flipper
+en:
+- Pinball
+fr: ''

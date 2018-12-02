@@ -1,7 +1,6 @@
 ---
-maze:
-  de:
-  - Labyrinth
-  en:
-  - Maze
-  fr: ''
+de:
+- Labyrinth
+en:
+- Maze
+fr: ''

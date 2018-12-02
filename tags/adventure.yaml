@@ -1,7 +1,6 @@
 ---
-adventure:
-  de:
-  - Abenteuer
-  en:
-  - Adventure
-  fr: ''
+de:
+- Abenteuer
+en:
+- Adventure
+fr: ''

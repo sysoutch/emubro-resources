@@ -1,8 +1,7 @@
 ---
-strategy:
-  de:
-  - Strategie
-  en:
-  - Strategy
-  fr:
-  - Stratégie
+de:
+- Strategie
+en:
+- Strategy
+fr:
+- Stratégie

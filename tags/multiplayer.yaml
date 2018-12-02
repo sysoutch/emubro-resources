@@ -1,8 +1,7 @@
 ---
-multiplayer:
-  de:
-  - Mehrspieler
-  en:
-  - Multiplayer
-  fr:
-  - Multijoueur
+de:
+- Mehrspieler
+en:
+- Multiplayer
+fr:
+- Multijoueur

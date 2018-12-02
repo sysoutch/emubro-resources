@@ -1,6 +1,5 @@
 ---
-board:
-  de: ''
-  en:
-  - Board
-  fr: ''
+de: ''
+en:
+- Board
+fr: ''
