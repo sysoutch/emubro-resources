@@ -1,0 +1,68 @@
+{  
+  "name":"Nintendo Switch",
+  "shortName":"switch",
+  "iconFilename":"",
+  "defaultGameCover":"",
+  "gameSearchModes":[  
+	 "FILE_FILE_NAME_MATCH"
+  ],
+  "searchFor":"^(.*)\\.nso$|^(.*)\\.nro$",
+  "fileStructure":[  
+
+  ],
+  "supportedArchiveTypes":[  
+
+  ],
+  "supportedImageTypes":[ 
+  ],
+  "emulators":[
+	 {  
+		"name":"Ryujinx",
+		"os":[
+
+		],
+		"path":"",
+		"iconFilename":"ryujinx.png",
+		"configFilePath":"",
+		"website":"https://ryujinx.org/download",
+		"startParameters":"%emupath% %gamepath%",
+		"supportedFileTypes":[  
+		   ".nso",
+		   ".nro"
+		],
+		"searchString":"^(Ryujinx)\\.exe$",
+		"archiveFileMatchWin":"^(ryujinx-(.*)-win_x64)\\.zip$",
+		"archiveFileMatchLinux":"^(ryujinx-(.*)-linux_x64)\\.tar$",
+		"archiveFileMatchMac":"^(ryujinx-(.*)-osx_x64)\\.zip$",
+		"setupFileMatchWin":"",
+		"setupFileMatchLinux":"",
+		"setupFileMatchMac":"",
+		"autoSearchEnabled":true
+	 },
+	 {  
+		"name":"yuzu",
+		"os":[
+
+		],
+		"path":"",
+		"iconFilename":"yuzu.png",
+		"configFilePath":"",
+		"website":"https://yuzu-emu.org/downloads/",
+		"startParameters":"%emupath% %gamepath%",
+		"supportedFileTypes":[  
+		   ".nso",
+		   ".nro"
+		],
+		"searchString":"^(yuzu)\\.exe$",
+		"archiveFileMatchWin":"^(yuzu-(.*)-win_x64)\\.zip$",
+		"archiveFileMatchLinux":"^(yuzu-(.*)-linux_x64)\\.tar$",
+		"archiveFileMatchMac":"^(yuzu-(.*)-osx_x64)\\.zip$",
+		"setupFileMatchWin":"",
+		"setupFileMatchLinux":"",
+		"setupFileMatchMac":"",
+		"autoSearchEnabled":true
+	 }
+  ],
+  "directExecutionMode":"none",
+  "autoSearchEnabled":true
+}

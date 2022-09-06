@@ -1,0 +1,61 @@
+{  
+  "name":"Nintendo 64",
+  "shortName":"n64",
+  "iconFilename":"",
+  "defaultGameCover":"",
+  "plugins":[
+	{
+	  "covers":"",
+	  "titles":""
+	}
+  ],
+  "gameSearchModes":[  
+	 "FILE_FILE_NAME_MATCH",
+	 "ARCHIVE_FILE_NAME_MATCH",
+	 "IMAGE_FILE_NAME_MATCH"
+  ],
+  "searchFor":"^(.*)\\.z64$|^(.*)\\.v64$|^(.*)\\.n64$",
+  "fileStructure":[  
+
+  ],
+  "supportedArchiveTypes":[  
+	 ".zip"
+  ],
+  "supportedImageTypes":[  
+	 ".bin"
+  ],
+  "emulators":[  
+	 {  
+		"name":"Project64",
+		"os":[
+
+		],
+		"path":"",
+		"iconFilename":"project64.png",
+		"configFilePath":"/config/project64.cfg",
+		"website":"https://www.emuparadise.me/Nintendo_64_Emulators/Windows/Project64/45",
+		"startParameters":"%emupath% %gamepath%",
+		"supportedFileTypes":[  
+		   ".bin",
+		   ".zip",
+		   ".z64",
+		   ".v64",
+		   ".n64",
+		   ".rom",
+		   ".usa",
+		   ".jap",
+		   ".pal"
+		],
+		"searchString":"^(project64)\\.exe$",
+		"archiveFileMatchWin":"^(project64)\\.rar$",
+		"archiveFileMatchLinux":"^(project64)\\.tar$",
+		"archiveFileMatchMac":"^(project64)\\.zip$",
+		"setupFileMatchWin":"",
+		"setupFileMatchLinux":"",
+		"setupFileMatchMac":"",
+		"autoSearchEnabled":true
+	 }
+  ],
+  "directExecutionMode":"none",
+  "autoSearchEnabled":true
+}
