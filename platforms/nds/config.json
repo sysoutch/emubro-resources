@@ -3,6 +3,9 @@
   "shortName":"nds",
   "iconFilename":"",
   "defaultGameCover":"",
+  "recommendedEmulators":[
+	 "melonDS"
+  ],
   "plugins":[
 	{
 	  "covers":"",
@@ -27,7 +30,7 @@
 
   ],
   "emulators":[  
-	 {  
+	 {
 		"name":"DeSmuME",
 		"os":[
 
@@ -53,7 +56,8 @@
 		"setupFileMatchWin":"",
 		"setupFileMatchLinux":"",
 		"setupFileMatchMac":"",
-		"autoSearchEnabled":true
+		"autoSearchEnabled":true,
+		"biosRequired":false
 	 }
   ],
   "directExecutionMode":"none",

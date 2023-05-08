@@ -3,6 +3,9 @@
   "shortName":"wii-u",
   "iconFilename":"",
   "defaultGameCover":"",
+  "recommendedEmulators":[
+	 "Cemu"
+  ],
   "gameSearchModes":[  
 	 "FILE_FILE_NAME_MATCH",
 	 "IMAGE_FILE_NAME_MATCH"
@@ -40,7 +43,8 @@
 		"setupFileMatchWin":"",
 		"setupFileMatchLinux":"",
 		"setupFileMatchMac":"",
-		"autoSearchEnabled":true
+		"autoSearchEnabled":true,
+		"biosRequired":false
 	 }
   ],
   "directExecutionMode":"none",

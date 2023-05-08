@@ -3,6 +3,9 @@
   "shortName":"3ds",
   "iconFilename":"",
   "defaultGameCover":"",
+  "recommendedEmulators":[
+	 "citra"
+  ],
   "gameSearchModes":[  
 	 "FILE_FILE_NAME_MATCH",
 	 "ARCHIVE_FILE_NAME_MATCH"
@@ -39,7 +42,8 @@
 		"setupFileMatchWin":"",
 		"setupFileMatchLinux":"",
 		"setupFileMatchMac":"",
-		"autoSearchEnabled":true
+		"autoSearchEnabled":true,
+		"biosRequired":false
 	 }
   ],
   "directExecutionMode":"none",

@@ -3,6 +3,9 @@
   "shortName":"amiga",
   "iconFilename":"",
   "defaultGameCover":"",
+  "recommendedEmulators":[
+	 "WinFellow"
+  ],
   "plugins":[
 	{
 	  "covers":"",
@@ -44,7 +47,8 @@
 		"setupFileMatchWin":"^(WinFellow_(.*)-master-(.*))\\.exe$",
 		"setupFileMatchLinux":"",
 		"setupFileMatchMac":"",
-		"autoSearchEnabled":true
+		"autoSearchEnabled":true,
+		"biosRequired":false
 	 }
   ],
   "directExecutionMode":"none",

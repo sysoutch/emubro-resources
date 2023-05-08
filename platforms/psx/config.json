@@ -3,6 +3,9 @@
   "shortName":"psx",
   "iconFilename":"",
   "defaultGameCover":"",
+  "recommendedEmulators":[
+	 "ePSXe"
+  ],
   "plugins":[
 	{
 	  "covers":"",
@@ -55,7 +58,8 @@
 		"setupFileMatchWin":"",
 		"setupFileMatchLinux":"",
 		"setupFileMatchMac":"",
-		"autoSearchEnabled":true
+		"autoSearchEnabled":true,
+		"biosRequired":true
 	 },
 	 {  
 		"name":"FPse",
@@ -77,7 +81,8 @@
 		"setupFileMatchWin":"",
 		"setupFileMatchLinux":"",
 		"setupFileMatchMac":"",
-		"autoSearchEnabled":true
+		"autoSearchEnabled":true,
+		"biosRequired":true
 	 }
   ],
   "directExecutionMode":"none",

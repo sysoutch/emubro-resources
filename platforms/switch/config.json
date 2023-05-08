@@ -3,6 +3,9 @@
   "shortName":"switch",
   "iconFilename":"",
   "defaultGameCover":"",
+  "recommendedEmulators":[
+	 "yuzu"
+  ],
   "gameSearchModes":[  
 	 "FILE_FILE_NAME_MATCH"
   ],
@@ -37,7 +40,8 @@
 		"setupFileMatchWin":"",
 		"setupFileMatchLinux":"",
 		"setupFileMatchMac":"",
-		"autoSearchEnabled":true
+		"autoSearchEnabled":true,
+		"biosRequired":false
 	 },
 	 {  
 		"name":"yuzu",
@@ -60,7 +64,8 @@
 		"setupFileMatchWin":"",
 		"setupFileMatchLinux":"",
 		"setupFileMatchMac":"",
-		"autoSearchEnabled":true
+		"autoSearchEnabled":true,
+		"biosRequired":false
 	 }
   ],
   "directExecutionMode":"none",

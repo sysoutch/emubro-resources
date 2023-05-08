@@ -3,6 +3,9 @@
   "shortName":"atari-st",
   "iconFilename":"",
   "defaultGameCover":"",
+  "recommendedEmulators":[
+	 "Steem"
+  ],
   "plugins":[
 	{
 	  "covers":"",
@@ -44,7 +47,8 @@
 		"setupFileMatchWin":"",
 		"setupFileMatchLinux":"",
 		"setupFileMatchMac":"",
-		"autoSearchEnabled":true
+		"autoSearchEnabled":true,
+		"biosRequired":false
 	 }
   ],
   "directExecutionMode":"none",

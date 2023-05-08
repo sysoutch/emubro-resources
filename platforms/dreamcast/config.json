@@ -3,6 +3,9 @@
   "shortName":"dreamcast",
   "iconFilename":"",
   "defaultGameCover":"",
+  "recommendedEmulators":[
+	 "redream"
+  ],
   "plugins":[
 	{
 	  "covers":"",
@@ -45,7 +48,8 @@
 		"setupFileMatchWin":"",
 		"setupFileMatchLinux":"",
 		"setupFileMatchMac":"",
-		"autoSearchEnabled":true
+		"autoSearchEnabled":true,
+		"biosRequired":false
 	 }
   ],
   "directExecutionMode":"none",

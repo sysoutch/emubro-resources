@@ -3,6 +3,9 @@
   "shortName":"pc",
   "iconFilename":"",
   "defaultGameCover":"",
+  "recommendedEmulators":[
+	 "Windows Shell"
+  ],
   "plugins":[
 	{
 	  "covers":"",
@@ -43,7 +46,8 @@
 		"setupFileMatchWin":"",
 		"setupFileMatchLinux":"",
 		"setupFileMatchMac":"",
-		"autoSearchEnabled":false
+		"autoSearchEnabled":false,
+		"biosRequired":false
 	 }
   ],
   "directExecutionMode":"windows",

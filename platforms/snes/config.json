@@ -3,6 +3,9 @@
   "shortName":"snes",
   "iconFilename":"",
   "defaultGameCover":"",
+  "recommendedEmulators":[
+	 "Snes9x"
+  ],
   "plugins":[
 	{
 	  "covers":"",
@@ -45,7 +48,8 @@
 		"setupFileMatchWin":"",
 		"setupFileMatchLinux":"",
 		"setupFileMatchMac":"",
-		"autoSearchEnabled":true
+		"autoSearchEnabled":true,
+		"biosRequired":false
 	 },
 	 {  
 		"name":"ZSNES",
@@ -68,7 +72,8 @@
 		"setupFileMatchWin":"",
 		"setupFileMatchLinux":"",
 		"setupFileMatchMac":"",
-		"autoSearchEnabled":true
+		"autoSearchEnabled":true,
+		"biosRequired":false
 	 },
 	 {  
 		"name":"FakeNES",
@@ -91,7 +96,8 @@
 		"setupFileMatchWin":"",
 		"setupFileMatchLinux":"",
 		"setupFileMatchMac":"",
-		"autoSearchEnabled":true
+		"autoSearchEnabled":true,
+		"biosRequired":false
 	 }
   ],
   "directExecutionMode":"none",

@@ -3,6 +3,8 @@
   "shortName":"atari5200",
   "iconFilename":"",
   "defaultGameCover":"",
+  "recommendedEmulators":[
+  ],
   "plugins":[
 	{
 	  "covers":"",
@@ -44,7 +46,8 @@
 		"setupFileMatchWin":"",
 		"setupFileMatchLinux":"",
 		"setupFileMatchMac":"",
-		"autoSearchEnabled":true
+		"autoSearchEnabled":true,
+		"biosRequired":false
 	 },
 	 {  
 		"name":"Atari800",
@@ -66,7 +69,8 @@
 		"setupFileMatchWin":"",
 		"setupFileMatchLinux":"",
 		"setupFileMatchMac":"",
-		"autoSearchEnabled":true
+		"autoSearchEnabled":true,
+		"biosRequired":false
 	 },
 	 {  
 		"name":"kat5200",
@@ -88,7 +92,8 @@
 		"setupFileMatchWin":"",
 		"setupFileMatchLinux":"",
 		"setupFileMatchMac":"",
-		"autoSearchEnabled":true
+		"autoSearchEnabled":true,
+		"biosRequired":false
 	 },
 	 {  
 		"name":"MESS",
@@ -110,7 +115,8 @@
 		"setupFileMatchWin":"",
 		"setupFileMatchLinux":"",
 		"setupFileMatchMac":"",
-		"autoSearchEnabled":true
+		"autoSearchEnabled":true,
+		"biosRequired":false
 	 },
 	 {  
 		"name":"VSS",
@@ -132,7 +138,8 @@
 		"setupFileMatchWin":"",
 		"setupFileMatchLinux":"",
 		"setupFileMatchMac":"",
-		"autoSearchEnabled":true
+		"autoSearchEnabled":true,
+		"biosRequired":false
 	 }
   ],
   "directExecutionMode":"none",

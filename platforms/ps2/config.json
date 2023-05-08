@@ -3,6 +3,9 @@
   "shortName":"ps2",
   "iconFilename":"",
   "defaultGameCover":"",
+  "recommendedEmulators":[
+	 "PCSX2"
+  ],
   "plugins":[
 	{
 	  "covers":"",
@@ -23,6 +26,7 @@
   "supportedImageTypes":[  
 	 ".iso",
 	 ".bin",
+	 ".cue",
 	 ".img",
 	 ".mdf",
 	 ".nrg"
@@ -52,7 +56,8 @@
 		"setupFileMatchWin":"",
 		"setupFileMatchLinux":"",
 		"setupFileMatchMac":"",
-		"autoSearchEnabled":true
+		"autoSearchEnabled":true,
+		"biosRequired":true
 	 }
   ],
   "directExecutionMode":"none",

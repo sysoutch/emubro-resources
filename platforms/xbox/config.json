@@ -3,6 +3,9 @@
   "shortName":"xbox",
   "iconFilename":"",
   "defaultGameCover":"",
+  "recommendedEmulators":[
+	 "Qemu"
+  ],
   "plugins":[
 	{
 	  "covers":"",
@@ -43,7 +46,8 @@
 		"setupFileMatchWin":"",
 		"setupFileMatchLinux":"",
 		"setupFileMatchMac":"",
-		"autoSearchEnabled":true
+		"autoSearchEnabled":true,
+		"biosRequired":false
 	 },
 	 {  
 		"name":"XQEMU",
@@ -65,7 +69,8 @@
 		"setupFileMatchWin":"",
 		"setupFileMatchLinux":"",
 		"setupFileMatchMac":"",
-		"autoSearchEnabled":true
+		"autoSearchEnabled":true,
+		"biosRequired":false
 	 },
 	 {  
 		"name":"Xeon",
@@ -87,7 +92,8 @@
 		"setupFileMatchWin":"",
 		"setupFileMatchLinux":"",
 		"setupFileMatchMac":"",
-		"autoSearchEnabled":true
+		"autoSearchEnabled":true,
+		"biosRequired":false
 	 }
   ],
   "directExecutionMode":"none",

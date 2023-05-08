@@ -3,6 +3,9 @@
   "shortName":"wii",
   "iconFilename":"",
   "defaultGameCover":"",
+  "recommendedEmulators":[
+	 "Dolphin"
+  ],
   "gameSearchModes":[  
 	 "FILE_FILE_NAME_MATCH",
 	 "IMAGE_FILE_NAME_MATCH"
@@ -41,7 +44,8 @@
 		"setupFileMatchWin":"",
 		"setupFileMatchLinux":"",
 		"setupFileMatchMac":"",
-		"autoSearchEnabled":true
+		"autoSearchEnabled":true,
+		"biosRequired":false
 	 },
 	 {  
 		"name":"Dolphin VR",
@@ -64,7 +68,8 @@
 		"setupFileMatchWin":"",
 		"setupFileMatchLinux":"",
 		"setupFileMatchMac":"",
-		"autoSearchEnabled":true
+		"autoSearchEnabled":true,
+		"biosRequired":false
 	 }
   ],
   "directExecutionMode":"none",

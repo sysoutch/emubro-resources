@@ -3,6 +3,9 @@
   "shortName":"psp",
   "iconFilename":"",
   "defaultGameCover":"",
+  "recommendedEmulators":[
+	 "PPSSPP"
+  ],
   "plugins":[
 	{
 	  "covers":"",
@@ -51,7 +54,8 @@
 		"setupFileMatchWin":"",
 		"setupFileMatchLinux":"",
 		"setupFileMatchMac":"",
-		"autoSearchEnabled":true
+		"autoSearchEnabled":true,
+		"biosRequired":false
 	 }
   ],
   "directExecutionMode":"none",
