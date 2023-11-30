@@ -1,6 +1,7 @@
 {  
   "name":"Sony Playstation Portable",
   "shortName":"psp",
+  "companyName":"Sony",
   "iconFilename":"",
   "defaultGameCover":"",
   "recommendedEmulators":[

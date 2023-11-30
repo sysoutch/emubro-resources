@@ -1,6 +1,7 @@
 {  
   "name":"Game Boy",
   "shortName":"gameboy",
+  "companyName":"Nintendo",
   "iconFilename":"",
   "defaultGameCover":"",
   "recommendedEmulators":[

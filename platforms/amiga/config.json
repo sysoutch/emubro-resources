@@ -1,6 +1,7 @@
 {  
   "name":"Amiga",
   "shortName":"amiga",
+  "companyName":"",
   "iconFilename":"",
   "defaultGameCover":"",
   "recommendedEmulators":[

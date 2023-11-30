@@ -1,6 +1,7 @@
 {  
   "name":"Atari 2600",
   "shortName":"atari2600",
+  "companyName":"Atari",
   "iconFilename":"",
   "defaultGameCover":"",
   "recommendedEmulators":[

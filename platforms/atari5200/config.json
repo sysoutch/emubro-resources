@@ -1,6 +1,7 @@
 {  
   "name":"Atari 5200",
   "shortName":"atari5200",
+  "companyName":"Atari",
   "iconFilename":"",
   "defaultGameCover":"",
   "recommendedEmulators":[

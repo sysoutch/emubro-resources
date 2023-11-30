@@ -1,6 +1,7 @@
 {  
   "name":"Nintendo Wii U",
   "shortName":"wii-u",
+  "companyName":"Nintendo",
   "iconFilename":"",
   "defaultGameCover":"",
   "recommendedEmulators":[

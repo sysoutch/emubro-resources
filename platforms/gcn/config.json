@@ -1,6 +1,7 @@
 {  
   "name":"Nintendo GameCube",
   "shortName":"gcn",
+  "companyName":"Nintendo",
   "iconFilename":"",
   "defaultGameCover":"",
   "recommendedEmulators":[

@@ -1,6 +1,7 @@
 {  
   "name":"Android",
   "shortName":"android",
+  "companyName":"Android",
   "iconFilename":"",
   "defaultGameCover":"",
   "recommendedEmulators":[

@@ -1,6 +1,7 @@
 {  
   "name":"Nintendo Switch",
   "shortName":"switch",
+  "companyName":"Nintendo",
   "iconFilename":"",
   "defaultGameCover":"",
   "recommendedEmulators":[

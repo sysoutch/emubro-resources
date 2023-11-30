@@ -1,6 +1,7 @@
 {  
   "name":"Nintendo DS",
   "shortName":"nds",
+  "companyName":"Nintendo",
   "iconFilename":"",
   "defaultGameCover":"",
   "recommendedEmulators":[

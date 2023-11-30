@@ -1,6 +1,7 @@
 {  
   "name":"Nintendo Entertainment System",
   "shortName":"nes",
+  "companyName":"Nintendo",
   "iconFilename":"",
   "defaultGameCover":"",
   "recommendedEmulators":[

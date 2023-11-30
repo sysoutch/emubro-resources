@@ -1,6 +1,7 @@
 {  
   "name":"Nintendo Wii",
   "shortName":"wii",
+  "companyName":"Nintendo",
   "iconFilename":"",
   "defaultGameCover":"",
   "recommendedEmulators":[

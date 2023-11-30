@@ -1,6 +1,7 @@
 {  
   "name":"Microsoft Xbox",
   "shortName":"xbox",
+  "companyName":"Microsoft",
   "iconFilename":"",
   "defaultGameCover":"",
   "recommendedEmulators":[

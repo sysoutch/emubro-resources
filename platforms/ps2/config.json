@@ -1,6 +1,7 @@
 {  
   "name":"Sony Playstation 2",
   "shortName":"ps2",
+  "companyName":"Sony",
   "iconFilename":"",
   "defaultGameCover":"",
   "recommendedEmulators":[

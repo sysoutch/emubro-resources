@@ -1,6 +1,7 @@
 {  
   "name":"Super Nintendo",
   "shortName":"snes",
+  "companyName":"Nintendo",
   "iconFilename":"",
   "defaultGameCover":"",
   "recommendedEmulators":[

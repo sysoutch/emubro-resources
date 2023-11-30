@@ -1,6 +1,7 @@
 {  
   "name":"Sony Playstation 1",
   "shortName":"psx",
+  "companyName":"Sony",
   "iconFilename":"",
   "defaultGameCover":"",
   "recommendedEmulators":[

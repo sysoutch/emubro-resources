@@ -1,6 +1,7 @@
 {  
   "name":"ScummVM",
   "shortName":"scummvm",
+  "companyName":"",
   "iconFilename":"",
   "defaultGameCover":"",
   "recommendedEmulators":[

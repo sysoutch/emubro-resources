@@ -1,6 +1,7 @@
 {  
   "name":"Nintendo 3DS",
   "shortName":"3ds",
+  "companyName":"Nintendo",
   "iconFilename":"",
   "defaultGameCover":"",
   "recommendedEmulators":[

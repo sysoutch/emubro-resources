@@ -1,6 +1,7 @@
 {  
   "name":"Microsoft Windows",
   "shortName":"pc",
+  "companyName":"Microsoft",
   "iconFilename":"",
   "defaultGameCover":"",
   "recommendedEmulators":[

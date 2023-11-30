@@ -1,6 +1,7 @@
 {  
   "name":"Atari 7800",
   "shortName":"atari7800",
+  "companyName":"Atari",
   "iconFilename":"",
   "defaultGameCover":"",
   "recommendedEmulators":[

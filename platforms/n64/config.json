@@ -1,6 +1,7 @@
 {  
   "name":"Nintendo 64",
   "shortName":"n64",
+  "companyName":"Nintendo",
   "iconFilename":"",
   "defaultGameCover":"",
   "recommendedEmulators":[

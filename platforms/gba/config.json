@@ -1,6 +1,7 @@
 {  
   "name":"Game Boy Advance",
   "shortName":"gba",
+  "companyName":"Nintendo",
   "iconFilename":"",
   "defaultGameCover":"",
   "recommendedEmulators":[
