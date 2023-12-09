@@ -37,7 +37,7 @@
 		"path":"",
 		"iconFilename":"project64.png",
 		"configFilePath":"/config/project64.cfg",
-		"website":"https://www.emuparadise.me/Nintendo_64_Emulators/Windows/Project64/45",
+		"website":"https://www.pj64-emu.com/nightly-builds",
 		"startParameters":"%emupath% %gamepath%",
 		"supportedFileTypes":[  
 		   ".bin",
@@ -60,18 +60,9 @@
 		"autoSearchEnabled":true,
 		"biosRequired":false,
 		"runCommandsBefore":[
-			{
-			   "description":"Reset Nagware Screen",
-			   "command":[
-				  "reg", "delete", "\"HKCU\\SOFTWARE\\Project64\"", "/v", "\"user\"", "/f", "/reg:64"
-			   ]
-			},
-			{
-			   "description":"Reset Nagware Screen  (32 bit Registry)",
-			   "command":[
-				  "reg", "delete", "\"HKCU\\SOFTWARE\\Project64\"", "/v", "\"user\"", "/f", "/reg:32"
-			   ]
-			}
+			"reg", "delete", "\"HKCU\\SOFTWARE\\Project64\"", "/v", "\"user\"", "/f", "/reg:64",
+			"|",
+			"reg", "delete", "\"HKCU\\SOFTWARE\\Project64\"", "/v", "\"user\"", "/f", "/reg:32"
 		]
 	 }
   ],
