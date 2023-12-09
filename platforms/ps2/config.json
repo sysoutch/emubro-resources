@@ -41,7 +41,7 @@
 		"path":"",
 		"iconFilename":"pcsx2.png",
 		"configFilePath":"",
-		"website":"http://pcsx2.net/download/releases.html",
+		"website":"https://pcsx2.net/downloads",
 		"startParameters":"%emupath% %gamepath%",
 		"supportedFileTypes":[  
 		   ".iso",
@@ -58,7 +58,10 @@
 		"setupFileMatchLinux":"",
 		"setupFileMatchMac":"",
 		"autoSearchEnabled":true,
-		"biosRequired":true
+		"biosRequired":true,
+		"runCommandsBefore":[
+		 
+		]
 	 }
   ],
   "directExecutionMode":"none",

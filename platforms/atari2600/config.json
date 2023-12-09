@@ -48,7 +48,10 @@
 		"setupFileMatchLinux":"",
 		"setupFileMatchMac":"",
 		"autoSearchEnabled":true,
-		"biosRequired":false
+		"biosRequired":false,
+		"runCommandsBefore":[
+		 
+		]
 	 },
 	 {  
 		"name":"Pcaewin",
@@ -71,7 +74,10 @@
 		"setupFileMatchLinux":"",
 		"setupFileMatchMac":"",
 		"autoSearchEnabled":true,
-		"biosRequired":false
+		"biosRequired":false,
+		"runCommandsBefore":[
+		 
+		]
 	 },
 	 {  
 		"name":"z26",
@@ -97,7 +103,10 @@
 		"setupFileMatchLinux":"",
 		"setupFileMatchMac":"",
 		"autoSearchEnabled":true,
-		"biosRequired":false
+		"biosRequired":false,
+		"runCommandsBefore":[
+		 
+		]
 	 }
   ],
   "directExecutionMode":"none",

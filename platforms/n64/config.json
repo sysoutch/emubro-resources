@@ -58,7 +58,21 @@
 		"setupFileMatchLinux":"",
 		"setupFileMatchMac":"",
 		"autoSearchEnabled":true,
-		"biosRequired":false
+		"biosRequired":false,
+		"runCommandsBefore":[
+			{
+			   "description":"Reset Nagware Screen",
+			   "command":[
+				  "reg", "delete", "\"HKCU\\SOFTWARE\\Project64\"", "/v", "\"user\"", "/f", "/reg:64"
+			   ]
+			},
+			{
+			   "description":"Reset Nagware Screen  (32 bit Registry)",
+			   "command":[
+				  "reg", "delete", "\"HKCU\\SOFTWARE\\Project64\"", "/v", "\"user\"", "/f", "/reg:32"
+			   ]
+			}
+		]
 	 }
   ],
   "directExecutionMode":"none",

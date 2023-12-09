@@ -48,7 +48,10 @@
 		"setupFileMatchLinux":"",
 		"setupFileMatchMac":"",
 		"autoSearchEnabled":true,
-		"biosRequired":false
+		"biosRequired":false,
+		"runCommandsBefore":[
+		 
+		]
 	 },
 	 {  
 		"name":"XQEMU",
@@ -71,7 +74,10 @@
 		"setupFileMatchLinux":"",
 		"setupFileMatchMac":"",
 		"autoSearchEnabled":true,
-		"biosRequired":false
+		"biosRequired":false,
+		"runCommandsBefore":[
+		 
+		]
 	 },
 	 {  
 		"name":"Xeon",
@@ -94,7 +100,10 @@
 		"setupFileMatchLinux":"",
 		"setupFileMatchMac":"",
 		"autoSearchEnabled":true,
-		"biosRequired":false
+		"biosRequired":false,
+		"runCommandsBefore":[
+		 
+		]
 	 }
   ],
   "directExecutionMode":"none",

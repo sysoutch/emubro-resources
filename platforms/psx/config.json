@@ -60,7 +60,10 @@
 		"setupFileMatchLinux":"",
 		"setupFileMatchMac":"",
 		"autoSearchEnabled":true,
-		"biosRequired":true
+		"biosRequired":true,
+		"runCommandsBefore":[
+		 
+		]
 	 },
 	 {  
 		"name":"FPse",
@@ -83,7 +86,10 @@
 		"setupFileMatchLinux":"",
 		"setupFileMatchMac":"",
 		"autoSearchEnabled":true,
-		"biosRequired":true
+		"biosRequired":true,
+		"runCommandsBefore":[
+		 
+		]
 	 }
   ],
   "directExecutionMode":"none",

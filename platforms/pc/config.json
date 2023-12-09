@@ -48,7 +48,10 @@
 		"setupFileMatchLinux":"",
 		"setupFileMatchMac":"",
 		"autoSearchEnabled":false,
-		"biosRequired":false
+		"biosRequired":false,
+		"runCommandsBefore":[
+		 
+		]
 	 }
   ],
   "directExecutionMode":"windows",

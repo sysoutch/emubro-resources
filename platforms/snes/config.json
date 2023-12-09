@@ -50,7 +50,10 @@
 		"setupFileMatchLinux":"",
 		"setupFileMatchMac":"",
 		"autoSearchEnabled":true,
-		"biosRequired":false
+		"biosRequired":false,
+		"runCommandsBefore":[
+		 
+		]
 	 },
 	 {  
 		"name":"ZSNES",
@@ -74,7 +77,10 @@
 		"setupFileMatchLinux":"",
 		"setupFileMatchMac":"",
 		"autoSearchEnabled":true,
-		"biosRequired":false
+		"biosRequired":false,
+		"runCommandsBefore":[
+		 
+		]
 	 },
 	 {  
 		"name":"FakeNES",
@@ -98,7 +104,10 @@
 		"setupFileMatchLinux":"",
 		"setupFileMatchMac":"",
 		"autoSearchEnabled":true,
-		"biosRequired":false
+		"biosRequired":false,
+		"runCommandsBefore":[
+		 
+		]
 	 }
   ],
   "directExecutionMode":"none",

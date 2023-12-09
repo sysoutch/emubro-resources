@@ -10,7 +10,7 @@
   "gameSearchModes":[  
 	 "FILE_FILE_NAME_MATCH"
   ],
-  "searchFor":"^(.*)\\.nso$|^(.*)\\.nro$",
+  "searchFor":"^(.*)\\.nsp$|^(.*)\\.xci$",
   "fileStructure":[  
 
   ],
@@ -31,8 +31,8 @@
 		"website":"https://ryujinx.org/download",
 		"startParameters":"%emupath% %gamepath%",
 		"supportedFileTypes":[  
-		   ".nso",
-		   ".nro"
+		   ".nsp",
+		   ".xci"
 		],
 		"searchString":"^(Ryujinx)\\.exe$",
 		"archiveFileMatchWin":"^(ryujinx-(.*)-win_x64)\\.zip$",
@@ -42,7 +42,10 @@
 		"setupFileMatchLinux":"",
 		"setupFileMatchMac":"",
 		"autoSearchEnabled":true,
-		"biosRequired":false
+		"biosRequired":false,
+		"runCommandsBefore":[
+		 
+		]
 	 },
 	 {  
 		"name":"yuzu",
@@ -53,10 +56,10 @@
 		"iconFilename":"yuzu.png",
 		"configFilePath":"",
 		"website":"https://yuzu-emu.org/downloads/",
-		"startParameters":"%emupath% %gamepath%",
+		"startParameters":"%emupath% -g %gamepath%",
 		"supportedFileTypes":[  
-		   ".nso",
-		   ".nro"
+		   ".nsp",
+		   ".xci"
 		],
 		"searchString":"^(yuzu)\\.exe$",
 		"archiveFileMatchWin":"^(yuzu-(.*)-win_x64)\\.zip$",
@@ -66,7 +69,10 @@
 		"setupFileMatchLinux":"",
 		"setupFileMatchMac":"",
 		"autoSearchEnabled":true,
-		"biosRequired":false
+		"biosRequired":false,
+		"runCommandsBefore":[
+		 
+		]
 	 }
   ],
   "directExecutionMode":"none",
