@@ -1,60 +1,49 @@
-{  
-  "name":"Atari ST",
-  "shortName":"atari-st",
-  "companyName":"Atari",
-  "iconFilename":"",
-  "defaultGameCover":"",
-  "recommendedEmulators":[
-	 "Steem"
+{
+  "name": "Atari ST",
+  "shortName": "atari-st",
+  "companyName": "Atari",
+  "iconFilename": "",
+  "defaultGameCover": "",
+  "recommendedEmulators": [
+    "Steem"
   ],
-  "plugins":[
-	{
-	  "covers":"",
-	  "titles":""
-	}
+  "plugins": [
+    {
+      "covers": "",
+      "titles": ""
+    }
   ],
-  "gameSearchModes":[  
-	 "FILE_FILE_NAME_MATCH",
-	 "ARCHIVE_FILE_NAME_MATCH"
+  "gameSearchModes": [
+    "FILE_FILE_NAME_MATCH",
+    "ARCHIVE_FILE_NAME_MATCH"
   ],
-  "searchFor":"",
-  "fileStructure":[  
-
+  "searchFor": "",
+  "fileStructure": [],
+  "supportedArchiveTypes": [],
+  "supportedImageTypes": [],
+  "emulators": [
+    {
+      "name": "Steem",
+      "type": "standalone",
+      "os": [],
+      "path": "",
+      "iconFilename": "steem.png",
+      "configFilePath": "steem.ini",
+      "website": "http://steem.atari.st/download.htm",
+      "startParameters": "%emupath% %gamepath%",
+      "supportedFileTypes": [],
+      "searchString": "^(steem)\\.exe$|^(steem.*\\+)\\.exe$",
+      "archiveFileMatchWin": "^(steem-(.*)-win_x64)\\.zip$",
+      "archiveFileMatchLinux": "^(steem-(.*)-linux_x64)\\.tar$",
+      "archiveFileMatchMac": "^(steem-(.*)-osx_x64)\\.zip$",
+      "setupFileMatchWin": "",
+      "setupFileMatchLinux": "",
+      "setupFileMatchMac": "",
+      "autoSearchEnabled": true,
+      "biosRequired": false,
+      "runCommandsBefore": []
+    }
   ],
-  "supportedArchiveTypes":[  
-
-  ],
-  "supportedImageTypes":[  
-
-  ],
-  "emulators":[  
-	 {  
-		"name":"Steem",
-		"os":[
-
-		],
-		"path":"",
-		"iconFilename":"steem.png",
-		"configFilePath":"steem.ini",
-		"website":"http://steem.atari.st/download.htm",
-		"startParameters":"%emupath% %gamepath%",
-		"supportedFileTypes":[  
-
-		],
-		"searchString":"^(steem)\\.exe$|^(steem.*\\+)\\.exe$",
-		"archiveFileMatchWin":"^(steem-(.*)-win_x64)\\.zip$",
-		"archiveFileMatchLinux":"^(steem-(.*)-linux_x64)\\.tar$",
-		"archiveFileMatchMac":"^(steem-(.*)-osx_x64)\\.zip$",
-		"setupFileMatchWin":"",
-		"setupFileMatchLinux":"",
-		"setupFileMatchMac":"",
-		"autoSearchEnabled":true,
-		"biosRequired":false,
-		"runCommandsBefore":[
-		 
-		]
-	 }
-  ],
-  "directExecutionMode":"none",
-  "autoSearchEnabled":true
+  "directExecutionMode": "none",
+  "autoSearchEnabled": true
 }

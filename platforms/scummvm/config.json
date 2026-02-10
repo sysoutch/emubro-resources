@@ -1,71 +1,64 @@
-{  
-  "name":"ScummVM",
-  "shortName":"scummvm",
-  "companyName":"",
-  "iconFilename":"",
-  "defaultGameCover":"",
-  "recommendedEmulators":[
-	 "ScummVM"
+{
+  "name": "ScummVM",
+  "shortName": "scummvm",
+  "companyName": "",
+  "iconFilename": "",
+  "defaultGameCover": "",
+  "recommendedEmulators": [
+    "ScummVM"
   ],
-  "plugins":[
-	{
-	  "covers":"",
-	  "titles":""
-	}
+  "plugins": [
+    {
+      "covers": "",
+      "titles": ""
+    }
   ],
-  "gameSearchModes":[  
-	 "FILE_STRUCTURE_MATCH"
+  "gameSearchModes": [
+    "FILE_STRUCTURE_MATCH"
   ],
-  "supportedArchiveTypes":[  
-
+  "supportedArchiveTypes": [],
+  "supportedImageTypes": [],
+  "searchFor": "^(.+)\\.la[0-9]+$",
+  "fileStructure": [
+    {
+      "folderName": "RESOURCE",
+      "files": [
+        "^(.+)\\.bun$",
+        "^(.+)\\.nut$",
+        "^(.+)\\.san$",
+        "^(.+)\\.tab$"
+      ]
+    }
   ],
-  "supportedImageTypes":[  
-
+  "emulators": [
+    {
+      "name": "ScummVM",
+      "type": "standalone",
+      "os": [],
+      "path": "",
+      "iconFilename": "scummvm.png",
+      "configFilePath": "",
+      "website": "http://scummvm.org/downloads/",
+      "startParameters": "%emupath% -f -p %gamedir% %0%",
+      "supportedFileTypes": [
+        ".la0",
+        ".bun",
+        ".nut",
+        ".san",
+        ".tab"
+      ],
+      "searchString": "^(scummvm.*)\\.exe$",
+      "archiveFileMatchWin": "^(scummvm-(.*)-win_x64)\\.zip$",
+      "archiveFileMatchLinux": "^(scummvm-(.*)-linux_x64)\\.tar$",
+      "archiveFileMatchMac": "^(scummvm-(.*)-osx_x64)\\.zip$",
+      "setupFileMatchWin": "",
+      "setupFileMatchLinux": "",
+      "setupFileMatchMac": "",
+      "autoSearchEnabled": true,
+      "biosRequired": false,
+      "runCommandsBefore": []
+    }
   ],
-  "searchFor":"^(.+)\\.la[0-9]+$",
-  "fileStructure":[  
-	 {  
-		"folderName":"RESOURCE",
-		"files":[  
-		   "^(.+)\\.bun$",
-		   "^(.+)\\.nut$",
-		   "^(.+)\\.san$",
-		   "^(.+)\\.tab$"
-		]
-	 }
-  ],
-  "emulators":[  
-	 {  
-		"name":"ScummVM",
-		"os":[
-
-		],
-		"path":"",
-		"iconFilename":"scummvm.png",
-		"configFilePath":"",
-		"website":"http://scummvm.org/downloads/",
-		"startParameters":"%emupath% -f -p %gamedir% %0%",
-		"supportedFileTypes":[  
-		   ".la0",
-		   ".bun",
-		   ".nut",
-		   ".san",
-		   ".tab"
-		],
-		"searchString":"^(scummvm.*)\\.exe$",
-		"archiveFileMatchWin":"^(scummvm-(.*)-win_x64)\\.zip$",
-		"archiveFileMatchLinux":"^(scummvm-(.*)-linux_x64)\\.tar$",
-		"archiveFileMatchMac":"^(scummvm-(.*)-osx_x64)\\.zip$",
-		"setupFileMatchWin":"",
-		"setupFileMatchLinux":"",
-		"setupFileMatchMac":"",
-		"autoSearchEnabled":true,
-		"biosRequired":false,
-		"runCommandsBefore":[
-		 
-		]
-	 }
-  ],
-  "directExecutionMode":"none",
-  "autoSearchEnabled":true
+  "directExecutionMode": "none",
+  "autoSearchEnabled": true
 }

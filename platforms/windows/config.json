@@ -1,11 +1,11 @@
 {
-  "name": "Microsoft Xbox 360",
-  "shortName": "xbox360",
+  "name": "Microsoft Windows",
+  "shortName": "pc",
   "companyName": "Microsoft",
   "iconFilename": "",
   "defaultGameCover": "",
   "recommendedEmulators": [
-    "Xenia"
+    "Windows Shell"
   ],
   "plugins": [
     {
@@ -22,27 +22,27 @@
   "supportedImageTypes": [],
   "emulators": [
     {
-      "name": "Xenia",
+      "name": "Windows Shell",
       "type": "standalone",
       "os": [],
-      "path": "",
-      "iconFilename": "xenia.png",
+      "path": "%windir%\\system32\\cmd.exe",
+      "iconFilename": "win-8.png",
       "configFilePath": "",
-      "website": "http://xenia.jp/download/",
+      "website": "https://www.microsoft.com/resources/documentation/windows/xp/all/proddocs/en-us/cmd.mspx",
       "startParameters": "%gamepath%",
       "supportedFileTypes": [],
-      "searchString": "^(xenia)\\.exe$",
-      "archiveFileMatchWin": "^(xenia-(.*)-win_x64)\\.zip$",
-      "archiveFileMatchLinux": "^(xenia-(.*)-linux_x64)\\.tar$",
-      "archiveFileMatchMac": "^(xenia-(.*)-osx_x64)\\.zip$",
+      "searchString": "^(cmd)\\.exe$",
+      "archiveFileMatchWin": "",
+      "archiveFileMatchLinux": "",
+      "archiveFileMatchMac": "",
       "setupFileMatchWin": "",
       "setupFileMatchLinux": "",
       "setupFileMatchMac": "",
-      "autoSearchEnabled": true,
+      "autoSearchEnabled": false,
       "biosRequired": false,
       "runCommandsBefore": []
     }
   ],
-  "directExecutionMode": "none",
-  "autoSearchEnabled": true
+  "directExecutionMode": "windows",
+  "autoSearchEnabled": false
 }

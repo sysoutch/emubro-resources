@@ -1,60 +1,82 @@
-{  
-  "name":"Game Boy",
-  "shortName":"gameboy",
-  "companyName":"Nintendo",
-  "iconFilename":"",
-  "defaultGameCover":"",
-  "recommendedEmulators":[
-	 "VisualBoyAdvance"
+{
+  "name": "Game Boy",
+  "shortName": "gameboy",
+  "companyName": "Nintendo",
+  "iconFilename": "",
+  "defaultGameCover": "",
+  "recommendedEmulators": [
+    "VisualBoyAdvance"
   ],
-  "plugins":[
-	{
-	  "covers":"",
-	  "titles":""
-	}
+  "plugins": [
+    {
+      "covers": "",
+      "titles": ""
+    }
   ],
-  "gameSearchModes":[  
-	 "FILE_FILE_NAME_MATCH",
-	 "ARCHIVE_FILE_NAME_MATCH"
+  "gameSearchModes": [
+    "FILE_FILE_NAME_MATCH",
+    "ARCHIVE_FILE_NAME_MATCH"
   ],
-  "searchFor":"^(.+)\\.gb$",
-  "fileStructure":[  
-
+  "searchFor": "^(.+)\\.gb$",
+  "fileStructure": [],
+  "supportedArchiveTypes": [
+    ".zip"
   ],
-  "supportedArchiveTypes":[  
-	 ".zip"
+  "supportedImageTypes": [
+    ""
   ],
-  "supportedImageTypes":[  
-	 ""
+  "emulators": [
+    {
+      "name": "VisualBoyAdvance",
+      "type": "standalone",
+      "os": [],
+      "path": "",
+      "iconFilename": "visualboyadvance.png",
+      "configFilePath": "vba.ini",
+      "website": "http://www.emulator-zone.com/doc.php/gba/vboyadvance.HTML",
+      "startParameters": "%emupath% %gamepath%",
+      "supportedFileTypes": [
+        ".zip"
+      ],
+      "searchString": "^(visualboyadvance)\\.exe$",
+      "archiveFileMatchWin": "^(visualboyadvance-(.*)-win_x64)\\.zip$",
+      "archiveFileMatchLinux": "^(visualboyadvance-(.*)-linux_x64)\\.tar$",
+      "archiveFileMatchMac": "^(visualboyadvance-(.*)-osx_x64)\\.zip$",
+      "setupFileMatchWin": "",
+      "setupFileMatchLinux": "",
+      "setupFileMatchMac": "",
+      "autoSearchEnabled": true,
+      "biosRequired": false,
+      "runCommandsBefore": []
+    },
+    {
+      "name": "Game Boy Web Emulator",
+      "type": "web",
+      "os": [],
+      "path": "",
+      "iconFilename": "",
+      "configFilePath": "",
+      "website": "https://emubro.net/tools/gameboy-emulator/",
+      "webUrl": "/tools/gb-emu/index.html",
+      "webUrlOnline": "https://emubro.net/tools/gb-emu/index.html",
+      "startParameters": "?rom=%gamepath%",
+      "supportedFileTypes": [
+        ".gb",
+        ".gbc",
+        ".zip"
+      ],
+      "searchString": "",
+      "archiveFileMatchWin": "",
+      "archiveFileMatchLinux": "",
+      "archiveFileMatchMac": "",
+      "setupFileMatchWin": "",
+      "setupFileMatchLinux": "",
+      "setupFileMatchMac": "",
+      "autoSearchEnabled": false,
+      "biosRequired": false,
+      "runCommandsBefore": []
+    }
   ],
-  "emulators":[  
-	 {  
-		"name":"VisualBoyAdvance",
-		"os":[
-
-		],
-		"path":"",
-		"iconFilename":"visualboyadvance.png",
-		"configFilePath":"vba.ini",
-		"website":"http://www.emulator-zone.com/doc.php/gba/vboyadvance.HTML",
-		"startParameters":"%emupath% %gamepath%",
-		"supportedFileTypes":[  
-		   ".zip"
-		],
-		"searchString":"^(visualboyadvance)\\.exe$",
-		"archiveFileMatchWin":"^(visualboyadvance-(.*)-win_x64)\\.zip$",
-		"archiveFileMatchLinux":"^(visualboyadvance-(.*)-linux_x64)\\.tar$",
-		"archiveFileMatchMac":"^(visualboyadvance-(.*)-osx_x64)\\.zip$",
-		"setupFileMatchWin":"",
-		"setupFileMatchLinux":"",
-		"setupFileMatchMac":"",
-		"autoSearchEnabled":true,
-		"biosRequired":false,
-		"runCommandsBefore":[
-		 
-		]
-	 }
-  ],
-  "directExecutionMode":"none",
-  "autoSearchEnabled":true
+  "directExecutionMode": "none",
+  "autoSearchEnabled": true
 }

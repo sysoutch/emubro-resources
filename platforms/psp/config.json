@@ -1,67 +1,62 @@
-{  
-  "name":"Sony Playstation Portable",
-  "shortName":"psp",
-  "companyName":"Sony",
-  "iconFilename":"",
-  "defaultGameCover":"",
-  "recommendedEmulators":[
-	 "PPSSPP"
+{
+  "name": "Sony Playstation Portable",
+  "shortName": "psp",
+  "companyName": "Sony",
+  "iconFilename": "",
+  "defaultGameCover": "",
+  "recommendedEmulators": [
+    "PPSSPP"
   ],
-  "plugins":[
-	{
-	  "covers":"",
-	  "titles":""
-	}
+  "plugins": [
+    {
+      "covers": "",
+      "titles": ""
+    }
   ],
-  "gameSearchModes":[  
-	 "FILE_FILE_NAME_MATCH",
-	 "ARCHIVE_FILE_NAME_MATCH",
-	 "IMAGE_FILE_NAME_MATCH"
+  "gameSearchModes": [
+    "FILE_FILE_NAME_MATCH",
+    "ARCHIVE_FILE_NAME_MATCH",
+    "IMAGE_FILE_NAME_MATCH"
   ],
-  "searchFor":"^(.+)\\.pbp$",
-  "fileStructure":[  
-
+  "searchFor": "^(.+)\\.pbp$",
+  "fileStructure": [],
+  "supportedArchiveTypes": [
+    ".zip"
   ],
-  "supportedArchiveTypes":[  
-	 ".zip"
+  "supportedImageTypes": [
+    ".iso",
+    ".cso"
   ],
-  "supportedImageTypes":[  
-	 ".iso",
-	 ".cso"
+  "emulators": [
+    {
+      "name": "PPSSPP",
+      "type": "standalone",
+      "os": [],
+      "path": "",
+      "iconFilename": "ppsspp.png",
+      "configFilePath": "",
+      "website": "http://www.ppsspp.org/downloads.html",
+      "startParameters": "%emupath% %gamepath%",
+      "supportedFileTypes": [
+        ".iso",
+        ".cso",
+        ".pbp",
+        ".elf",
+        ".prx",
+        ".zip"
+      ],
+      "searchString": "^(ppsspp.*)\\.exe$",
+      "archiveFileMatchWin": "^(ppsspp-(.*)-win_x64)\\.zip$",
+      "archiveFileMatchLinux": "^(ppsspp-(.*)-linux_x64)\\.tar$",
+      "archiveFileMatchMac": "^(ppsspp-(.*)-osx_x64)\\.zip$",
+      "setupFileMatchWin": "",
+      "setupFileMatchLinux": "",
+      "setupFileMatchMac": "",
+      "autoSearchEnabled": true,
+      "biosRequired": false,
+      "runCommandsBefore": []
+    }
   ],
-  "emulators":[  
-	 {  
-		"name":"PPSSPP",
-		"os":[
-
-		],
-		"path":"",
-		"iconFilename":"ppsspp.png",
-		"configFilePath":"",
-		"website":"http://www.ppsspp.org/downloads.html",
-		"startParameters":"%emupath% %gamepath%",
-		"supportedFileTypes":[  
-		   ".iso",
-		   ".cso",
-		   ".pbp",
-		   ".elf",
-		   ".prx",
-		   ".zip"
-		],
-		"searchString":"^(ppsspp.*)\\.exe$",
-		"archiveFileMatchWin":"^(ppsspp-(.*)-win_x64)\\.zip$",
-		"archiveFileMatchLinux":"^(ppsspp-(.*)-linux_x64)\\.tar$",
-		"archiveFileMatchMac":"^(ppsspp-(.*)-osx_x64)\\.zip$",
-		"setupFileMatchWin":"",
-		"setupFileMatchLinux":"",
-		"setupFileMatchMac":"",
-		"autoSearchEnabled":true,
-		"biosRequired":false,
-		"runCommandsBefore":[
-		 
-		]
-	 }
-  ],
-  "directExecutionMode":"none",
-  "autoSearchEnabled":true
+  "directExecutionMode": "none",
+  "autoSearchEnabled": true
 }
