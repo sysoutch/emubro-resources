@@ -1,6 +1,11 @@
 {
   "name": "Nintendo 3DS",
   "shortName": "3ds",
+  "releaseDate": {
+    "us": "2011-03-27",
+    "eu": "2011-03-25",
+    "jp": "2011-02-26"
+  },
   "companyName": "Nintendo",
   "iconFilename": "",
   "defaultGameCover": "",

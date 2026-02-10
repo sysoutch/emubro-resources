@@ -1,6 +1,11 @@
 {
   "name": "Game Boy Advance",
   "shortName": "gba",
+  "releaseDate": {
+    "us": "2001-06-11",
+    "eu": "2001-06-22",
+    "jp": "2001-03-21"
+  },
   "companyName": "Nintendo",
   "iconFilename": "",
   "defaultGameCover": "",

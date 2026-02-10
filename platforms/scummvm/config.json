@@ -1,6 +1,11 @@
 {
   "name": "ScummVM",
   "shortName": "scummvm",
+  "releaseDate": {
+    "us": "2001-10-08",
+    "eu": "2001-10-08",
+    "jp": "2001-10-08"
+  },
   "companyName": "",
   "iconFilename": "",
   "defaultGameCover": "",

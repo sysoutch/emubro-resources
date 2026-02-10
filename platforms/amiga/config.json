@@ -1,6 +1,11 @@
 {
   "name": "Amiga",
   "shortName": "amiga",
+  "releaseDate": {
+    "us": "1985-07-23",
+    "eu": "1986",
+    "jp": "1987"
+  },
   "companyName": "",
   "iconFilename": "",
   "defaultGameCover": "",

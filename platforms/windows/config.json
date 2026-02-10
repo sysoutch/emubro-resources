@@ -1,6 +1,11 @@
 {
   "name": "Microsoft Windows",
   "shortName": "pc",
+  "releaseDate": {
+    "us": "1985-11-20",
+    "eu": "1985-11-20",
+    "jp": "1985-11-20"
+  },
   "companyName": "Microsoft",
   "iconFilename": "",
   "defaultGameCover": "",

@@ -1,6 +1,11 @@
 {
   "name": "Super Nintendo",
   "shortName": "snes",
+  "releaseDate": {
+    "us": "1991-08-23",
+    "eu": "1992-04-11",
+    "jp": "1990-11-21"
+  },
   "companyName": "Nintendo",
   "iconFilename": "",
   "defaultGameCover": "",

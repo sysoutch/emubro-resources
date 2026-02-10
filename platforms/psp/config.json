@@ -1,6 +1,11 @@
 {
   "name": "Sony Playstation Portable",
   "shortName": "psp",
+  "releaseDate": {
+    "us": "2005-03-24",
+    "eu": "2005-09-01",
+    "jp": "2004-12-12"
+  },
   "companyName": "Sony",
   "iconFilename": "",
   "defaultGameCover": "",

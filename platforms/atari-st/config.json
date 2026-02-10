@@ -1,6 +1,11 @@
 {
   "name": "Atari ST",
   "shortName": "atari-st",
+  "releaseDate": {
+    "us": "1985-07",
+    "eu": "1985-07",
+    "jp": "1985"
+  },
   "companyName": "Atari",
   "iconFilename": "",
   "defaultGameCover": "",

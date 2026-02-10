@@ -1,6 +1,11 @@
 {
   "name": "Microsoft Xbox 360",
   "shortName": "xbox360",
+  "releaseDate": {
+    "us": "2005-11-22",
+    "eu": "2005-12-02",
+    "jp": "2005-12-10"
+  },
   "companyName": "Microsoft",
   "iconFilename": "",
   "defaultGameCover": "",

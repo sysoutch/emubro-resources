@@ -1,6 +1,11 @@
 {
   "name": "Atari 5200",
   "shortName": "atari5200",
+  "releaseDate": {
+    "us": "1982-11",
+    "eu": "Not released",
+    "jp": "Not released"
+  },
   "companyName": "Atari",
   "iconFilename": "",
   "defaultGameCover": "",

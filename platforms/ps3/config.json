@@ -1,6 +1,11 @@
 {
   "name": "Sony Playstation 3",
   "shortName": "ps3",
+  "releaseDate": {
+    "us": "2006-11-17",
+    "eu": "2007-03-23",
+    "jp": "2006-11-11"
+  },
   "iconFilename": "",
   "defaultGameCover": "",
   "recommendedEmulators": [

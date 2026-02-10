@@ -1,6 +1,11 @@
 {
   "name": "Nintendo Switch",
   "shortName": "switch",
+  "releaseDate": {
+    "us": "2017-03-03",
+    "eu": "2017-03-03",
+    "jp": "2017-03-03"
+  },
   "companyName": "Nintendo",
   "iconFilename": "",
   "defaultGameCover": "",

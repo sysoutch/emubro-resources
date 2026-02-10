@@ -1,6 +1,11 @@
 {
   "name": "NES",
   "shortName": "nes",
+  "releaseDate": {
+    "us": "1985-10-18",
+    "eu": "1986-09",
+    "jp": "1983-07-15"
+  },
   "companyName": "Nintendo",
   "iconFilename": "",
   "defaultGameCover": "",

@@ -1,6 +1,11 @@
 {
   "name": "Sega Dreamcast",
   "shortName": "dreamcast",
+  "releaseDate": {
+    "us": "1999-09-09",
+    "eu": "1999-10-14",
+    "jp": "1998-11-27"
+  },
   "iconFilename": "",
   "defaultGameCover": "",
   "recommendedEmulators": [

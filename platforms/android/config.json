@@ -1,6 +1,11 @@
 {
   "name": "Android",
   "shortName": "android",
+  "releaseDate": {
+    "us": "2008-09-23",
+    "eu": "2008-09-23",
+    "jp": "2008-09-23"
+  },
   "companyName": "Android",
   "iconFilename": "",
   "defaultGameCover": "",

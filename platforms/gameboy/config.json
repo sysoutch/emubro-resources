@@ -1,6 +1,11 @@
 {
   "name": "Game Boy",
   "shortName": "gameboy",
+  "releaseDate": {
+    "us": "1989-07-31",
+    "eu": "1990-09-28",
+    "jp": "1989-04-21"
+  },
   "companyName": "Nintendo",
   "iconFilename": "",
   "defaultGameCover": "",

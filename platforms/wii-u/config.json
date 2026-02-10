@@ -1,6 +1,11 @@
 {
   "name": "Nintendo Wii U",
   "shortName": "wii-u",
+  "releaseDate": {
+    "us": "2012-11-18",
+    "eu": "2012-11-30",
+    "jp": "2012-12-08"
+  },
   "companyName": "Nintendo",
   "iconFilename": "",
   "defaultGameCover": "",

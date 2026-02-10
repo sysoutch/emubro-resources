@@ -1,6 +1,11 @@
 {
   "name": "Sony Playstation 1",
   "shortName": "psx",
+  "releaseDate": {
+    "us": "1995-09-09",
+    "eu": "1995-09-29",
+    "jp": "1994-12-03"
+  },
   "companyName": "Sony",
   "iconFilename": "",
   "defaultGameCover": "",

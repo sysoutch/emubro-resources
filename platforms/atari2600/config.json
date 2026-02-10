@@ -1,6 +1,11 @@
 {
   "name": "Atari 2600",
   "shortName": "atari2600",
+  "releaseDate": {
+    "us": "1977-09",
+    "eu": "1978",
+    "jp": "1983"
+  },
   "companyName": "Atari",
   "iconFilename": "",
   "defaultGameCover": "",

@@ -1,6 +1,11 @@
 {
   "name": "Microsoft Xbox",
   "shortName": "xbox",
+  "releaseDate": {
+    "us": "2001-11-15",
+    "eu": "2002-03-14",
+    "jp": "2002-02-22"
+  },
   "companyName": "Microsoft",
   "iconFilename": "",
   "defaultGameCover": "",

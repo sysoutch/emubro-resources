@@ -1,6 +1,11 @@
 {
   "name": "Sony Playstation 2",
   "shortName": "ps2",
+  "releaseDate": {
+    "us": "2000-10-26",
+    "eu": "2000-11-24",
+    "jp": "2000-03-04"
+  },
   "companyName": "Sony",
   "iconFilename": "",
   "defaultGameCover": "",

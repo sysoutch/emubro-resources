@@ -1,6 +1,11 @@
 {
   "name": "Nintendo GameCube",
   "shortName": "gcn",
+  "releaseDate": {
+    "us": "2001-11-18",
+    "eu": "2002-05-03",
+    "jp": "2001-09-14"
+  },
   "companyName": "Nintendo",
   "iconFilename": "",
   "defaultGameCover": "",

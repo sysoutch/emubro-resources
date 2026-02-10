@@ -1,6 +1,11 @@
 {
   "name": "Nintendo 64",
   "shortName": "n64",
+  "releaseDate": {
+    "us": "1996-09-29",
+    "eu": "1997-03-01",
+    "jp": "1996-06-23"
+  },
   "companyName": "Nintendo",
   "iconFilename": "",
   "defaultGameCover": "",

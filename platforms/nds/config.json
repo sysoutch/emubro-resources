@@ -1,6 +1,11 @@
 {
   "name": "Nintendo DS",
   "shortName": "nds",
+  "releaseDate": {
+    "us": "2004-11-21",
+    "eu": "2005-03-11",
+    "jp": "2004-12-02"
+  },
   "companyName": "Nintendo",
   "iconFilename": "",
   "defaultGameCover": "",

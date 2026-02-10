@@ -1,6 +1,11 @@
 {
   "name": "Atari 7800",
   "shortName": "atari7800",
+  "releaseDate": {
+    "us": "1986-05",
+    "eu": "1987",
+    "jp": "Not released"
+  },
   "companyName": "Atari",
   "iconFilename": "",
   "defaultGameCover": "",
