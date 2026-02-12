@@ -10,6 +10,7 @@
   "iconFilename": "",
   "defaultGameCover": "",
   "recommendedEmulators": [
+    "Mupen64Plus",
     "Project64"
   ],
   "plugins": [
@@ -32,6 +33,68 @@
     ".bin"
   ],
   "emulators": [
+    {
+      "name": "Mupen64Plus",
+      "type": "standalone",
+      "os": [],
+      "path": "",
+      "iconFilename": "blank.png",
+      "configFilePath": "",
+      "website": "https://mupen64plus.org/",
+      "startParameters": "%emupath% %gamepath%",
+      "supportedFileTypes": [
+        ".bin",
+        ".zip",
+        ".z64",
+        ".v64",
+        ".n64",
+        ".rom",
+        ".usa",
+        ".jap",
+        ".pal"
+      ],
+      "searchString": "^(mupen64plus)\\.exe$",
+      "archiveFileMatchWin": "^(mupen64plus-(.*)-win_x64)\\.zip$",
+      "archiveFileMatchLinux": "^(mupen64plus-(.*)-linux_x64)\\.tar$",
+      "archiveFileMatchMac": "^(mupen64plus-(.*)-osx_x64)\\.zip$",
+      "setupFileMatchWin": "",
+      "setupFileMatchLinux": "",
+      "setupFileMatchMac": "",
+      "autoSearchEnabled": true,
+      "biosRequired": false,
+      "runCommandsBefore": []
+    },
+    {
+      "name": "RetroArch (Mupen64Plus-Next core)",
+      "type": "core",
+      "os": [],
+      "path": "",
+      "iconFilename": "blank.png",
+      "configFilePath": "",
+      "website": "https://www.retroarch.com/?page=platforms",
+      "startParameters": "%emupath% -L cores\\mupen64plus_next_libretro.dll %gamepath%",
+      "supportedFileTypes": [
+        ".bin",
+        ".zip",
+        ".z64",
+        ".v64",
+        ".n64",
+        ".rom",
+        ".usa",
+        ".jap",
+        ".pal"
+      ],
+      "searchString": "^(retroarch)\\.exe$",
+      "archiveFileMatchWin": "^(RetroArch-Win64)\\.7z$|^(retroarch-(.*)-win_x64)\\.zip$",
+      "archiveFileMatchLinux": "^(RetroArch-Linux-x86_64)\\.tar\\.gz$|^(retroarch-(.*)-linux_x64)\\.tar$",
+      "archiveFileMatchMac": "^(RetroArch_Metal)\\.dmg$|^(retroarch-(.*)-osx_x64)\\.zip$",
+      "setupFileMatchWin": "",
+      "setupFileMatchLinux": "",
+      "setupFileMatchMac": "",
+      "autoSearchEnabled": true,
+      "biosRequired": false,
+      "runCommandsBefore": []
+    },
     {
       "name": "Project64",
       "type": "standalone",

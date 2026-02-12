@@ -25,6 +25,31 @@
   ],
   "emulators": [
     {
+      "name": "RetroArch (Dolphin core)",
+      "type": "core",
+      "os": [],
+      "path": "",
+      "iconFilename": "blank.png",
+      "configFilePath": "",
+      "website": "https://www.retroarch.com/?page=platforms",
+      "startParameters": "%emupath% -L cores\\dolphin_libretro.dll %gamepath%",
+      "supportedFileTypes": [
+        "^\\.gcm$",
+        "^\\.gcz$",
+        ".iso"
+      ],
+      "searchString": "^(retroarch)\\.exe$",
+      "archiveFileMatchWin": "^(RetroArch-Win64)\\.7z$|^(retroarch-(.*)-win_x64)\\.zip$",
+      "archiveFileMatchLinux": "^(RetroArch-Linux-x86_64)\\.tar\\.gz$|^(retroarch-(.*)-linux_x64)\\.tar$",
+      "archiveFileMatchMac": "^(RetroArch_Metal)\\.dmg$|^(retroarch-(.*)-osx_x64)\\.zip$",
+      "setupFileMatchWin": "",
+      "setupFileMatchLinux": "",
+      "setupFileMatchMac": "",
+      "autoSearchEnabled": true,
+      "biosRequired": false,
+      "runCommandsBefore": []
+    },
+    {
       "name": "Dolphin",
       "type": "standalone",
       "os": [],

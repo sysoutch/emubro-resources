@@ -10,6 +10,7 @@
   "iconFilename": "",
   "defaultGameCover": "",
   "recommendedEmulators": [
+    "Cxbx-Reloaded",
     "Qemu"
   ],
   "plugins": [
@@ -26,6 +27,31 @@
   "supportedArchiveTypes": [],
   "supportedImageTypes": [],
   "emulators": [
+    {
+      "name": "Cxbx-Reloaded",
+      "type": "standalone",
+      "os": [],
+      "path": "",
+      "iconFilename": "blank.png",
+      "configFilePath": "",
+      "website": "https://github.com/Cxbx-Reloaded/Cxbx-Reloaded/releases",
+      "startParameters": "%emupath% %gamepath%",
+      "supportedFileTypes": [
+        ".iso",
+        ".xbe",
+        ".xiso"
+      ],
+      "searchString": "^(Cxbx-Reloaded)\\.exe$|^(cxbx)\\.exe$",
+      "archiveFileMatchWin": "^(CxbxReloaded(.*)-VS(.*)-Release)\\.7z$|^(cxbx-reloaded-(.*)-win_x64)\\.zip$",
+      "archiveFileMatchLinux": "^(cxbx-reloaded-(.*)-linux_x64)\\.tar$",
+      "archiveFileMatchMac": "^(cxbx-reloaded-(.*)-osx_x64)\\.zip$",
+      "setupFileMatchWin": "",
+      "setupFileMatchLinux": "",
+      "setupFileMatchMac": "",
+      "autoSearchEnabled": true,
+      "biosRequired": false,
+      "runCommandsBefore": []
+    },
     {
       "name": "Qemu",
       "type": "standalone",

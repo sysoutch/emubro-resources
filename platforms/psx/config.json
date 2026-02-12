@@ -10,7 +10,7 @@
   "iconFilename": "",
   "defaultGameCover": "",
   "recommendedEmulators": [
-    "ePSXe"
+    "DuckStation"
   ],
   "plugins": [
     {
@@ -33,6 +33,70 @@
     ".mds"
   ],
   "emulators": [
+    {
+      "name": "RetroArch (SwanStation core)",
+      "type": "core",
+      "os": [],
+      "path": "",
+      "iconFilename": "blank.png",
+      "configFilePath": "",
+      "website": "https://www.retroarch.com/?page=platforms",
+      "startParameters": "%emupath% -L cores\\swanstation_libretro.dll %gamepath%",
+      "supportedFileTypes": [
+        ".iso",
+        ".bin",
+        ".img",
+        ".cue",
+        ".ccd",
+        ".mds",
+        ".chd",
+        ".pbp",
+        ".m3u",
+        ".ecm"
+      ],
+      "searchString": "^(retroarch)\\.exe$",
+      "archiveFileMatchWin": "^(RetroArch-Win64)\\.7z$|^(retroarch-(.*)-win_x64)\\.zip$",
+      "archiveFileMatchLinux": "^(RetroArch-Linux-x86_64)\\.tar\\.gz$|^(retroarch-(.*)-linux_x64)\\.tar$",
+      "archiveFileMatchMac": "^(RetroArch_Metal)\\.dmg$|^(retroarch-(.*)-osx_x64)\\.zip$",
+      "setupFileMatchWin": "",
+      "setupFileMatchLinux": "",
+      "setupFileMatchMac": "",
+      "autoSearchEnabled": true,
+      "biosRequired": true,
+      "runCommandsBefore": []
+    },
+    {
+      "name": "DuckStation",
+      "type": "standalone",
+      "os": [],
+      "path": "",
+      "iconFilename": "duckstation.png",
+      "configFilePath": "",
+      "website": "https://github.com/stenzek/duckstation/releases/tag/latest",
+      "startParameters": "%emupath% -batch -- %gamepath%",
+      "supportedFileTypes": [
+        ".iso",
+        ".bin",
+        ".img",
+        ".cue",
+        ".ccd",
+        ".mds",
+        ".chd",
+        ".pbp",
+        ".m3u",
+        ".ecm"
+      ],
+      "searchString": "^(duckstation-qt-x64-Release(.*))\\.exe$|^(duckstation-qt)\\.exe$|^(duckstation)\\.exe$",
+      "archiveFileMatchWin": "^(duckstation-windows-x64-release)\\.zip$|^(duckstation-(.*)-win_x64)\\.zip$",
+      "archiveFileMatchLinux": "^(duckstation-(.*)-linux-(.*))\\.(AppImage|appimage|tar|tar\\.gz|tar\\.xz)$|^(duckstation-(.*)-linux_x64)\\.tar$",
+      "archiveFileMatchMac": "^(duckstation-(.*)-macos-(.*))\\.zip$|^(duckstation-(.*)-osx_x64)\\.zip$",
+      "setupFileMatchWin": "^(duckstation-windows-x64-installer)\\.exe$",
+      "setupFileMatchLinux": "",
+      "setupFileMatchMac": "",
+      "autoSearchEnabled": true,
+      "biosRequired": true,
+      "runCommandsBefore": []
+    },
     {
       "name": "ePSXe",
       "type": "standalone",
