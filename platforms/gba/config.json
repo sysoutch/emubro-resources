@@ -35,7 +35,11 @@
     {
       "name": "mGBA",
       "type": "standalone",
-      "os": [],
+      "os": [
+        "windows",
+        "linux",
+        "mac"
+      ],
       "path": "",
       "iconFilename": "blank.png",
       "configFilePath": "",
@@ -61,7 +65,11 @@
     {
       "name": "RetroArch (mGBA core)",
       "type": "core",
-      "os": [],
+      "os": [
+        "windows",
+        "linux",
+        "mac"
+      ],
       "path": "",
       "iconFilename": "blank.png",
       "configFilePath": "",
@@ -87,7 +95,11 @@
     {
       "name": "VisualBoyAdvance",
       "type": "standalone",
-      "os": [],
+      "os": [
+        "windows",
+        "linux",
+        "mac"
+      ],
       "path": "",
       "iconFilename": "visualboyadvance.png",
       "configFilePath": "vba.ini",

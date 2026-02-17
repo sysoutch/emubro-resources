@@ -28,7 +28,11 @@
     {
       "name": "RetroArch (Atari800 core)",
       "type": "core",
-      "os": [],
+      "os": [
+        "windows",
+        "linux",
+        "mac"
+      ],
       "path": "",
       "iconFilename": "blank.png",
       "configFilePath": "",
@@ -49,7 +53,9 @@
     {
       "name": "Atari++",
       "type": "standalone",
-      "os": [],
+      "os": [
+        "windows"
+      ],
       "path": "",
       "iconFilename": "atariplusplus.png",
       "configFilePath": "",
@@ -70,7 +76,11 @@
     {
       "name": "Atari800",
       "type": "standalone",
-      "os": [],
+      "os": [
+        "windows",
+        "linux",
+        "mac"
+      ],
       "path": "",
       "iconFilename": "atari800.png",
       "configFilePath": "",
@@ -91,7 +101,11 @@
     {
       "name": "kat5200",
       "type": "standalone",
-      "os": [],
+      "os": [
+        "windows",
+        "linux",
+        "mac"
+      ],
       "path": "",
       "iconFilename": "kat5200.png",
       "configFilePath": "",
@@ -112,7 +126,11 @@
     {
       "name": "MESS",
       "type": "standalone",
-      "os": [],
+      "os": [
+        "windows",
+        "linux",
+        "mac"
+      ],
       "path": "",
       "iconFilename": "atariplusplus.png",
       "configFilePath": "",
@@ -133,7 +151,11 @@
     {
       "name": "VSS",
       "type": "standalone",
-      "os": [],
+      "os": [
+        "windows",
+        "linux",
+        "mac"
+      ],
       "path": "",
       "iconFilename": "vss.png",
       "configFilePath": "",

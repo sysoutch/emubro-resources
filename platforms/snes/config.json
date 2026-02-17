@@ -34,7 +34,11 @@
     {
       "name": "RetroArch (Snes9x core)",
       "type": "core",
-      "os": [],
+      "os": [
+        "windows",
+        "linux",
+        "mac"
+      ],
       "path": "",
       "iconFilename": "blank.png",
       "configFilePath": "",
@@ -59,7 +63,11 @@
     {
       "name": "bsnes",
       "type": "standalone",
-      "os": [],
+      "os": [
+        "windows",
+        "linux",
+        "mac"
+      ],
       "path": "",
       "iconFilename": "bsnes.png",
       "configFilePath": "bsnes.conf",
@@ -83,7 +91,11 @@
     {
       "name": "Snes9x",
       "type": "standalone",
-      "os": [],
+      "os": [
+        "windows",
+        "linux",
+        "mac"
+      ],
       "path": "",
       "iconFilename": "snes9x.png",
       "configFilePath": "snes9x.conf",
@@ -107,7 +119,11 @@
     {
       "name": "ZSNES",
       "type": "standalone",
-      "os": [],
+      "os": [
+        "windows",
+        "linux",
+        "mac"
+      ],
       "path": "",
       "iconFilename": "zsnes.png",
       "configFilePath": "",
@@ -131,7 +147,11 @@
     {
       "name": "FakeNES",
       "type": "standalone",
-      "os": [],
+      "os": [
+        "windows",
+        "linux",
+        "mac"
+      ],
       "path": "",
       "iconFilename": "fakenes.png",
       "configFilePath": "fakenesw.cfg",

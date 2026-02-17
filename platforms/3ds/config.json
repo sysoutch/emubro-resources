@@ -24,7 +24,11 @@
     {
       "name": "RetroArch (Citra core)",
       "type": "core",
-      "os": [],
+      "os": [
+        "windows",
+        "linux",
+        "mac"
+      ],
       "path": "",
       "iconFilename": "blank.png",
       "configFilePath": "",
@@ -48,7 +52,11 @@
     {
       "name": "citra",
       "type": "standalone",
-      "os": [],
+      "os": [
+        "windows",
+        "linux",
+        "mac"
+      ],
       "path": "",
       "iconFilename": "citra.png",
       "configFilePath": "",

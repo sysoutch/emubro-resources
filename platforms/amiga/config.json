@@ -32,7 +32,11 @@
     {
       "name": "WinUAE",
       "type": "standalone",
-      "os": [],
+      "os": [
+        "windows",
+        "linux",
+        "mac"
+      ],
       "path": "",
       "iconFilename": "blank.png",
       "configFilePath": "winuae.ini",
@@ -61,7 +65,11 @@
     {
       "name": "FS-UAE",
       "type": "standalone",
-      "os": [],
+      "os": [
+        "windows",
+        "linux",
+        "mac"
+      ],
       "path": "",
       "iconFilename": "blank.png",
       "configFilePath": "",
@@ -90,7 +98,11 @@
     {
       "name": "RetroArch (PUAE core)",
       "type": "core",
-      "os": [],
+      "os": [
+        "windows",
+        "linux",
+        "mac"
+      ],
       "path": "",
       "iconFilename": "blank.png",
       "configFilePath": "",
@@ -119,7 +131,9 @@
     {
       "name": "WinFellow",
       "type": "standalone",
-      "os": [],
+      "os": [
+        "windows"
+      ],
       "path": "",
       "iconFilename": "winfellow.png",
       "configFilePath": "",

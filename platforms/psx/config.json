@@ -36,7 +36,11 @@
     {
       "name": "RetroArch (SwanStation core)",
       "type": "core",
-      "os": [],
+      "os": [
+        "windows",
+        "linux",
+        "mac"
+      ],
       "path": "",
       "iconFilename": "blank.png",
       "configFilePath": "",
@@ -68,7 +72,11 @@
     {
       "name": "DuckStation",
       "type": "standalone",
-      "os": [],
+      "os": [
+        "windows",
+        "linux",
+        "mac"
+      ],
       "path": "",
       "iconFilename": "duckstation.png",
       "configFilePath": "",
@@ -100,7 +108,11 @@
     {
       "name": "ePSXe",
       "type": "standalone",
-      "os": [],
+      "os": [
+        "windows",
+        "linux",
+        "mac"
+      ],
       "path": "",
       "iconFilename": "epsxe.png",
       "configFilePath": "",
@@ -130,7 +142,11 @@
     {
       "name": "FPse",
       "type": "standalone",
-      "os": [],
+      "os": [
+        "windows",
+        "linux",
+        "mac"
+      ],
       "path": "",
       "iconFilename": "fpse.png",
       "configFilePath": "",

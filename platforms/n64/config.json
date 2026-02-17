@@ -36,7 +36,11 @@
     {
       "name": "Mupen64Plus",
       "type": "standalone",
-      "os": [],
+      "os": [
+        "windows",
+        "linux",
+        "mac"
+      ],
       "path": "",
       "iconFilename": "blank.png",
       "configFilePath": "",
@@ -67,7 +71,11 @@
     {
       "name": "RetroArch (Mupen64Plus-Next core)",
       "type": "core",
-      "os": [],
+      "os": [
+        "windows",
+        "linux",
+        "mac"
+      ],
       "path": "",
       "iconFilename": "blank.png",
       "configFilePath": "",
@@ -98,7 +106,9 @@
     {
       "name": "Project64",
       "type": "standalone",
-      "os": [],
+      "os": [
+        "windows"
+      ],
       "path": "",
       "iconFilename": "project64.png",
       "configFilePath": "/config/project64.cfg",

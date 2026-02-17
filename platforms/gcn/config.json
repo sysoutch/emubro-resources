@@ -27,7 +27,11 @@
     {
       "name": "RetroArch (Dolphin core)",
       "type": "core",
-      "os": [],
+      "os": [
+        "windows",
+        "linux",
+        "mac"
+      ],
       "path": "",
       "iconFilename": "blank.png",
       "configFilePath": "",
@@ -52,7 +56,11 @@
     {
       "name": "Dolphin",
       "type": "standalone",
-      "os": [],
+      "os": [
+        "windows",
+        "linux",
+        "mac"
+      ],
       "path": "",
       "iconFilename": "dolphin.png",
       "configFilePath": "",
@@ -76,7 +84,11 @@
     {
       "name": "Dolphin VR",
       "type": "standalone",
-      "os": [],
+      "os": [
+        "windows",
+        "linux",
+        "mac"
+      ],
       "path": "",
       "iconFilename": "dolphin.png",
       "configFilePath": "",

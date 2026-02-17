@@ -30,7 +30,11 @@
     {
       "name": "RetroArch (ProSystem core)",
       "type": "core",
-      "os": [],
+      "os": [
+        "windows",
+        "linux",
+        "mac"
+      ],
       "path": "",
       "iconFilename": "blank.png",
       "configFilePath": "",
@@ -51,7 +55,11 @@
     {
       "name": "MESS",
       "type": "standalone",
-      "os": [],
+      "os": [
+        "windows",
+        "linux",
+        "mac"
+      ],
       "path": "",
       "iconFilename": "atariplusplus.png",
       "configFilePath": "",

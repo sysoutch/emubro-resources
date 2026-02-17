@@ -31,7 +31,11 @@
     {
       "name": "Hatari",
       "type": "standalone",
-      "os": [],
+      "os": [
+        "windows",
+        "linux",
+        "mac"
+      ],
       "path": "",
       "iconFilename": "blank.png",
       "configFilePath": "hatari.cfg",
@@ -57,7 +61,11 @@
     {
       "name": "RetroArch (Hatari core)",
       "type": "core",
-      "os": [],
+      "os": [
+        "windows",
+        "linux",
+        "mac"
+      ],
       "path": "",
       "iconFilename": "blank.png",
       "configFilePath": "",
@@ -83,7 +91,11 @@
     {
       "name": "Steem",
       "type": "standalone",
-      "os": [],
+      "os": [
+        "windows",
+        "linux",
+        "mac"
+      ],
       "path": "",
       "iconFilename": "steem.png",
       "configFilePath": "steem.ini",

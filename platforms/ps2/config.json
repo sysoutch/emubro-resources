@@ -37,7 +37,11 @@
     {
       "name": "PCSX2",
       "type": "standalone",
-      "os": [],
+      "os": [
+        "windows",
+        "linux",
+        "mac"
+      ],
       "path": "",
       "iconFilename": "pcsx2.png",
       "configFilePath": "",

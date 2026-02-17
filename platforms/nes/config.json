@@ -35,7 +35,11 @@
     {
       "name": "Mesen",
       "type": "standalone",
-      "os": [],
+      "os": [
+        "windows",
+        "linux",
+        "mac"
+      ],
       "path": "",
       "iconFilename": "blank.png",
       "configFilePath": "",
@@ -62,7 +66,11 @@
     {
       "name": "RetroArch (Mesen core)",
       "type": "core",
-      "os": [],
+      "os": [
+        "windows",
+        "linux",
+        "mac"
+      ],
       "path": "",
       "iconFilename": "blank.png",
       "configFilePath": "",
@@ -89,7 +97,11 @@
     {
       "name": "FCEUX",
       "type": "standalone",
-      "os": [],
+      "os": [
+        "windows",
+        "linux",
+        "mac"
+      ],
       "path": "",
       "iconFilename": "fceux.png",
       "configFilePath": "fceux.cfg",
@@ -98,7 +110,7 @@
       "supportedFileTypes": [
         ".zip"
       ],
-      "searchString": "^(fceux)\\.exe$",
+      "searchString": "^(fceux)\\.exe$|^(fceux64)\\.exe$",
       "archiveFileMatchWin": "^(fceux-(.*)-win_x64)\\.zip$",
       "archiveFileMatchLinux": "^(fceux-(.*)-linux_x64)\\.tar$",
       "archiveFileMatchMac": "^(fceux-(.*)-osx_x64)\\.zip$",

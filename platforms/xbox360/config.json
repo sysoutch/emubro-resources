@@ -29,7 +29,11 @@
     {
       "name": "Xenia",
       "type": "standalone",
-      "os": [],
+      "os": [
+        "windows",
+        "linux",
+        "mac"
+      ],
       "path": "",
       "iconFilename": "xenia.png",
       "configFilePath": "",

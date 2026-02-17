@@ -29,7 +29,9 @@
     {
       "name": "Windows Shell",
       "type": "standalone",
-      "os": [],
+      "os": [
+        "windows"
+      ],
       "path": "%windir%\\system32\\cmd.exe",
       "iconFilename": "win-8.png",
       "configFilePath": "",

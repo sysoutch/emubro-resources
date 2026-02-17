@@ -23,7 +23,11 @@
     {
       "name": "Ryujinx",
       "type": "standalone",
-      "os": [],
+      "os": [
+        "windows",
+        "linux",
+        "mac"
+      ],
       "path": "",
       "iconFilename": "ryujinx.png",
       "configFilePath": "",
@@ -47,7 +51,11 @@
     {
       "name": "yuzu",
       "type": "standalone",
-      "os": [],
+      "os": [
+        "windows",
+        "linux",
+        "mac"
+      ],
       "path": "",
       "iconFilename": "yuzu.png",
       "configFilePath": "",

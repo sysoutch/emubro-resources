@@ -30,7 +30,11 @@
     {
       "name": "RPCS3",
       "type": "standalone",
-      "os": [],
+      "os": [
+        "windows",
+        "linux",
+        "mac"
+      ],
       "path": "",
       "iconFilename": "rpcs3.png",
       "configFilePath": "",

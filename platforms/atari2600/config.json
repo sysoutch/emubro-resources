@@ -28,7 +28,11 @@
     {
       "name": "RetroArch (Stella core)",
       "type": "core",
-      "os": [],
+      "os": [
+        "windows",
+        "linux",
+        "mac"
+      ],
       "path": "",
       "iconFilename": "blank.png",
       "configFilePath": "",
@@ -49,7 +53,11 @@
     {
       "name": "Stella",
       "type": "standalone",
-      "os": [],
+      "os": [
+        "windows",
+        "linux",
+        "mac"
+      ],
       "path": "",
       "iconFilename": "stella.png",
       "configFilePath": "",
@@ -70,7 +78,11 @@
     {
       "name": "Pcaewin",
       "type": "standalone",
-      "os": [],
+      "os": [
+        "windows",
+        "linux",
+        "mac"
+      ],
       "path": "",
       "iconFilename": "pcaewin.png",
       "configFilePath": "",
@@ -91,7 +103,11 @@
     {
       "name": "z26",
       "type": "standalone",
-      "os": [],
+      "os": [
+        "windows",
+        "linux",
+        "mac"
+      ],
       "path": "",
       "iconFilename": "z26.png",
       "configFilePath": "",

@@ -29,7 +29,11 @@
     {
       "name": "Andy",
       "type": "standalone",
-      "os": [],
+      "os": [
+        "windows",
+        "linux",
+        "mac"
+      ],
       "path": "",
       "iconFilename": "andy.png",
       "configFilePath": "",

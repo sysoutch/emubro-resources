@@ -36,7 +36,11 @@
     {
       "name": "RetroArch (PPSSPP core)",
       "type": "core",
-      "os": [],
+      "os": [
+        "windows",
+        "linux",
+        "mac"
+      ],
       "path": "",
       "iconFilename": "blank.png",
       "configFilePath": "",
@@ -64,7 +68,11 @@
     {
       "name": "PPSSPP",
       "type": "standalone",
-      "os": [],
+      "os": [
+        "windows",
+        "linux",
+        "mac"
+      ],
       "path": "",
       "iconFilename": "ppsspp.png",
       "configFilePath": "",
