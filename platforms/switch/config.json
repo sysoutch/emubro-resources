@@ -46,7 +46,11 @@
       "setupFileMatchMac": "",
       "autoSearchEnabled": true,
       "biosRequired": false,
-      "runCommandsBefore": []
+      "runCommandsBefore": [],
+      "executableFileMatchWin": "^(Ryujinx)\\.exe$",
+      "executableFileMatchLinux": "^(ryujinx(.*))\\.(AppImage|appimage)$",
+      "executableFileMatchMac": "^(ryujinx(.*))\\.app$",
+      "downloadUrl": "https://github.com/Ryujinx/release-channel-master/releases/latest"
     },
     {
       "name": "yuzu",
@@ -74,7 +78,10 @@
       "setupFileMatchMac": "",
       "autoSearchEnabled": true,
       "biosRequired": false,
-      "runCommandsBefore": []
+      "runCommandsBefore": [],
+      "executableFileMatchWin": "^(yuzu)\\.exe$",
+      "executableFileMatchLinux": "^(yuzu(.*))\\.(AppImage|appimage)$",
+      "executableFileMatchMac": "^(yuzu(.*))\\.app$"
     }
   ],
   "directExecutionMode": "none",

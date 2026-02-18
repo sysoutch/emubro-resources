@@ -56,7 +56,10 @@
       "setupFileMatchMac": "",
       "autoSearchEnabled": true,
       "biosRequired": false,
-      "runCommandsBefore": []
+      "runCommandsBefore": [],
+      "executableFileMatchWin": "^(hatari)\\.exe$",
+      "executableFileMatchLinux": "^(hatari(.*))\\.(AppImage|appimage)$",
+      "executableFileMatchMac": "^(hatari(.*))\\.app$"
     },
     {
       "name": "RetroArch (Hatari core)",
@@ -86,7 +89,11 @@
       "setupFileMatchMac": "",
       "autoSearchEnabled": true,
       "biosRequired": false,
-      "runCommandsBefore": []
+      "runCommandsBefore": [],
+      "executableFileMatchWin": "^(retroarch)\\.exe$",
+      "executableFileMatchLinux": "^(retroarch(.*))\\.(AppImage|appimage)$",
+      "executableFileMatchMac": "^(retroarch(.*))\\.app$",
+      "downloadUrl": "https://github.com/libretro/RetroArch/releases/latest"
     },
     {
       "name": "Steem",
@@ -111,7 +118,10 @@
       "setupFileMatchMac": "",
       "autoSearchEnabled": true,
       "biosRequired": false,
-      "runCommandsBefore": []
+      "runCommandsBefore": [],
+      "executableFileMatchWin": "^(steem)\\.exe$|^(steem.*\\+)\\.exe$",
+      "executableFileMatchLinux": "^(steem(.*))\\.(AppImage|appimage)$",
+      "executableFileMatchMac": "^(steem(.*))\\.app$"
     }
   ],
   "directExecutionMode": "none",

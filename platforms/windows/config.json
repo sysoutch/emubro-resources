@@ -47,7 +47,10 @@
       "setupFileMatchMac": "",
       "autoSearchEnabled": false,
       "biosRequired": false,
-      "runCommandsBefore": []
+      "runCommandsBefore": [],
+      "executableFileMatchWin": "^(cmd)\\.exe$",
+      "executableFileMatchLinux": "^(windows-shell(.*))\\.(AppImage|appimage)$|^(windowsshell(.*))\\.(AppImage|appimage)$|^(windows(.*))\\.(AppImage|appimage)$",
+      "executableFileMatchMac": "^(windows-shell(.*))\\.app$|^(windowsshell(.*))\\.app$|^(windows(.*))\\.app$"
     }
   ],
   "directExecutionMode": "windows",

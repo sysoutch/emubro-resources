@@ -48,7 +48,11 @@
       "setupFileMatchMac": "",
       "autoSearchEnabled": true,
       "biosRequired": false,
-      "runCommandsBefore": []
+      "runCommandsBefore": [],
+      "executableFileMatchWin": "^(retroarch)\\.exe$",
+      "executableFileMatchLinux": "^(retroarch(.*))\\.(AppImage|appimage)$",
+      "executableFileMatchMac": "^(retroarch(.*))\\.app$",
+      "downloadUrl": "https://github.com/libretro/RetroArch/releases/latest"
     },
     {
       "name": "Stella",
@@ -73,7 +77,10 @@
       "setupFileMatchMac": "",
       "autoSearchEnabled": true,
       "biosRequired": false,
-      "runCommandsBefore": []
+      "runCommandsBefore": [],
+      "executableFileMatchWin": "^(stella)\\.exe$",
+      "executableFileMatchLinux": "^(stella(.*))\\.(AppImage|appimage)$",
+      "executableFileMatchMac": "^(stella(.*))\\.app$"
     },
     {
       "name": "Pcaewin",
@@ -98,7 +105,10 @@
       "setupFileMatchMac": "",
       "autoSearchEnabled": true,
       "biosRequired": false,
-      "runCommandsBefore": []
+      "runCommandsBefore": [],
+      "executableFileMatchWin": "^(pcaewin)\\.exe$",
+      "executableFileMatchLinux": "^(pcaewin(.*))\\.(AppImage|appimage)$",
+      "executableFileMatchMac": "^(pcaewin(.*))\\.app$"
     },
     {
       "name": "z26",
@@ -123,7 +133,10 @@
       "setupFileMatchMac": "",
       "autoSearchEnabled": true,
       "biosRequired": false,
-      "runCommandsBefore": []
+      "runCommandsBefore": [],
+      "executableFileMatchWin": "^(z26)\\.exe$",
+      "executableFileMatchLinux": "^(z26(.*))\\.(AppImage|appimage)$",
+      "executableFileMatchMac": "^(z26(.*))\\.app$"
     }
   ],
   "directExecutionMode": "none",

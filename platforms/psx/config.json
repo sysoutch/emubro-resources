@@ -65,9 +65,13 @@
       "setupFileMatchWin": "",
       "setupFileMatchLinux": "",
       "setupFileMatchMac": "",
+      "executableFileMatchWin": "^(retroarch)\\.exe$",
+      "executableFileMatchLinux": "^(retroarch(.*))\\.(AppImage|appimage)$",
+      "executableFileMatchMac": "^(retroarch(.*))\\.app$",
       "autoSearchEnabled": true,
       "biosRequired": true,
-      "runCommandsBefore": []
+      "runCommandsBefore": [],
+      "downloadUrl": "https://github.com/libretro/RetroArch/releases/latest"
     },
     {
       "name": "DuckStation",
@@ -101,9 +105,13 @@
       "setupFileMatchWin": "^(duckstation-windows-x64-installer)\\.exe$",
       "setupFileMatchLinux": "",
       "setupFileMatchMac": "",
+      "executableFileMatchWin": "^(duckstation-(.*)-windows-x64)\\.exe$|^(duckstation.*portable.*)\\.exe$|^(duckstation-qt(.*))\\.exe$",
+      "executableFileMatchLinux": "^(duckstation-(.*)-linux-(.*))\\.(AppImage|appimage)$",
+      "executableFileMatchMac": "^(duckstation-(.*)-macos-(.*))\\.app$",
       "autoSearchEnabled": true,
       "biosRequired": true,
-      "runCommandsBefore": []
+      "runCommandsBefore": [],
+      "downloadUrl": "https://github.com/stenzek/duckstation/releases/latest"
     },
     {
       "name": "ePSXe",
@@ -135,6 +143,9 @@
       "setupFileMatchWin": "",
       "setupFileMatchLinux": "",
       "setupFileMatchMac": "",
+      "executableFileMatchWin": "^(epsxe)\\.exe$",
+      "executableFileMatchLinux": "^(epsxe(.*))\\.(AppImage|appimage)$",
+      "executableFileMatchMac": "^(epsxe(.*))\\.app$",
       "autoSearchEnabled": true,
       "biosRequired": true,
       "runCommandsBefore": []
@@ -160,6 +171,9 @@
       "setupFileMatchWin": "",
       "setupFileMatchLinux": "",
       "setupFileMatchMac": "",
+      "executableFileMatchWin": "^(fpse)\\.exe$",
+      "executableFileMatchLinux": "^(fpse(.*))\\.(AppImage|appimage)$",
+      "executableFileMatchMac": "^(fpse(.*))\\.app$",
       "autoSearchEnabled": true,
       "biosRequired": true,
       "runCommandsBefore": []

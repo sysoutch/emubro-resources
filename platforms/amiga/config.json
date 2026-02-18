@@ -60,7 +60,10 @@
       "setupFileMatchMac": "",
       "autoSearchEnabled": true,
       "biosRequired": true,
-      "runCommandsBefore": []
+      "runCommandsBefore": [],
+      "executableFileMatchWin": "^(winuae)\\.exe$",
+      "executableFileMatchLinux": "^(winuae(.*))\\.(AppImage|appimage)$",
+      "executableFileMatchMac": "^(winuae(.*))\\.app$"
     },
     {
       "name": "FS-UAE",
@@ -93,7 +96,10 @@
       "setupFileMatchMac": "",
       "autoSearchEnabled": true,
       "biosRequired": true,
-      "runCommandsBefore": []
+      "runCommandsBefore": [],
+      "executableFileMatchWin": "^(fs-uae)\\.exe$",
+      "executableFileMatchLinux": "^(fs-uae(.*))\\.(AppImage|appimage)$|^(fsuae(.*))\\.(AppImage|appimage)$",
+      "executableFileMatchMac": "^(fs-uae(.*))\\.app$|^(fsuae(.*))\\.app$"
     },
     {
       "name": "RetroArch (PUAE core)",
@@ -126,7 +132,11 @@
       "setupFileMatchMac": "",
       "autoSearchEnabled": true,
       "biosRequired": false,
-      "runCommandsBefore": []
+      "runCommandsBefore": [],
+      "executableFileMatchWin": "^(retroarch)\\.exe$",
+      "executableFileMatchLinux": "^(retroarch(.*))\\.(AppImage|appimage)$",
+      "executableFileMatchMac": "^(retroarch(.*))\\.app$",
+      "downloadUrl": "https://github.com/libretro/RetroArch/releases/latest"
     },
     {
       "name": "WinFellow",
@@ -149,7 +159,10 @@
       "setupFileMatchMac": "",
       "autoSearchEnabled": true,
       "biosRequired": false,
-      "runCommandsBefore": []
+      "runCommandsBefore": [],
+      "executableFileMatchWin": "^(winfellow)\\.exe$",
+      "executableFileMatchLinux": "^(winfellow(.*))\\.(AppImage|appimage)$",
+      "executableFileMatchMac": "^(winfellow(.*))\\.app$"
     }
   ],
   "directExecutionMode": "none",

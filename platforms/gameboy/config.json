@@ -57,6 +57,9 @@
       "setupFileMatchWin": "",
       "setupFileMatchLinux": "",
       "setupFileMatchMac": "",
+      "executableFileMatchWin": "^(mGBA)\\.exe$|^(mgba)\\.exe$",
+      "executableFileMatchLinux": "^(mgba(.*))\\.(AppImage|appimage)$",
+      "executableFileMatchMac": "^(mgba(.*))\\.app$",
       "autoSearchEnabled": true,
       "biosRequired": false,
       "runCommandsBefore": []
@@ -86,6 +89,9 @@
       "setupFileMatchWin": "",
       "setupFileMatchLinux": "",
       "setupFileMatchMac": "",
+      "executableFileMatchWin": "^(sameboy)\\.exe$",
+      "executableFileMatchLinux": "^(sameboy(.*))\\.(AppImage|appimage)$",
+      "executableFileMatchMac": "^(sameboy(.*))\\.app$",
       "autoSearchEnabled": true,
       "biosRequired": false,
       "runCommandsBefore": []
@@ -115,9 +121,13 @@
       "setupFileMatchWin": "",
       "setupFileMatchLinux": "",
       "setupFileMatchMac": "",
+      "executableFileMatchWin": "^(retroarch)\\.exe$",
+      "executableFileMatchLinux": "^(retroarch(.*))\\.(AppImage|appimage)$",
+      "executableFileMatchMac": "^(retroarch(.*))\\.app$",
       "autoSearchEnabled": true,
       "biosRequired": false,
-      "runCommandsBefore": []
+      "runCommandsBefore": [],
+      "downloadUrl": "https://github.com/libretro/RetroArch/releases/latest"
     },
     {
       "name": "VisualBoyAdvance",
@@ -142,6 +152,9 @@
       "setupFileMatchWin": "",
       "setupFileMatchLinux": "",
       "setupFileMatchMac": "",
+      "executableFileMatchWin": "^(visualboyadvance)\\.exe$",
+      "executableFileMatchLinux": "^(visualboyadvance(.*))\\.(AppImage|appimage)$",
+      "executableFileMatchMac": "^(visualboyadvance(.*))\\.app$",
       "autoSearchEnabled": true,
       "biosRequired": false,
       "runCommandsBefore": []
@@ -173,6 +186,9 @@
       "setupFileMatchWin": "",
       "setupFileMatchLinux": "",
       "setupFileMatchMac": "",
+      "executableFileMatchWin": "",
+      "executableFileMatchLinux": "",
+      "executableFileMatchMac": "",
       "autoSearchEnabled": false,
       "biosRequired": false,
       "runCommandsBefore": []

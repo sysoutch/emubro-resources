@@ -58,7 +58,11 @@
       "setupFileMatchMac": "",
       "autoSearchEnabled": true,
       "biosRequired": false,
-      "runCommandsBefore": []
+      "runCommandsBefore": [],
+      "executableFileMatchWin": "^(retroarch)\\.exe$",
+      "executableFileMatchLinux": "^(retroarch(.*))\\.(AppImage|appimage)$",
+      "executableFileMatchMac": "^(retroarch(.*))\\.app$",
+      "downloadUrl": "https://github.com/libretro/RetroArch/releases/latest"
     },
     {
       "name": "bsnes",
@@ -86,7 +90,10 @@
       "setupFileMatchMac": "",
       "autoSearchEnabled": true,
       "biosRequired": false,
-      "runCommandsBefore": []
+      "runCommandsBefore": [],
+      "executableFileMatchWin": "^(bsnes.*)\\.exe$",
+      "executableFileMatchLinux": "^(bsnes(.*))\\.(AppImage|appimage)$",
+      "executableFileMatchMac": "^(bsnes(.*))\\.app$"
     },
     {
       "name": "Snes9x",
@@ -114,7 +121,10 @@
       "setupFileMatchMac": "",
       "autoSearchEnabled": true,
       "biosRequired": false,
-      "runCommandsBefore": []
+      "runCommandsBefore": [],
+      "executableFileMatchWin": "^(snes9x.*)\\.exe$",
+      "executableFileMatchLinux": "^(snes9x(.*))\\.(AppImage|appimage)$",
+      "executableFileMatchMac": "^(snes9x(.*))\\.app$"
     },
     {
       "name": "ZSNES",
@@ -142,7 +152,10 @@
       "setupFileMatchMac": "",
       "autoSearchEnabled": true,
       "biosRequired": false,
-      "runCommandsBefore": []
+      "runCommandsBefore": [],
+      "executableFileMatchWin": "^(zsnesw)\\.exe$|^(zsnes)$",
+      "executableFileMatchLinux": "^(zsnes(.*))\\.(AppImage|appimage)$",
+      "executableFileMatchMac": "^(zsnes(.*))\\.app$"
     },
     {
       "name": "FakeNES",
@@ -170,7 +183,10 @@
       "setupFileMatchMac": "",
       "autoSearchEnabled": true,
       "biosRequired": false,
-      "runCommandsBefore": []
+      "runCommandsBefore": [],
+      "executableFileMatchWin": "^(fakenesw)\\.exe$|^(fakenes)$",
+      "executableFileMatchLinux": "^(fakenes(.*))\\.(AppImage|appimage)$",
+      "executableFileMatchMac": "^(fakenes(.*))\\.app$"
     }
   ],
   "directExecutionMode": "none",

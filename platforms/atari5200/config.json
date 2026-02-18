@@ -48,7 +48,11 @@
       "setupFileMatchMac": "",
       "autoSearchEnabled": true,
       "biosRequired": false,
-      "runCommandsBefore": []
+      "runCommandsBefore": [],
+      "executableFileMatchWin": "^(retroarch)\\.exe$",
+      "executableFileMatchLinux": "^(retroarch(.*))\\.(AppImage|appimage)$",
+      "executableFileMatchMac": "^(retroarch(.*))\\.app$",
+      "downloadUrl": "https://github.com/libretro/RetroArch/releases/latest"
     },
     {
       "name": "Atari++",
@@ -71,7 +75,10 @@
       "setupFileMatchMac": "",
       "autoSearchEnabled": true,
       "biosRequired": false,
-      "runCommandsBefore": []
+      "runCommandsBefore": [],
+      "executableFileMatchWin": "^(atari\\+\\+)\\.exe$",
+      "executableFileMatchLinux": "^(atari(.*))\\.(AppImage|appimage)$",
+      "executableFileMatchMac": "^(atari(.*))\\.app$"
     },
     {
       "name": "Atari800",
@@ -96,7 +103,10 @@
       "setupFileMatchMac": "",
       "autoSearchEnabled": true,
       "biosRequired": false,
-      "runCommandsBefore": []
+      "runCommandsBefore": [],
+      "executableFileMatchWin": "^(atari800)\\.exe$",
+      "executableFileMatchLinux": "^(atari800(.*))\\.(AppImage|appimage)$",
+      "executableFileMatchMac": "^(atari800(.*))\\.app$"
     },
     {
       "name": "kat5200",
@@ -121,7 +131,10 @@
       "setupFileMatchMac": "",
       "autoSearchEnabled": true,
       "biosRequired": false,
-      "runCommandsBefore": []
+      "runCommandsBefore": [],
+      "executableFileMatchWin": "^(kat5200)\\.exe$",
+      "executableFileMatchLinux": "^(kat5200(.*))\\.(AppImage|appimage)$",
+      "executableFileMatchMac": "^(kat5200(.*))\\.app$"
     },
     {
       "name": "MESS",
@@ -146,7 +159,10 @@
       "setupFileMatchMac": "",
       "autoSearchEnabled": true,
       "biosRequired": false,
-      "runCommandsBefore": []
+      "runCommandsBefore": [],
+      "executableFileMatchWin": "^(mess)\\.exe$",
+      "executableFileMatchLinux": "^(mess(.*))\\.(AppImage|appimage)$",
+      "executableFileMatchMac": "^(mess(.*))\\.app$"
     },
     {
       "name": "VSS",
@@ -171,7 +187,10 @@
       "setupFileMatchMac": "",
       "autoSearchEnabled": true,
       "biosRequired": false,
-      "runCommandsBefore": []
+      "runCommandsBefore": [],
+      "executableFileMatchWin": "^(vss)\\.exe$",
+      "executableFileMatchLinux": "^(vss(.*))\\.(AppImage|appimage)$",
+      "executableFileMatchMac": "^(vss(.*))\\.app$"
     }
   ],
   "directExecutionMode": "none",

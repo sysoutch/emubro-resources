@@ -63,7 +63,11 @@
       "setupFileMatchMac": "",
       "autoSearchEnabled": true,
       "biosRequired": false,
-      "runCommandsBefore": []
+      "runCommandsBefore": [],
+      "executableFileMatchWin": "^(melonDS)\\.exe$|^(melonds)\\.exe$",
+      "executableFileMatchLinux": "^(melonds(.*))\\.(AppImage|appimage)$",
+      "executableFileMatchMac": "^(melonds(.*))\\.app$",
+      "downloadUrl": "https://github.com/melonDS-emu/melonDS/releases/latest"
     },
     {
       "name": "RetroArch (melonDS core)",
@@ -96,7 +100,11 @@
       "setupFileMatchMac": "",
       "autoSearchEnabled": true,
       "biosRequired": false,
-      "runCommandsBefore": []
+      "runCommandsBefore": [],
+      "executableFileMatchWin": "^(retroarch)\\.exe$",
+      "executableFileMatchLinux": "^(retroarch(.*))\\.(AppImage|appimage)$",
+      "executableFileMatchMac": "^(retroarch(.*))\\.app$",
+      "downloadUrl": "https://github.com/libretro/RetroArch/releases/latest"
     },
     {
       "name": "DeSmuME",
@@ -129,7 +137,10 @@
       "setupFileMatchMac": "",
       "autoSearchEnabled": true,
       "biosRequired": false,
-      "runCommandsBefore": []
+      "runCommandsBefore": [],
+      "executableFileMatchWin": "^(desmume.*)\\.exe$",
+      "executableFileMatchLinux": "^(desmume(.*))\\.(AppImage|appimage)$",
+      "executableFileMatchMac": "^(desmume(.*))\\.app$"
     }
   ],
   "directExecutionMode": "none",
