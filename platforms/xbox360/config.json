@@ -49,7 +49,10 @@
       "setupFileMatchMac": "",
       "autoSearchEnabled": true,
       "biosRequired": false,
-      "runCommandsBefore": []
+      "runCommandsBefore": [],
+      "executableFileMatchWin": "^(xenia)\\.exe$",
+      "executableFileMatchLinux": "^(xenia(.*))\\.(AppImage|appimage)$",
+      "executableFileMatchMac": "^(xenia(.*))\\.app$"
     }
   ],
   "directExecutionMode": "none",

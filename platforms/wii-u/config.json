@@ -48,7 +48,11 @@
       "setupFileMatchMac": "",
       "autoSearchEnabled": true,
       "biosRequired": false,
-      "runCommandsBefore": []
+      "runCommandsBefore": [],
+      "executableFileMatchWin": "^(cemu)\\.exe$",
+      "executableFileMatchLinux": "^(cemu(.*))\\.(AppImage|appimage)$",
+      "executableFileMatchMac": "^(cemu(.*))\\.app$",
+      "downloadUrl": "https://github.com/cemu-project/Cemu/releases/latest"
     }
   ],
   "directExecutionMode": "none",

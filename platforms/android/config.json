@@ -51,7 +51,10 @@
       "setupFileMatchMac": "",
       "autoSearchEnabled": true,
       "biosRequired": false,
-      "runCommandsBefore": []
+      "runCommandsBefore": [],
+      "executableFileMatchWin": "^(andy)\\.exe$",
+      "executableFileMatchLinux": "^(andy(.*))\\.(AppImage|appimage)$",
+      "executableFileMatchMac": "^(andy(.*))\\.app$"
     }
   ],
   "directExecutionMode": "none",

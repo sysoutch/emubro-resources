@@ -56,7 +56,11 @@
       "setupFileMatchMac": "",
       "autoSearchEnabled": true,
       "biosRequired": false,
-      "runCommandsBefore": []
+      "runCommandsBefore": [],
+      "executableFileMatchWin": "^(rpcs3)\\.exe$",
+      "executableFileMatchLinux": "^(rpcs3(.*))\\.(AppImage|appimage)$",
+      "executableFileMatchMac": "^(rpcs3(.*))\\.app$",
+      "downloadUrl": "https://github.com/RPCS3/rpcs3-binaries-win/releases/latest"
     }
   ],
   "directExecutionMode": "none",

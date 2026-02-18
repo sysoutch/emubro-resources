@@ -65,7 +65,11 @@
       "setupFileMatchMac": "",
       "autoSearchEnabled": true,
       "biosRequired": false,
-      "runCommandsBefore": []
+      "runCommandsBefore": [],
+      "executableFileMatchWin": "^(retroarch)\\.exe$",
+      "executableFileMatchLinux": "^(retroarch(.*))\\.(AppImage|appimage)$",
+      "executableFileMatchMac": "^(retroarch(.*))\\.app$",
+      "downloadUrl": "https://github.com/libretro/RetroArch/releases/latest"
     },
     {
       "name": "ScummVM",
@@ -96,7 +100,10 @@
       "setupFileMatchMac": "",
       "autoSearchEnabled": true,
       "biosRequired": false,
-      "runCommandsBefore": []
+      "runCommandsBefore": [],
+      "executableFileMatchWin": "^(scummvm.*)\\.exe$",
+      "executableFileMatchLinux": "^(scummvm(.*))\\.(AppImage|appimage)$",
+      "executableFileMatchMac": "^(scummvm(.*))\\.app$"
     }
   ],
   "directExecutionMode": "none",

@@ -52,7 +52,11 @@
       "setupFileMatchMac": "",
       "autoSearchEnabled": true,
       "biosRequired": false,
-      "runCommandsBefore": []
+      "runCommandsBefore": [],
+      "executableFileMatchWin": "^(retroarch)\\.exe$",
+      "executableFileMatchLinux": "^(retroarch(.*))\\.(AppImage|appimage)$",
+      "executableFileMatchMac": "^(retroarch(.*))\\.app$",
+      "downloadUrl": "https://github.com/libretro/RetroArch/releases/latest"
     },
     {
       "name": "Dolphin",
@@ -80,7 +84,11 @@
       "setupFileMatchLinux": "",
       "setupFileMatchMac": "",
       "autoSearchEnabled": true,
-      "biosRequired": false
+      "biosRequired": false,
+      "executableFileMatchWin": "^(dolphin)\\.exe$",
+      "executableFileMatchLinux": "^(dolphin(.*))\\.(AppImage|appimage)$",
+      "executableFileMatchMac": "^(dolphin(.*))\\.app$",
+      "downloadUrl": "https://github.com/dolphin-emu/dolphin/releases/latest"
     },
     {
       "name": "Dolphin VR",
@@ -108,7 +116,11 @@
       "setupFileMatchMac": "",
       "autoSearchEnabled": true,
       "biosRequired": false,
-      "runCommandsBefore": []
+      "runCommandsBefore": [],
+      "executableFileMatchWin": "^(dolphin)\\.exe$",
+      "executableFileMatchLinux": "^(dolphin-vr(.*))\\.(AppImage|appimage)$|^(dolphinvr(.*))\\.(AppImage|appimage)$|^(dolphin(.*))\\.(AppImage|appimage)$",
+      "executableFileMatchMac": "^(dolphin-vr(.*))\\.app$|^(dolphinvr(.*))\\.app$|^(dolphin(.*))\\.app$",
+      "downloadUrl": "https://github.com/dolphin-emu/dolphin/releases/latest"
     }
   ],
   "directExecutionMode": "none",

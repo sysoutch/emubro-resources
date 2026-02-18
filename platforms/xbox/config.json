@@ -54,7 +54,10 @@
       "setupFileMatchMac": "",
       "autoSearchEnabled": true,
       "biosRequired": false,
-      "runCommandsBefore": []
+      "runCommandsBefore": [],
+      "executableFileMatchWin": "^(Cxbx-Reloaded)\\.exe$|^(cxbx)\\.exe$",
+      "executableFileMatchLinux": "^(cxbx-reloaded(.*))\\.(AppImage|appimage)$|^(cxbxreloaded(.*))\\.(AppImage|appimage)$",
+      "executableFileMatchMac": "^(cxbx-reloaded(.*))\\.app$|^(cxbxreloaded(.*))\\.app$"
     },
     {
       "name": "Qemu",
@@ -79,7 +82,10 @@
       "setupFileMatchMac": "",
       "autoSearchEnabled": true,
       "biosRequired": false,
-      "runCommandsBefore": []
+      "runCommandsBefore": [],
+      "executableFileMatchWin": "^(qemu)\\.exe$",
+      "executableFileMatchLinux": "^(qemu(.*))\\.(AppImage|appimage)$",
+      "executableFileMatchMac": "^(qemu(.*))\\.app$"
     },
     {
       "name": "XQEMU",
@@ -104,7 +110,10 @@
       "setupFileMatchMac": "",
       "autoSearchEnabled": true,
       "biosRequired": false,
-      "runCommandsBefore": []
+      "runCommandsBefore": [],
+      "executableFileMatchWin": "^(xqemu)\\.exe$",
+      "executableFileMatchLinux": "^(xqemu(.*))\\.(AppImage|appimage)$",
+      "executableFileMatchMac": "^(xqemu(.*))\\.app$"
     },
     {
       "name": "Xeon",
@@ -129,7 +138,10 @@
       "setupFileMatchMac": "",
       "autoSearchEnabled": true,
       "biosRequired": false,
-      "runCommandsBefore": []
+      "runCommandsBefore": [],
+      "executableFileMatchWin": "^(xeon)\\.exe$",
+      "executableFileMatchLinux": "^(xeon(.*))\\.(AppImage|appimage)$",
+      "executableFileMatchMac": "^(xeon(.*))\\.app$"
     }
   ],
   "directExecutionMode": "none",

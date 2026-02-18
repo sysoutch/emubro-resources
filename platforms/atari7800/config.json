@@ -50,7 +50,11 @@
       "setupFileMatchMac": "",
       "autoSearchEnabled": true,
       "biosRequired": false,
-      "runCommandsBefore": []
+      "runCommandsBefore": [],
+      "executableFileMatchWin": "^(retroarch)\\.exe$",
+      "executableFileMatchLinux": "^(retroarch(.*))\\.(AppImage|appimage)$",
+      "executableFileMatchMac": "^(retroarch(.*))\\.app$",
+      "downloadUrl": "https://github.com/libretro/RetroArch/releases/latest"
     },
     {
       "name": "MESS",
@@ -75,7 +79,10 @@
       "setupFileMatchMac": "",
       "autoSearchEnabled": true,
       "biosRequired": false,
-      "runCommandsBefore": []
+      "runCommandsBefore": [],
+      "executableFileMatchWin": "^(mess)\\.exe$",
+      "executableFileMatchLinux": "^(mess(.*))\\.(AppImage|appimage)$",
+      "executableFileMatchMac": "^(mess(.*))\\.app$"
     }
   ],
   "directExecutionMode": "none",

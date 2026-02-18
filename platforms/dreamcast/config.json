@@ -59,7 +59,10 @@
       "setupFileMatchMac": "",
       "autoSearchEnabled": true,
       "biosRequired": false,
-      "runCommandsBefore": []
+      "runCommandsBefore": [],
+      "executableFileMatchWin": "^(redream)\\.exe$",
+      "executableFileMatchLinux": "^(redream(.*))\\.(AppImage|appimage)$",
+      "executableFileMatchMac": "^(redream(.*))\\.app$"
     },
     {
       "name": "Flycast",
@@ -91,7 +94,10 @@
       "setupFileMatchMac": "",
       "autoSearchEnabled": true,
       "biosRequired": false,
-      "runCommandsBefore": []
+      "runCommandsBefore": [],
+      "executableFileMatchWin": "^(flycast)\\.exe$",
+      "executableFileMatchLinux": "^(flycast(.*))\\.(AppImage|appimage)$",
+      "executableFileMatchMac": "^(flycast(.*))\\.app$"
     },
     {
       "name": "RetroArch (Flycast core)",
@@ -123,7 +129,11 @@
       "setupFileMatchMac": "",
       "autoSearchEnabled": true,
       "biosRequired": false,
-      "runCommandsBefore": []
+      "runCommandsBefore": [],
+      "executableFileMatchWin": "^(retroarch)\\.exe$",
+      "executableFileMatchLinux": "^(retroarch(.*))\\.(AppImage|appimage)$",
+      "executableFileMatchMac": "^(retroarch(.*))\\.app$",
+      "downloadUrl": "https://github.com/libretro/RetroArch/releases/latest"
     },
     {
       "name": "nullDC",
@@ -151,7 +161,10 @@
       "setupFileMatchMac": "",
       "autoSearchEnabled": true,
       "biosRequired": false,
-      "runCommandsBefore": []
+      "runCommandsBefore": [],
+      "executableFileMatchWin": "^(nulldc.*)\\.exe$",
+      "executableFileMatchLinux": "^(nulldc(.*))\\.(AppImage|appimage)$",
+      "executableFileMatchMac": "^(nulldc(.*))\\.app$"
     }
   ],
   "directExecutionMode": "none",

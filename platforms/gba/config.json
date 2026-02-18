@@ -60,7 +60,10 @@
       "setupFileMatchMac": "",
       "autoSearchEnabled": true,
       "biosRequired": false,
-      "runCommandsBefore": []
+      "runCommandsBefore": [],
+      "executableFileMatchWin": "^(mGBA)\\.exe$|^(mgba)\\.exe$",
+      "executableFileMatchLinux": "^(mgba(.*))\\.(AppImage|appimage)$",
+      "executableFileMatchMac": "^(mgba(.*))\\.app$"
     },
     {
       "name": "RetroArch (mGBA core)",
@@ -90,7 +93,11 @@
       "setupFileMatchMac": "",
       "autoSearchEnabled": true,
       "biosRequired": false,
-      "runCommandsBefore": []
+      "runCommandsBefore": [],
+      "executableFileMatchWin": "^(retroarch)\\.exe$",
+      "executableFileMatchLinux": "^(retroarch(.*))\\.(AppImage|appimage)$",
+      "executableFileMatchMac": "^(retroarch(.*))\\.app$",
+      "downloadUrl": "https://github.com/libretro/RetroArch/releases/latest"
     },
     {
       "name": "VisualBoyAdvance",
@@ -117,7 +124,10 @@
       "setupFileMatchMac": "",
       "autoSearchEnabled": true,
       "biosRequired": false,
-      "runCommandsBefore": []
+      "runCommandsBefore": [],
+      "executableFileMatchWin": "^(visualboyadvance)\\.exe$",
+      "executableFileMatchLinux": "^(visualboyadvance(.*))\\.(AppImage|appimage)$",
+      "executableFileMatchMac": "^(visualboyadvance(.*))\\.app$"
     }
   ],
   "directExecutionMode": "none",

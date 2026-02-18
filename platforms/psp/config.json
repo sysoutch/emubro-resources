@@ -61,9 +61,13 @@
       "setupFileMatchWin": "",
       "setupFileMatchLinux": "",
       "setupFileMatchMac": "",
+      "executableFileMatchWin": "^(retroarch)\\.exe$",
+      "executableFileMatchLinux": "^(retroarch(.*))\\.(AppImage|appimage)$",
+      "executableFileMatchMac": "^(retroarch(.*))\\.app$",
       "autoSearchEnabled": true,
       "biosRequired": false,
-      "runCommandsBefore": []
+      "runCommandsBefore": [],
+      "downloadUrl": "https://github.com/libretro/RetroArch/releases/latest"
     },
     {
       "name": "PPSSPP",
@@ -93,9 +97,13 @@
       "setupFileMatchWin": "",
       "setupFileMatchLinux": "",
       "setupFileMatchMac": "",
+      "executableFileMatchWin": "^(ppsspp.*)\\.exe$",
+      "executableFileMatchLinux": "^(ppsspp(.*))\\.(AppImage|appimage)$",
+      "executableFileMatchMac": "^(ppsspp(.*))\\.app$",
       "autoSearchEnabled": true,
       "biosRequired": false,
-      "runCommandsBefore": []
+      "runCommandsBefore": [],
+      "downloadUrl": "https://github.com/hrydgard/ppsspp/releases/latest"
     }
   ],
   "directExecutionMode": "none",
