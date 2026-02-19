@@ -62,7 +62,8 @@
       "executableFileMatchMac": "^(mgba(.*))\\.app$",
       "autoSearchEnabled": true,
       "biosRequired": false,
-      "runCommandsBefore": []
+      "runCommandsBefore": [],
+      "downloadUrl": "https://github.com/mgba-emu/mgba/releases/latest"
     },
     {
       "name": "SameBoy",
@@ -94,7 +95,8 @@
       "executableFileMatchMac": "^(sameboy(.*))\\.app$",
       "autoSearchEnabled": true,
       "biosRequired": false,
-      "runCommandsBefore": []
+      "runCommandsBefore": [],
+      "downloadUrl": "https://github.com/LIJI32/SameBoy/releases/latest"
     },
     {
       "name": "RetroArch (Gambatte core)",
@@ -157,7 +159,8 @@
       "executableFileMatchMac": "^(visualboyadvance(.*))\\.app$",
       "autoSearchEnabled": true,
       "biosRequired": false,
-      "runCommandsBefore": []
+      "runCommandsBefore": [],
+      "downloadUrl": "https://github.com/visualboyadvance-m/visualboyadvance-m/releases/latest"
     },
     {
       "name": "Game Boy Web Emulator",
@@ -191,7 +194,8 @@
       "executableFileMatchMac": "",
       "autoSearchEnabled": false,
       "biosRequired": false,
-      "runCommandsBefore": []
+      "runCommandsBefore": [],
+      "downloadUrl": "https://emubro.net/tools/gameboy-emulator/"
     }
   ],
   "directExecutionMode": "none",

@@ -59,7 +59,8 @@
       "runCommandsBefore": [],
       "executableFileMatchWin": "^(hatari)\\.exe$",
       "executableFileMatchLinux": "^(hatari(.*))\\.(AppImage|appimage)$",
-      "executableFileMatchMac": "^(hatari(.*))\\.app$"
+      "executableFileMatchMac": "^(hatari(.*))\\.app$",
+      "downloadUrl": "https://github.com/hatari/hatari/releases/latest"
     },
     {
       "name": "RetroArch (Hatari core)",
@@ -121,7 +122,8 @@
       "runCommandsBefore": [],
       "executableFileMatchWin": "^(steem)\\.exe$|^(steem.*\\+)\\.exe$",
       "executableFileMatchLinux": "^(steem(.*))\\.(AppImage|appimage)$",
-      "executableFileMatchMac": "^(steem(.*))\\.app$"
+      "executableFileMatchMac": "^(steem(.*))\\.app$",
+      "downloadUrl": "http://steem.atari.st/download.htm"
     }
   ],
   "directExecutionMode": "none",

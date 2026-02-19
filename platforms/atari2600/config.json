@@ -80,7 +80,8 @@
       "runCommandsBefore": [],
       "executableFileMatchWin": "^(stella)\\.exe$",
       "executableFileMatchLinux": "^(stella(.*))\\.(AppImage|appimage)$",
-      "executableFileMatchMac": "^(stella(.*))\\.app$"
+      "executableFileMatchMac": "^(stella(.*))\\.app$",
+      "downloadUrl": "https://github.com/stella-emu/stella/releases/latest"
     },
     {
       "name": "Pcaewin",
@@ -108,7 +109,8 @@
       "runCommandsBefore": [],
       "executableFileMatchWin": "^(pcaewin)\\.exe$",
       "executableFileMatchLinux": "^(pcaewin(.*))\\.(AppImage|appimage)$",
-      "executableFileMatchMac": "^(pcaewin(.*))\\.app$"
+      "executableFileMatchMac": "^(pcaewin(.*))\\.app$",
+      "downloadUrl": "http://pcae.vg-network.com/main.html#Downloads"
     },
     {
       "name": "z26",
@@ -136,7 +138,8 @@
       "runCommandsBefore": [],
       "executableFileMatchWin": "^(z26)\\.exe$",
       "executableFileMatchLinux": "^(z26(.*))\\.(AppImage|appimage)$",
-      "executableFileMatchMac": "^(z26(.*))\\.app$"
+      "executableFileMatchMac": "^(z26(.*))\\.app$",
+      "downloadUrl": "http://www.whimsey.com/z26/"
     }
   ],
   "directExecutionMode": "none",

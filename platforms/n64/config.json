@@ -69,7 +69,8 @@
       "runCommandsBefore": [],
       "executableFileMatchWin": "^(mupen64plus)\\.exe$",
       "executableFileMatchLinux": "^(mupen64plus(.*))\\.(AppImage|appimage)$",
-      "executableFileMatchMac": "^(mupen64plus(.*))\\.app$"
+      "executableFileMatchMac": "^(mupen64plus(.*))\\.app$",
+      "downloadUrl": "https://mupen64plus.org/"
     },
     {
       "name": "RetroArch (Mupen64Plus-Next core)",

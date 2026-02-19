@@ -82,7 +82,8 @@
       "runCommandsBefore": [],
       "executableFileMatchWin": "^(mess)\\.exe$",
       "executableFileMatchLinux": "^(mess(.*))\\.(AppImage|appimage)$",
-      "executableFileMatchMac": "^(mess(.*))\\.app$"
+      "executableFileMatchMac": "^(mess(.*))\\.app$",
+      "downloadUrl": "https://github.com/mamedev/mame/releases/latest"
     }
   ],
   "directExecutionMode": "none",

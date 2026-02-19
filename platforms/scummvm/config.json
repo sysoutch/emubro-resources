@@ -103,7 +103,8 @@
       "runCommandsBefore": [],
       "executableFileMatchWin": "^(scummvm.*)\\.exe$",
       "executableFileMatchLinux": "^(scummvm(.*))\\.(AppImage|appimage)$",
-      "executableFileMatchMac": "^(scummvm(.*))\\.app$"
+      "executableFileMatchMac": "^(scummvm(.*))\\.app$",
+      "downloadUrl": "https://github.com/scummvm/scummvm/releases/latest"
     }
   ],
   "directExecutionMode": "none",

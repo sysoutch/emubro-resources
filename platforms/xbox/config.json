@@ -57,7 +57,8 @@
       "runCommandsBefore": [],
       "executableFileMatchWin": "^(Cxbx-Reloaded)\\.exe$|^(cxbx)\\.exe$",
       "executableFileMatchLinux": "^(cxbx-reloaded(.*))\\.(AppImage|appimage)$|^(cxbxreloaded(.*))\\.(AppImage|appimage)$",
-      "executableFileMatchMac": "^(cxbx-reloaded(.*))\\.app$|^(cxbxreloaded(.*))\\.app$"
+      "executableFileMatchMac": "^(cxbx-reloaded(.*))\\.app$|^(cxbxreloaded(.*))\\.app$",
+      "downloadUrl": "https://github.com/Cxbx-Reloaded/Cxbx-Reloaded/releases/latest"
     },
     {
       "name": "Qemu",
@@ -85,7 +86,8 @@
       "runCommandsBefore": [],
       "executableFileMatchWin": "^(qemu)\\.exe$",
       "executableFileMatchLinux": "^(qemu(.*))\\.(AppImage|appimage)$",
-      "executableFileMatchMac": "^(qemu(.*))\\.app$"
+      "executableFileMatchMac": "^(qemu(.*))\\.app$",
+      "downloadUrl": "https://www.qemu.org/download/"
     },
     {
       "name": "XQEMU",
@@ -113,7 +115,8 @@
       "runCommandsBefore": [],
       "executableFileMatchWin": "^(xqemu)\\.exe$",
       "executableFileMatchLinux": "^(xqemu(.*))\\.(AppImage|appimage)$",
-      "executableFileMatchMac": "^(xqemu(.*))\\.app$"
+      "executableFileMatchMac": "^(xqemu(.*))\\.app$",
+      "downloadUrl": "https://github.com/xqemu/xqemu/releases/latest"
     },
     {
       "name": "Xeon",
@@ -141,7 +144,8 @@
       "runCommandsBefore": [],
       "executableFileMatchWin": "^(xeon)\\.exe$",
       "executableFileMatchLinux": "^(xeon(.*))\\.(AppImage|appimage)$",
-      "executableFileMatchMac": "^(xeon(.*))\\.app$"
+      "executableFileMatchMac": "^(xeon(.*))\\.app$",
+      "downloadUrl": "http://www.emulator-zone.com/doc.php/xbox/xeon.html"
     }
   ],
   "directExecutionMode": "none",

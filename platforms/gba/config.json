@@ -63,7 +63,8 @@
       "runCommandsBefore": [],
       "executableFileMatchWin": "^(mGBA)\\.exe$|^(mgba)\\.exe$",
       "executableFileMatchLinux": "^(mgba(.*))\\.(AppImage|appimage)$",
-      "executableFileMatchMac": "^(mgba(.*))\\.app$"
+      "executableFileMatchMac": "^(mgba(.*))\\.app$",
+      "downloadUrl": "https://github.com/mgba-emu/mgba/releases/latest"
     },
     {
       "name": "RetroArch (mGBA core)",
@@ -127,7 +128,8 @@
       "runCommandsBefore": [],
       "executableFileMatchWin": "^(visualboyadvance)\\.exe$",
       "executableFileMatchLinux": "^(visualboyadvance(.*))\\.(AppImage|appimage)$",
-      "executableFileMatchMac": "^(visualboyadvance(.*))\\.app$"
+      "executableFileMatchMac": "^(visualboyadvance(.*))\\.app$",
+      "downloadUrl": "https://github.com/visualboyadvance-m/visualboyadvance-m/releases/latest"
     }
   ],
   "directExecutionMode": "none",

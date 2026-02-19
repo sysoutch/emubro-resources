@@ -50,7 +50,8 @@
       "runCommandsBefore": [],
       "executableFileMatchWin": "^(cmd)\\.exe$",
       "executableFileMatchLinux": "^(windows-shell(.*))\\.(AppImage|appimage)$|^(windowsshell(.*))\\.(AppImage|appimage)$|^(windows(.*))\\.(AppImage|appimage)$",
-      "executableFileMatchMac": "^(windows-shell(.*))\\.app$|^(windowsshell(.*))\\.app$|^(windows(.*))\\.app$"
+      "executableFileMatchMac": "^(windows-shell(.*))\\.app$|^(windowsshell(.*))\\.app$|^(windows(.*))\\.app$",
+      "downloadUrl": "https://www.microsoft.com/resources/documentation/windows/xp/all/proddocs/en-us/cmd.mspx"
     }
   ],
   "directExecutionMode": "windows",

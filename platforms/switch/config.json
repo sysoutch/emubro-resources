@@ -81,7 +81,8 @@
       "runCommandsBefore": [],
       "executableFileMatchWin": "^(yuzu)\\.exe$",
       "executableFileMatchLinux": "^(yuzu(.*))\\.(AppImage|appimage)$",
-      "executableFileMatchMac": "^(yuzu(.*))\\.app$"
+      "executableFileMatchMac": "^(yuzu(.*))\\.app$",
+      "downloadUrl": "https://yuzu-emu.org/downloads/"
     }
   ],
   "directExecutionMode": "none",

@@ -140,7 +140,8 @@
       "runCommandsBefore": [],
       "executableFileMatchWin": "^(desmume.*)\\.exe$",
       "executableFileMatchLinux": "^(desmume(.*))\\.(AppImage|appimage)$",
-      "executableFileMatchMac": "^(desmume(.*))\\.app$"
+      "executableFileMatchMac": "^(desmume(.*))\\.app$",
+      "downloadUrl": "https://github.com/TASEmulators/desmume/releases/latest"
     }
   ],
   "directExecutionMode": "none",

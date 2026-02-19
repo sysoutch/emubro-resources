@@ -52,7 +52,8 @@
       "runCommandsBefore": [],
       "executableFileMatchWin": "^(xenia)\\.exe$",
       "executableFileMatchLinux": "^(xenia(.*))\\.(AppImage|appimage)$",
-      "executableFileMatchMac": "^(xenia(.*))\\.app$"
+      "executableFileMatchMac": "^(xenia(.*))\\.app$",
+      "downloadUrl": "https://github.com/xenia-project/release-builds-windows/releases/latest"
     }
   ],
   "directExecutionMode": "none",

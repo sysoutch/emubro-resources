@@ -62,7 +62,8 @@
       "runCommandsBefore": [],
       "executableFileMatchWin": "^(redream)\\.exe$",
       "executableFileMatchLinux": "^(redream(.*))\\.(AppImage|appimage)$",
-      "executableFileMatchMac": "^(redream(.*))\\.app$"
+      "executableFileMatchMac": "^(redream(.*))\\.app$",
+      "downloadUrl": "https://redream.io/download"
     },
     {
       "name": "Flycast",
@@ -97,7 +98,8 @@
       "runCommandsBefore": [],
       "executableFileMatchWin": "^(flycast)\\.exe$",
       "executableFileMatchLinux": "^(flycast(.*))\\.(AppImage|appimage)$",
-      "executableFileMatchMac": "^(flycast(.*))\\.app$"
+      "executableFileMatchMac": "^(flycast(.*))\\.app$",
+      "downloadUrl": "https://github.com/flyinghead/flycast/releases/latest"
     },
     {
       "name": "RetroArch (Flycast core)",
@@ -164,7 +166,8 @@
       "runCommandsBefore": [],
       "executableFileMatchWin": "^(nulldc.*)\\.exe$",
       "executableFileMatchLinux": "^(nulldc(.*))\\.(AppImage|appimage)$",
-      "executableFileMatchMac": "^(nulldc(.*))\\.app$"
+      "executableFileMatchMac": "^(nulldc(.*))\\.app$",
+      "downloadUrl": "https://code.google.com/archive/p/nulldc/downloads"
     }
   ],
   "directExecutionMode": "none",

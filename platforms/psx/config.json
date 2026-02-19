@@ -148,7 +148,8 @@
       "executableFileMatchMac": "^(epsxe(.*))\\.app$",
       "autoSearchEnabled": true,
       "biosRequired": true,
-      "runCommandsBefore": []
+      "runCommandsBefore": [],
+      "downloadUrl": "http://www.epsxe.com/download.php"
     },
     {
       "name": "FPse",
@@ -176,7 +177,8 @@
       "executableFileMatchMac": "^(fpse(.*))\\.app$",
       "autoSearchEnabled": true,
       "biosRequired": true,
-      "runCommandsBefore": []
+      "runCommandsBefore": [],
+      "downloadUrl": "http://www.zophar.net/psx/fpse.html"
     }
   ],
   "directExecutionMode": "none",

@@ -78,7 +78,8 @@
       "runCommandsBefore": [],
       "executableFileMatchWin": "^(atari\\+\\+)\\.exe$",
       "executableFileMatchLinux": "^(atari(.*))\\.(AppImage|appimage)$",
-      "executableFileMatchMac": "^(atari(.*))\\.app$"
+      "executableFileMatchMac": "^(atari(.*))\\.app$",
+      "downloadUrl": "http://www.xl-project.com/downloads.html"
     },
     {
       "name": "Atari800",
@@ -106,7 +107,8 @@
       "runCommandsBefore": [],
       "executableFileMatchWin": "^(atari800)\\.exe$",
       "executableFileMatchLinux": "^(atari800(.*))\\.(AppImage|appimage)$",
-      "executableFileMatchMac": "^(atari800(.*))\\.app$"
+      "executableFileMatchMac": "^(atari800(.*))\\.app$",
+      "downloadUrl": "https://github.com/atari800/atari800/releases/latest"
     },
     {
       "name": "kat5200",
@@ -134,7 +136,8 @@
       "runCommandsBefore": [],
       "executableFileMatchWin": "^(kat5200)\\.exe$",
       "executableFileMatchLinux": "^(kat5200(.*))\\.(AppImage|appimage)$",
-      "executableFileMatchMac": "^(kat5200(.*))\\.app$"
+      "executableFileMatchMac": "^(kat5200(.*))\\.app$",
+      "downloadUrl": "http://kat5200.jillybunch.com/downloads.html"
     },
     {
       "name": "MESS",
@@ -162,7 +165,8 @@
       "runCommandsBefore": [],
       "executableFileMatchWin": "^(mess)\\.exe$",
       "executableFileMatchLinux": "^(mess(.*))\\.(AppImage|appimage)$",
-      "executableFileMatchMac": "^(mess(.*))\\.app$"
+      "executableFileMatchMac": "^(mess(.*))\\.app$",
+      "downloadUrl": "https://github.com/mamedev/mame/releases/latest"
     },
     {
       "name": "VSS",
@@ -190,7 +194,8 @@
       "runCommandsBefore": [],
       "executableFileMatchWin": "^(vss)\\.exe$",
       "executableFileMatchLinux": "^(vss(.*))\\.(AppImage|appimage)$",
-      "executableFileMatchMac": "^(vss(.*))\\.app$"
+      "executableFileMatchMac": "^(vss(.*))\\.app$",
+      "downloadUrl": "http://atarihq.com/danb/a5200.shtml"
     }
   ],
   "directExecutionMode": "none",

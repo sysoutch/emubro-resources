@@ -54,7 +54,8 @@
       "runCommandsBefore": [],
       "executableFileMatchWin": "^(andy)\\.exe$",
       "executableFileMatchLinux": "^(andy(.*))\\.(AppImage|appimage)$",
-      "executableFileMatchMac": "^(andy(.*))\\.app$"
+      "executableFileMatchMac": "^(andy(.*))\\.app$",
+      "downloadUrl": "http://www.andyroid.net/"
     }
   ],
   "directExecutionMode": "none",

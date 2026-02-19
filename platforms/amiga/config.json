@@ -63,7 +63,8 @@
       "runCommandsBefore": [],
       "executableFileMatchWin": "^(winuae)\\.exe$",
       "executableFileMatchLinux": "^(winuae(.*))\\.(AppImage|appimage)$",
-      "executableFileMatchMac": "^(winuae(.*))\\.app$"
+      "executableFileMatchMac": "^(winuae(.*))\\.app$",
+      "downloadUrl": "https://www.winuae.net/download/"
     },
     {
       "name": "FS-UAE",
@@ -99,7 +100,8 @@
       "runCommandsBefore": [],
       "executableFileMatchWin": "^(fs-uae)\\.exe$",
       "executableFileMatchLinux": "^(fs-uae(.*))\\.(AppImage|appimage)$|^(fsuae(.*))\\.(AppImage|appimage)$",
-      "executableFileMatchMac": "^(fs-uae(.*))\\.app$|^(fsuae(.*))\\.app$"
+      "executableFileMatchMac": "^(fs-uae(.*))\\.app$|^(fsuae(.*))\\.app$",
+      "downloadUrl": "https://fs-uae.net/download"
     },
     {
       "name": "RetroArch (PUAE core)",
@@ -162,7 +164,8 @@
       "runCommandsBefore": [],
       "executableFileMatchWin": "^(winfellow)\\.exe$",
       "executableFileMatchLinux": "^(winfellow(.*))\\.(AppImage|appimage)$",
-      "executableFileMatchMac": "^(winfellow(.*))\\.app$"
+      "executableFileMatchMac": "^(winfellow(.*))\\.app$",
+      "downloadUrl": "https://github.com/petschau/WinFellow/releases/latest"
     }
   ],
   "directExecutionMode": "none",
