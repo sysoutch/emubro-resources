@@ -136,7 +136,7 @@
       ],
       "path": "",
       "iconFilename": "desmume.png",
-      "configFilePath": "",
+      "configFilePath": "desmume.ini",
       "website": "http://desmume.org/download/",
       "startParameters": "%emupath% %gamepath%",
       "supportedFileTypes": [
