@@ -65,7 +65,17 @@
       "executableFileMatchWin": "^(Mesen)\\.exe$|^(mesen)\\.exe$",
       "executableFileMatchLinux": "^(mesen(.*))\\.(AppImage|appimage)$",
       "executableFileMatchMac": "^(mesen(.*))\\.app$",
-      "downloadUrl": "https://github.com/SourMesen/Mesen2/releases/latest"
+      "downloadUrl": {
+        "win": [
+          "https://github.com/SourMesen/Mesen2/releases/latest"
+        ],
+        "mac": [
+          "https://github.com/SourMesen/Mesen2/releases/latest"
+        ],
+        "linux": [
+          "https://github.com/SourMesen/Mesen2/releases/latest"
+        ]
+      }
     },
     {
       "name": "RetroArch (Mesen core)",
@@ -100,7 +110,17 @@
       "executableFileMatchWin": "^(retroarch)\\.exe$",
       "executableFileMatchLinux": "^(retroarch(.*))\\.(AppImage|appimage)$",
       "executableFileMatchMac": "^(retroarch(.*))\\.app$",
-      "downloadUrl": "https://github.com/libretro/RetroArch/releases/latest"
+      "downloadUrl": {
+        "win": [
+          "https://github.com/libretro/RetroArch/releases/latest"
+        ],
+        "mac": [
+          "https://github.com/libretro/RetroArch/releases/latest"
+        ],
+        "linux": [
+          "https://github.com/libretro/RetroArch/releases/latest"
+        ]
+      }
     },
     {
       "name": "FCEUX",
@@ -131,7 +151,17 @@
       "executableFileMatchWin": "^(fceux)\\.exe$|^(fceux64)\\.exe$",
       "executableFileMatchLinux": "^(fceux(.*))\\.(AppImage|appimage)$",
       "executableFileMatchMac": "^(fceux(.*))\\.app$",
-      "downloadUrl": "https://github.com/TASEmulators/fceux/releases/latest"
+      "downloadUrl": {
+        "win": [
+          "https://github.com/TASEmulators/fceux/releases/latest"
+        ],
+        "mac": [
+          "https://github.com/TASEmulators/fceux/releases/latest"
+        ],
+        "linux": [
+          "https://github.com/TASEmulators/fceux/releases/latest"
+        ]
+      }
     }
   ],
   "directExecutionMode": "none",

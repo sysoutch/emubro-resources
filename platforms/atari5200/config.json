@@ -52,7 +52,17 @@
       "executableFileMatchWin": "^(retroarch)\\.exe$",
       "executableFileMatchLinux": "^(retroarch(.*))\\.(AppImage|appimage)$",
       "executableFileMatchMac": "^(retroarch(.*))\\.app$",
-      "downloadUrl": "https://github.com/libretro/RetroArch/releases/latest"
+      "downloadUrl": {
+        "win": [
+          "https://github.com/libretro/RetroArch/releases/latest"
+        ],
+        "mac": [
+          "https://github.com/libretro/RetroArch/releases/latest"
+        ],
+        "linux": [
+          "https://github.com/libretro/RetroArch/releases/latest"
+        ]
+      }
     },
     {
       "name": "Atari++",
@@ -79,7 +89,17 @@
       "executableFileMatchWin": "^(atari\\+\\+)\\.exe$",
       "executableFileMatchLinux": "^(atari(.*))\\.(AppImage|appimage)$",
       "executableFileMatchMac": "^(atari(.*))\\.app$",
-      "downloadUrl": "http://www.xl-project.com/downloads.html"
+      "downloadUrl": {
+        "win": [
+          "http://www.xl-project.com/downloads.html"
+        ],
+        "mac": [
+          "http://www.xl-project.com/downloads.html"
+        ],
+        "linux": [
+          "http://www.xl-project.com/downloads.html"
+        ]
+      }
     },
     {
       "name": "Atari800",
@@ -108,7 +128,17 @@
       "executableFileMatchWin": "^(atari800)\\.exe$",
       "executableFileMatchLinux": "^(atari800(.*))\\.(AppImage|appimage)$",
       "executableFileMatchMac": "^(atari800(.*))\\.app$",
-      "downloadUrl": "https://github.com/atari800/atari800/releases/latest"
+      "downloadUrl": {
+        "win": [
+          "https://github.com/atari800/atari800/releases/latest"
+        ],
+        "mac": [
+          "https://github.com/atari800/atari800/releases/latest"
+        ],
+        "linux": [
+          "https://github.com/atari800/atari800/releases/latest"
+        ]
+      }
     },
     {
       "name": "kat5200",
@@ -137,7 +167,17 @@
       "executableFileMatchWin": "^(kat5200)\\.exe$",
       "executableFileMatchLinux": "^(kat5200(.*))\\.(AppImage|appimage)$",
       "executableFileMatchMac": "^(kat5200(.*))\\.app$",
-      "downloadUrl": "http://kat5200.jillybunch.com/downloads.html"
+      "downloadUrl": {
+        "win": [
+          "http://kat5200.jillybunch.com/downloads.html"
+        ],
+        "mac": [
+          "http://kat5200.jillybunch.com/downloads.html"
+        ],
+        "linux": [
+          "http://kat5200.jillybunch.com/downloads.html"
+        ]
+      }
     },
     {
       "name": "MESS",
@@ -166,7 +206,17 @@
       "executableFileMatchWin": "^(mess)\\.exe$",
       "executableFileMatchLinux": "^(mess(.*))\\.(AppImage|appimage)$",
       "executableFileMatchMac": "^(mess(.*))\\.app$",
-      "downloadUrl": "https://github.com/mamedev/mame/releases/latest"
+      "downloadUrl": {
+        "win": [
+          "https://github.com/mamedev/mame/releases/latest"
+        ],
+        "mac": [
+          "https://github.com/mamedev/mame/releases/latest"
+        ],
+        "linux": [
+          "https://github.com/mamedev/mame/releases/latest"
+        ]
+      }
     },
     {
       "name": "VSS",
@@ -195,7 +245,17 @@
       "executableFileMatchWin": "^(vss)\\.exe$",
       "executableFileMatchLinux": "^(vss(.*))\\.(AppImage|appimage)$",
       "executableFileMatchMac": "^(vss(.*))\\.app$",
-      "downloadUrl": "http://atarihq.com/danb/a5200.shtml"
+      "downloadUrl": {
+        "win": [
+          "http://atarihq.com/danb/a5200.shtml"
+        ],
+        "mac": [
+          "http://atarihq.com/danb/a5200.shtml"
+        ],
+        "linux": [
+          "http://atarihq.com/danb/a5200.shtml"
+        ]
+      }
     }
   ],
   "directExecutionMode": "none",

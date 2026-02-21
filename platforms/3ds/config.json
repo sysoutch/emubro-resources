@@ -51,7 +51,17 @@
       "executableFileMatchWin": "^(retroarch)\\.exe$",
       "executableFileMatchLinux": "^(retroarch(.*))\\.(AppImage|appimage)$",
       "executableFileMatchMac": "^(retroarch(.*))\\.app$",
-      "downloadUrl": "https://github.com/libretro/RetroArch/releases/latest"
+      "downloadUrl": {
+        "win": [
+          "https://github.com/libretro/RetroArch/releases/latest"
+        ],
+        "mac": [
+          "https://github.com/libretro/RetroArch/releases/latest"
+        ],
+        "linux": [
+          "https://github.com/libretro/RetroArch/releases/latest"
+        ]
+      }
     },
     {
       "name": "citra",
@@ -83,7 +93,17 @@
       "executableFileMatchWin": "^(citra-qt)\\.exe$",
       "executableFileMatchLinux": "^(citra(.*))\\.(AppImage|appimage)$",
       "executableFileMatchMac": "^(citra(.*))\\.app$",
-      "downloadUrl": "https://github.com/PabloMK7/citra/releases/latest"
+      "downloadUrl": {
+        "win": [
+          "https://github.com/PabloMK7/citra/releases/latest"
+        ],
+        "mac": [
+          "https://github.com/PabloMK7/citra/releases/latest"
+        ],
+        "linux": [
+          "https://github.com/PabloMK7/citra/releases/latest"
+        ]
+      }
     }
   ],
   "directExecutionMode": "none",

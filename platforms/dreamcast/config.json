@@ -63,7 +63,17 @@
       "executableFileMatchWin": "^(redream)\\.exe$",
       "executableFileMatchLinux": "^(redream(.*))\\.(AppImage|appimage)$",
       "executableFileMatchMac": "^(redream(.*))\\.app$",
-      "downloadUrl": "https://redream.io/download"
+      "downloadUrl": {
+        "win": [
+          "https://redream.io/download"
+        ],
+        "mac": [
+          "https://redream.io/download"
+        ],
+        "linux": [
+          "https://redream.io/download"
+        ]
+      }
     },
     {
       "name": "Flycast",
@@ -99,7 +109,17 @@
       "executableFileMatchWin": "^(flycast)\\.exe$",
       "executableFileMatchLinux": "^(flycast(.*))\\.(AppImage|appimage)$",
       "executableFileMatchMac": "^(flycast(.*))\\.app$",
-      "downloadUrl": "https://github.com/flyinghead/flycast/releases/latest"
+      "downloadUrl": {
+        "win": [
+          "https://github.com/flyinghead/flycast/releases/latest"
+        ],
+        "mac": [
+          "https://github.com/flyinghead/flycast/releases/latest"
+        ],
+        "linux": [
+          "https://github.com/flyinghead/flycast/releases/latest"
+        ]
+      }
     },
     {
       "name": "RetroArch (Flycast core)",
@@ -135,7 +155,17 @@
       "executableFileMatchWin": "^(retroarch)\\.exe$",
       "executableFileMatchLinux": "^(retroarch(.*))\\.(AppImage|appimage)$",
       "executableFileMatchMac": "^(retroarch(.*))\\.app$",
-      "downloadUrl": "https://github.com/libretro/RetroArch/releases/latest"
+      "downloadUrl": {
+        "win": [
+          "https://github.com/libretro/RetroArch/releases/latest"
+        ],
+        "mac": [
+          "https://github.com/libretro/RetroArch/releases/latest"
+        ],
+        "linux": [
+          "https://github.com/libretro/RetroArch/releases/latest"
+        ]
+      }
     },
     {
       "name": "nullDC",
@@ -167,7 +197,17 @@
       "executableFileMatchWin": "^(nulldc.*)\\.exe$",
       "executableFileMatchLinux": "^(nulldc(.*))\\.(AppImage|appimage)$",
       "executableFileMatchMac": "^(nulldc(.*))\\.app$",
-      "downloadUrl": "https://code.google.com/archive/p/nulldc/downloads"
+      "downloadUrl": {
+        "win": [
+          "https://code.google.com/archive/p/nulldc/downloads"
+        ],
+        "mac": [
+          "https://code.google.com/archive/p/nulldc/downloads"
+        ],
+        "linux": [
+          "https://code.google.com/archive/p/nulldc/downloads"
+        ]
+      }
     }
   ],
   "directExecutionMode": "none",

@@ -71,7 +71,17 @@
       "autoSearchEnabled": true,
       "biosRequired": true,
       "runCommandsBefore": [],
-      "downloadUrl": "https://github.com/libretro/RetroArch/releases/latest"
+      "downloadUrl": {
+        "win": [
+          "https://github.com/libretro/RetroArch/releases/latest"
+        ],
+        "mac": [
+          "https://github.com/libretro/RetroArch/releases/latest"
+        ],
+        "linux": [
+          "https://github.com/libretro/RetroArch/releases/latest"
+        ]
+      }
     },
     {
       "name": "DuckStation",
@@ -111,7 +121,17 @@
       "autoSearchEnabled": true,
       "biosRequired": true,
       "runCommandsBefore": [],
-      "downloadUrl": "https://github.com/stenzek/duckstation/releases/latest"
+      "downloadUrl": {
+        "win": [
+          "https://github.com/stenzek/duckstation/releases/latest"
+        ],
+        "mac": [
+          "https://github.com/stenzek/duckstation/releases/latest"
+        ],
+        "linux": [
+          "https://github.com/stenzek/duckstation/releases/latest"
+        ]
+      }
     },
     {
       "name": "ePSXe",
@@ -149,7 +169,17 @@
       "autoSearchEnabled": true,
       "biosRequired": true,
       "runCommandsBefore": [],
-      "downloadUrl": "http://www.epsxe.com/download.php"
+      "downloadUrl": {
+        "win": [
+          "https://www.epsxe.com/files/ePSXe2018.zip"
+        ],
+        "mac": [
+          "https://www.epsxe.com/files/ePSXe2018.zip"
+        ],
+        "linux": [
+          "https://www.epsxe.com/files/ePSXe2018.zip"
+        ]
+      }
     },
     {
       "name": "FPse",
@@ -178,7 +208,17 @@
       "autoSearchEnabled": true,
       "biosRequired": true,
       "runCommandsBefore": [],
-      "downloadUrl": "http://www.zophar.net/psx/fpse.html"
+      "downloadUrl": {
+        "win": [
+          "http://www.zophar.net/psx/fpse.html"
+        ],
+        "mac": [
+          "http://www.zophar.net/psx/fpse.html"
+        ],
+        "linux": [
+          "http://www.zophar.net/psx/fpse.html"
+        ]
+      }
     }
   ],
   "directExecutionMode": "none",

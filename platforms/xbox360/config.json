@@ -53,7 +53,17 @@
       "executableFileMatchWin": "^(xenia)\\.exe$",
       "executableFileMatchLinux": "^(xenia(.*))\\.(AppImage|appimage)$",
       "executableFileMatchMac": "^(xenia(.*))\\.app$",
-      "downloadUrl": "https://github.com/xenia-project/release-builds-windows/releases/latest"
+      "downloadUrl": {
+        "win": [
+          "https://github.com/xenia-project/release-builds-windows/releases/latest"
+        ],
+        "mac": [
+          "https://github.com/xenia-project/release-builds-windows/releases/latest"
+        ],
+        "linux": [
+          "https://github.com/xenia-project/release-builds-windows/releases/latest"
+        ]
+      }
     }
   ],
   "directExecutionMode": "none",

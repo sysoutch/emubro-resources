@@ -67,7 +67,17 @@
       "executableFileMatchWin": "^(pcsx2-r\\d+)\\.exe$|^(pcsx2)\\.exe$",
       "executableFileMatchLinux": "^(pcsx2(.*))\\.(AppImage|appimage)$",
       "executableFileMatchMac": "^(pcsx2(.*))\\.app$",
-      "downloadUrl": "https://github.com/PCSX2/pcsx2/releases/latest"
+      "downloadUrl": {
+        "win": [
+          "https://github.com/PCSX2/pcsx2/releases/latest"
+        ],
+        "mac": [
+          "https://github.com/PCSX2/pcsx2/releases/latest"
+        ],
+        "linux": [
+          "https://github.com/PCSX2/pcsx2/releases/latest"
+        ]
+      }
     }
   ],
   "directExecutionMode": "none",

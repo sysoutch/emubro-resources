@@ -67,7 +67,17 @@
       "executableFileMatchWin": "^(melonDS)\\.exe$|^(melonds)\\.exe$",
       "executableFileMatchLinux": "^(melonds(.*))\\.(AppImage|appimage)$",
       "executableFileMatchMac": "^(melonds(.*))\\.app$",
-      "downloadUrl": "https://github.com/melonDS-emu/melonDS/releases/latest"
+      "downloadUrl": {
+        "win": [
+          "https://github.com/melonDS-emu/melonDS/releases/latest"
+        ],
+        "mac": [
+          "https://github.com/melonDS-emu/melonDS/releases/latest"
+        ],
+        "linux": [
+          "https://github.com/melonDS-emu/melonDS/releases/latest"
+        ]
+      }
     },
     {
       "name": "RetroArch (melonDS core)",
@@ -104,7 +114,17 @@
       "executableFileMatchWin": "^(retroarch)\\.exe$",
       "executableFileMatchLinux": "^(retroarch(.*))\\.(AppImage|appimage)$",
       "executableFileMatchMac": "^(retroarch(.*))\\.app$",
-      "downloadUrl": "https://github.com/libretro/RetroArch/releases/latest"
+      "downloadUrl": {
+        "win": [
+          "https://github.com/libretro/RetroArch/releases/latest"
+        ],
+        "mac": [
+          "https://github.com/libretro/RetroArch/releases/latest"
+        ],
+        "linux": [
+          "https://github.com/libretro/RetroArch/releases/latest"
+        ]
+      }
     },
     {
       "name": "DeSmuME",
@@ -141,7 +161,17 @@
       "executableFileMatchWin": "^(desmume.*)\\.exe$",
       "executableFileMatchLinux": "^(desmume(.*))\\.(AppImage|appimage)$",
       "executableFileMatchMac": "^(desmume(.*))\\.app$",
-      "downloadUrl": "https://github.com/TASEmulators/desmume/releases/latest"
+      "downloadUrl": {
+        "win": [
+          "https://github.com/TASEmulators/desmume/releases/latest"
+        ],
+        "mac": [
+          "https://github.com/TASEmulators/desmume/releases/latest"
+        ],
+        "linux": [
+          "https://github.com/TASEmulators/desmume/releases/latest"
+        ]
+      }
     }
   ],
   "directExecutionMode": "none",

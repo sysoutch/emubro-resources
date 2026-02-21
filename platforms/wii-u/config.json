@@ -52,7 +52,17 @@
       "executableFileMatchWin": "^(cemu)\\.exe$",
       "executableFileMatchLinux": "^(cemu(.*))\\.(AppImage|appimage)$",
       "executableFileMatchMac": "^(cemu(.*))\\.app$",
-      "downloadUrl": "https://github.com/cemu-project/Cemu/releases/latest"
+      "downloadUrl": {
+        "win": [
+          "https://github.com/cemu-project/Cemu/releases/latest"
+        ],
+        "mac": [
+          "https://github.com/cemu-project/Cemu/releases/latest"
+        ],
+        "linux": [
+          "https://github.com/cemu-project/Cemu/releases/latest"
+        ]
+      }
     }
   ],
   "directExecutionMode": "none",

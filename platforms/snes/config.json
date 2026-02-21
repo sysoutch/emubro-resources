@@ -62,7 +62,17 @@
       "executableFileMatchWin": "^(retroarch)\\.exe$",
       "executableFileMatchLinux": "^(retroarch(.*))\\.(AppImage|appimage)$",
       "executableFileMatchMac": "^(retroarch(.*))\\.app$",
-      "downloadUrl": "https://github.com/libretro/RetroArch/releases/latest"
+      "downloadUrl": {
+        "win": [
+          "https://github.com/libretro/RetroArch/releases/latest"
+        ],
+        "mac": [
+          "https://github.com/libretro/RetroArch/releases/latest"
+        ],
+        "linux": [
+          "https://github.com/libretro/RetroArch/releases/latest"
+        ]
+      }
     },
     {
       "name": "bsnes",
@@ -94,7 +104,17 @@
       "executableFileMatchWin": "^(bsnes.*)\\.exe$",
       "executableFileMatchLinux": "^(bsnes(.*))\\.(AppImage|appimage)$",
       "executableFileMatchMac": "^(bsnes(.*))\\.app$",
-      "downloadUrl": "https://github.com/bsnes-emu/bsnes/releases/latest"
+      "downloadUrl": {
+        "win": [
+          "https://github.com/bsnes-emu/bsnes/releases/download/nightly/bsnes-windows.zip"
+        ],
+        "mac": [
+          "https://github.com/bsnes-emu/bsnes/releases/download/nightly/bsnes-macos.zip"
+        ],
+        "linux": [
+          "https://github.com/bsnes-emu/bsnes/releases/download/nightly/bsnes-ubuntu.zip"
+        ]
+      }
     },
     {
       "name": "Snes9x",
@@ -126,7 +146,17 @@
       "executableFileMatchWin": "^(snes9x.*)\\.exe$",
       "executableFileMatchLinux": "^(snes9x(.*))\\.(AppImage|appimage)$",
       "executableFileMatchMac": "^(snes9x(.*))\\.app$",
-      "downloadUrl": "https://github.com/snes9xgit/snes9x/releases/latest"
+      "downloadUrl": {
+        "win": [
+          "https://github.com/snes9xgit/snes9x/releases/latest"
+        ],
+        "mac": [
+          "https://github.com/snes9xgit/snes9x/releases/latest"
+        ],
+        "linux": [
+          "https://github.com/snes9xgit/snes9x/releases/latest"
+        ]
+      }
     },
     {
       "name": "ZSNES",
@@ -158,7 +188,17 @@
       "executableFileMatchWin": "^(zsnesw)\\.exe$|^(zsnes)$",
       "executableFileMatchLinux": "^(zsnes(.*))\\.(AppImage|appimage)$",
       "executableFileMatchMac": "^(zsnes(.*))\\.app$",
-      "downloadUrl": "http://www.emuparadise.me/Super_Nintendo_Entertainment_System_(SNES)_Emulators/Windows/ZSNES/24"
+      "downloadUrl": {
+        "win": [
+          "http://www.emuparadise.me/Super_Nintendo_Entertainment_System_(SNES)_Emulators/Windows/ZSNES/24"
+        ],
+        "mac": [
+          "http://www.emuparadise.me/Super_Nintendo_Entertainment_System_(SNES)_Emulators/Windows/ZSNES/24"
+        ],
+        "linux": [
+          "http://www.emuparadise.me/Super_Nintendo_Entertainment_System_(SNES)_Emulators/Windows/ZSNES/24"
+        ]
+      }
     },
     {
       "name": "FakeNES",
@@ -171,7 +211,7 @@
       "path": "",
       "iconFilename": "fakenes.png",
       "configFilePath": "fakenesw.cfg",
-      "website": "https://sourceforge.net/projects/fakenes/files/",
+      "website": "https://fakenes.sourceforge.net/",
       "startParameters": "%emupath% %gamepath%",
       "supportedFileTypes": [
         ".zip",
@@ -190,7 +230,17 @@
       "executableFileMatchWin": "^(fakenesw)\\.exe$|^(fakenes)$",
       "executableFileMatchLinux": "^(fakenes(.*))\\.(AppImage|appimage)$",
       "executableFileMatchMac": "^(fakenes(.*))\\.app$",
-      "downloadUrl": "https://sourceforge.net/projects/fakenes/files/"
+      "downloadUrl": {
+        "win": [
+          "https://sourceforge.net/projects/fakenes/files/latest/download"
+        ],
+        "mac": [
+          "https://sourceforge.net/projects/fakenes/files/latest/download"
+        ],
+        "linux": [
+          "https://sourceforge.net/projects/fakenes/files/latest/download"
+        ]
+      }
     }
   ],
   "directExecutionMode": "none",

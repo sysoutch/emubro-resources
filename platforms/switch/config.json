@@ -50,7 +50,17 @@
       "executableFileMatchWin": "^(Ryujinx)\\.exe$",
       "executableFileMatchLinux": "^(ryujinx(.*))\\.(AppImage|appimage)$",
       "executableFileMatchMac": "^(ryujinx(.*))\\.app$",
-      "downloadUrl": "https://github.com/Ryujinx/release-channel-master/releases/latest"
+      "downloadUrl": {
+        "win": [
+          "https://github.com/Ryujinx/release-channel-master/releases/latest"
+        ],
+        "mac": [
+          "https://github.com/Ryujinx/release-channel-master/releases/latest"
+        ],
+        "linux": [
+          "https://github.com/Ryujinx/release-channel-master/releases/latest"
+        ]
+      }
     },
     {
       "name": "yuzu",
@@ -82,7 +92,17 @@
       "executableFileMatchWin": "^(yuzu)\\.exe$",
       "executableFileMatchLinux": "^(yuzu(.*))\\.(AppImage|appimage)$",
       "executableFileMatchMac": "^(yuzu(.*))\\.app$",
-      "downloadUrl": "https://yuzu-emu.org/downloads/"
+      "downloadUrl": {
+        "win": [
+          "https://yuzu-emu.org/downloads/"
+        ],
+        "mac": [
+          "https://yuzu-emu.org/downloads/"
+        ],
+        "linux": [
+          "https://yuzu-emu.org/downloads/"
+        ]
+      }
     }
   ],
   "directExecutionMode": "none",

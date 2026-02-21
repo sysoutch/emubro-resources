@@ -51,7 +51,17 @@
       "executableFileMatchWin": "^(cmd)\\.exe$",
       "executableFileMatchLinux": "^(windows-shell(.*))\\.(AppImage|appimage)$|^(windowsshell(.*))\\.(AppImage|appimage)$|^(windows(.*))\\.(AppImage|appimage)$",
       "executableFileMatchMac": "^(windows-shell(.*))\\.app$|^(windowsshell(.*))\\.app$|^(windows(.*))\\.app$",
-      "downloadUrl": "https://www.microsoft.com/resources/documentation/windows/xp/all/proddocs/en-us/cmd.mspx"
+      "downloadUrl": {
+        "win": [
+          "https://www.microsoft.com/resources/documentation/windows/xp/all/proddocs/en-us/cmd.mspx"
+        ],
+        "mac": [
+          "https://www.microsoft.com/resources/documentation/windows/xp/all/proddocs/en-us/cmd.mspx"
+        ],
+        "linux": [
+          "https://www.microsoft.com/resources/documentation/windows/xp/all/proddocs/en-us/cmd.mspx"
+        ]
+      }
     }
   ],
   "directExecutionMode": "windows",

@@ -52,7 +52,17 @@
       "executableFileMatchWin": "^(retroarch)\\.exe$",
       "executableFileMatchLinux": "^(retroarch(.*))\\.(AppImage|appimage)$",
       "executableFileMatchMac": "^(retroarch(.*))\\.app$",
-      "downloadUrl": "https://github.com/libretro/RetroArch/releases/latest"
+      "downloadUrl": {
+        "win": [
+          "https://github.com/libretro/RetroArch/releases/latest"
+        ],
+        "mac": [
+          "https://github.com/libretro/RetroArch/releases/latest"
+        ],
+        "linux": [
+          "https://github.com/libretro/RetroArch/releases/latest"
+        ]
+      }
     },
     {
       "name": "Stella",
@@ -81,7 +91,17 @@
       "executableFileMatchWin": "^(stella)\\.exe$",
       "executableFileMatchLinux": "^(stella(.*))\\.(AppImage|appimage)$",
       "executableFileMatchMac": "^(stella(.*))\\.app$",
-      "downloadUrl": "https://github.com/stella-emu/stella/releases/latest"
+      "downloadUrl": {
+        "win": [
+          "https://github.com/stella-emu/stella/releases/latest"
+        ],
+        "mac": [
+          "https://github.com/stella-emu/stella/releases/latest"
+        ],
+        "linux": [
+          "https://github.com/stella-emu/stella/releases/latest"
+        ]
+      }
     },
     {
       "name": "Pcaewin",
@@ -110,7 +130,17 @@
       "executableFileMatchWin": "^(pcaewin)\\.exe$",
       "executableFileMatchLinux": "^(pcaewin(.*))\\.(AppImage|appimage)$",
       "executableFileMatchMac": "^(pcaewin(.*))\\.app$",
-      "downloadUrl": "http://pcae.vg-network.com/main.html#Downloads"
+      "downloadUrl": {
+        "win": [
+          "http://pcae.vg-network.com/main.html#Downloads"
+        ],
+        "mac": [
+          "http://pcae.vg-network.com/main.html#Downloads"
+        ],
+        "linux": [
+          "http://pcae.vg-network.com/main.html#Downloads"
+        ]
+      }
     },
     {
       "name": "z26",
@@ -139,7 +169,17 @@
       "executableFileMatchWin": "^(z26)\\.exe$",
       "executableFileMatchLinux": "^(z26(.*))\\.(AppImage|appimage)$",
       "executableFileMatchMac": "^(z26(.*))\\.app$",
-      "downloadUrl": "http://www.whimsey.com/z26/"
+      "downloadUrl": {
+        "win": [
+          "http://www.whimsey.com/z26/"
+        ],
+        "mac": [
+          "http://www.whimsey.com/z26/"
+        ],
+        "linux": [
+          "http://www.whimsey.com/z26/"
+        ]
+      }
     }
   ],
   "directExecutionMode": "none",

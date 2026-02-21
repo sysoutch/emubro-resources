@@ -70,7 +70,17 @@
       "executableFileMatchWin": "^(mupen64plus)\\.exe$",
       "executableFileMatchLinux": "^(mupen64plus(.*))\\.(AppImage|appimage)$",
       "executableFileMatchMac": "^(mupen64plus(.*))\\.app$",
-      "downloadUrl": "https://mupen64plus.org/"
+      "downloadUrl": {
+        "win": [
+          "https://mupen64plus.org/"
+        ],
+        "mac": [
+          "https://mupen64plus.org/"
+        ],
+        "linux": [
+          "https://mupen64plus.org/"
+        ]
+      }
     },
     {
       "name": "RetroArch (Mupen64Plus-Next core)",
@@ -109,7 +119,17 @@
       "executableFileMatchWin": "^(retroarch)\\.exe$",
       "executableFileMatchLinux": "^(retroarch(.*))\\.(AppImage|appimage)$",
       "executableFileMatchMac": "^(retroarch(.*))\\.app$",
-      "downloadUrl": "https://github.com/libretro/RetroArch/releases/latest"
+      "downloadUrl": {
+        "win": [
+          "https://github.com/libretro/RetroArch/releases/latest"
+        ],
+        "mac": [
+          "https://github.com/libretro/RetroArch/releases/latest"
+        ],
+        "linux": [
+          "https://github.com/libretro/RetroArch/releases/latest"
+        ]
+      }
     },
     {
       "name": "Project64",
@@ -162,7 +182,17 @@
       "executableFileMatchWin": "^(project64)\\.exe$",
       "executableFileMatchLinux": "^(project64(.*))\\.(AppImage|appimage)$",
       "executableFileMatchMac": "^(project64(.*))\\.app$",
-      "downloadUrl": "https://github.com/project64/project64/releases/latest"
+      "downloadUrl": {
+        "win": [
+          "https://github.com/project64/project64/releases/latest"
+        ],
+        "mac": [
+          "https://github.com/project64/project64/releases/latest"
+        ],
+        "linux": [
+          "https://github.com/project64/project64/releases/latest"
+        ]
+      }
     }
   ],
   "directExecutionMode": "none",

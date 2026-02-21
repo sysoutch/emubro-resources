@@ -69,7 +69,17 @@
       "executableFileMatchWin": "^(retroarch)\\.exe$",
       "executableFileMatchLinux": "^(retroarch(.*))\\.(AppImage|appimage)$",
       "executableFileMatchMac": "^(retroarch(.*))\\.app$",
-      "downloadUrl": "https://github.com/libretro/RetroArch/releases/latest"
+      "downloadUrl": {
+        "win": [
+          "https://github.com/libretro/RetroArch/releases/latest"
+        ],
+        "mac": [
+          "https://github.com/libretro/RetroArch/releases/latest"
+        ],
+        "linux": [
+          "https://github.com/libretro/RetroArch/releases/latest"
+        ]
+      }
     },
     {
       "name": "ScummVM",
@@ -104,7 +114,17 @@
       "executableFileMatchWin": "^(scummvm.*)\\.exe$",
       "executableFileMatchLinux": "^(scummvm(.*))\\.(AppImage|appimage)$",
       "executableFileMatchMac": "^(scummvm(.*))\\.app$",
-      "downloadUrl": "https://github.com/scummvm/scummvm/releases/latest"
+      "downloadUrl": {
+        "win": [
+          "https://github.com/scummvm/scummvm/releases/latest"
+        ],
+        "mac": [
+          "https://github.com/scummvm/scummvm/releases/latest"
+        ],
+        "linux": [
+          "https://github.com/scummvm/scummvm/releases/latest"
+        ]
+      }
     }
   ],
   "directExecutionMode": "none",

@@ -64,7 +64,17 @@
       "executableFileMatchWin": "^(winuae)\\.exe$",
       "executableFileMatchLinux": "^(winuae(.*))\\.(AppImage|appimage)$",
       "executableFileMatchMac": "^(winuae(.*))\\.app$",
-      "downloadUrl": "https://www.winuae.net/download/"
+      "downloadUrl": {
+        "win": [
+          "https://www.winuae.net/download/"
+        ],
+        "mac": [
+          "https://www.winuae.net/download/"
+        ],
+        "linux": [
+          "https://www.winuae.net/download/"
+        ]
+      }
     },
     {
       "name": "FS-UAE",
@@ -101,7 +111,17 @@
       "executableFileMatchWin": "^(fs-uae)\\.exe$",
       "executableFileMatchLinux": "^(fs-uae(.*))\\.(AppImage|appimage)$|^(fsuae(.*))\\.(AppImage|appimage)$",
       "executableFileMatchMac": "^(fs-uae(.*))\\.app$|^(fsuae(.*))\\.app$",
-      "downloadUrl": "https://fs-uae.net/download"
+      "downloadUrl": {
+        "win": [
+          "https://fs-uae.net/download"
+        ],
+        "mac": [
+          "https://fs-uae.net/download"
+        ],
+        "linux": [
+          "https://fs-uae.net/download"
+        ]
+      }
     },
     {
       "name": "RetroArch (PUAE core)",
@@ -138,7 +158,17 @@
       "executableFileMatchWin": "^(retroarch)\\.exe$",
       "executableFileMatchLinux": "^(retroarch(.*))\\.(AppImage|appimage)$",
       "executableFileMatchMac": "^(retroarch(.*))\\.app$",
-      "downloadUrl": "https://github.com/libretro/RetroArch/releases/latest"
+      "downloadUrl": {
+        "win": [
+          "https://github.com/libretro/RetroArch/releases/latest"
+        ],
+        "mac": [
+          "https://github.com/libretro/RetroArch/releases/latest"
+        ],
+        "linux": [
+          "https://github.com/libretro/RetroArch/releases/latest"
+        ]
+      }
     },
     {
       "name": "WinFellow",
@@ -165,7 +195,17 @@
       "executableFileMatchWin": "^(winfellow)\\.exe$",
       "executableFileMatchLinux": "^(winfellow(.*))\\.(AppImage|appimage)$",
       "executableFileMatchMac": "^(winfellow(.*))\\.app$",
-      "downloadUrl": "https://github.com/petschau/WinFellow/releases/latest"
+      "downloadUrl": {
+        "win": [
+          "https://github.com/petschau/WinFellow/releases/latest"
+        ],
+        "mac": [
+          "https://github.com/petschau/WinFellow/releases/latest"
+        ],
+        "linux": [
+          "https://github.com/petschau/WinFellow/releases/latest"
+        ]
+      }
     }
   ],
   "directExecutionMode": "none",

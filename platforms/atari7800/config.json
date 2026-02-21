@@ -54,7 +54,17 @@
       "executableFileMatchWin": "^(retroarch)\\.exe$",
       "executableFileMatchLinux": "^(retroarch(.*))\\.(AppImage|appimage)$",
       "executableFileMatchMac": "^(retroarch(.*))\\.app$",
-      "downloadUrl": "https://github.com/libretro/RetroArch/releases/latest"
+      "downloadUrl": {
+        "win": [
+          "https://github.com/libretro/RetroArch/releases/latest"
+        ],
+        "mac": [
+          "https://github.com/libretro/RetroArch/releases/latest"
+        ],
+        "linux": [
+          "https://github.com/libretro/RetroArch/releases/latest"
+        ]
+      }
     },
     {
       "name": "MESS",
@@ -83,7 +93,17 @@
       "executableFileMatchWin": "^(mess)\\.exe$",
       "executableFileMatchLinux": "^(mess(.*))\\.(AppImage|appimage)$",
       "executableFileMatchMac": "^(mess(.*))\\.app$",
-      "downloadUrl": "https://github.com/mamedev/mame/releases/latest"
+      "downloadUrl": {
+        "win": [
+          "https://github.com/mamedev/mame/releases/latest"
+        ],
+        "mac": [
+          "https://github.com/mamedev/mame/releases/latest"
+        ],
+        "linux": [
+          "https://github.com/mamedev/mame/releases/latest"
+        ]
+      }
     }
   ],
   "directExecutionMode": "none",

@@ -58,7 +58,17 @@
       "executableFileMatchWin": "^(Cxbx-Reloaded)\\.exe$|^(cxbx)\\.exe$",
       "executableFileMatchLinux": "^(cxbx-reloaded(.*))\\.(AppImage|appimage)$|^(cxbxreloaded(.*))\\.(AppImage|appimage)$",
       "executableFileMatchMac": "^(cxbx-reloaded(.*))\\.app$|^(cxbxreloaded(.*))\\.app$",
-      "downloadUrl": "https://github.com/Cxbx-Reloaded/Cxbx-Reloaded/releases/latest"
+      "downloadUrl": {
+        "win": [
+          "https://github.com/Cxbx-Reloaded/Cxbx-Reloaded/releases/latest"
+        ],
+        "mac": [
+          "https://github.com/Cxbx-Reloaded/Cxbx-Reloaded/releases/latest"
+        ],
+        "linux": [
+          "https://github.com/Cxbx-Reloaded/Cxbx-Reloaded/releases/latest"
+        ]
+      }
     },
     {
       "name": "Qemu",
@@ -87,7 +97,17 @@
       "executableFileMatchWin": "^(qemu)\\.exe$",
       "executableFileMatchLinux": "^(qemu(.*))\\.(AppImage|appimage)$",
       "executableFileMatchMac": "^(qemu(.*))\\.app$",
-      "downloadUrl": "https://www.qemu.org/download/"
+      "downloadUrl": {
+        "win": [
+          "https://www.qemu.org/download/"
+        ],
+        "mac": [
+          "https://www.qemu.org/download/"
+        ],
+        "linux": [
+          "https://www.qemu.org/download/"
+        ]
+      }
     },
     {
       "name": "XQEMU",
@@ -116,7 +136,17 @@
       "executableFileMatchWin": "^(xqemu)\\.exe$",
       "executableFileMatchLinux": "^(xqemu(.*))\\.(AppImage|appimage)$",
       "executableFileMatchMac": "^(xqemu(.*))\\.app$",
-      "downloadUrl": "https://github.com/xqemu/xqemu/releases/latest"
+      "downloadUrl": {
+        "win": [
+          "https://github.com/xqemu/xqemu/releases/latest"
+        ],
+        "mac": [
+          "https://github.com/xqemu/xqemu/releases/latest"
+        ],
+        "linux": [
+          "https://github.com/xqemu/xqemu/releases/latest"
+        ]
+      }
     },
     {
       "name": "Xeon",
@@ -145,7 +175,17 @@
       "executableFileMatchWin": "^(xeon)\\.exe$",
       "executableFileMatchLinux": "^(xeon(.*))\\.(AppImage|appimage)$",
       "executableFileMatchMac": "^(xeon(.*))\\.app$",
-      "downloadUrl": "http://www.emulator-zone.com/doc.php/xbox/xeon.html"
+      "downloadUrl": {
+        "win": [
+          "http://www.emulator-zone.com/doc.php/xbox/xeon.html"
+        ],
+        "mac": [
+          "http://www.emulator-zone.com/doc.php/xbox/xeon.html"
+        ],
+        "linux": [
+          "http://www.emulator-zone.com/doc.php/xbox/xeon.html"
+        ]
+      }
     }
   ],
   "directExecutionMode": "none",

@@ -55,7 +55,17 @@
       "executableFileMatchWin": "^(andy)\\.exe$",
       "executableFileMatchLinux": "^(andy(.*))\\.(AppImage|appimage)$",
       "executableFileMatchMac": "^(andy(.*))\\.app$",
-      "downloadUrl": "http://www.andyroid.net/"
+      "downloadUrl": {
+        "win": [
+          "http://www.andyroid.net/"
+        ],
+        "mac": [
+          "http://www.andyroid.net/"
+        ],
+        "linux": [
+          "http://www.andyroid.net/"
+        ]
+      }
     }
   ],
   "directExecutionMode": "none",

@@ -63,7 +63,17 @@
       "autoSearchEnabled": true,
       "biosRequired": false,
       "runCommandsBefore": [],
-      "downloadUrl": "https://github.com/mgba-emu/mgba/releases/latest"
+      "downloadUrl": {
+        "win": [
+          "https://github.com/mgba-emu/mgba/releases/latest"
+        ],
+        "mac": [
+          "https://github.com/mgba-emu/mgba/releases/latest"
+        ],
+        "linux": [
+          "https://github.com/mgba-emu/mgba/releases/latest"
+        ]
+      }
     },
     {
       "name": "SameBoy",
@@ -96,7 +106,17 @@
       "autoSearchEnabled": true,
       "biosRequired": false,
       "runCommandsBefore": [],
-      "downloadUrl": "https://github.com/LIJI32/SameBoy/releases/latest"
+      "downloadUrl": {
+        "win": [
+          "https://github.com/LIJI32/SameBoy/releases/latest"
+        ],
+        "mac": [
+          "https://github.com/LIJI32/SameBoy/releases/latest"
+        ],
+        "linux": [
+          "https://github.com/LIJI32/SameBoy/releases/latest"
+        ]
+      }
     },
     {
       "name": "RetroArch (Gambatte core)",
@@ -129,7 +149,17 @@
       "autoSearchEnabled": true,
       "biosRequired": false,
       "runCommandsBefore": [],
-      "downloadUrl": "https://github.com/libretro/RetroArch/releases/latest"
+      "downloadUrl": {
+        "win": [
+          "https://github.com/libretro/RetroArch/releases/latest"
+        ],
+        "mac": [
+          "https://github.com/libretro/RetroArch/releases/latest"
+        ],
+        "linux": [
+          "https://github.com/libretro/RetroArch/releases/latest"
+        ]
+      }
     },
     {
       "name": "VisualBoyAdvance",
@@ -160,7 +190,17 @@
       "autoSearchEnabled": true,
       "biosRequired": false,
       "runCommandsBefore": [],
-      "downloadUrl": "https://github.com/visualboyadvance-m/visualboyadvance-m/releases/latest"
+      "downloadUrl": {
+        "win": [
+          "https://github.com/visualboyadvance-m/visualboyadvance-m/releases/latest"
+        ],
+        "mac": [
+          "https://github.com/visualboyadvance-m/visualboyadvance-m/releases/latest"
+        ],
+        "linux": [
+          "https://github.com/visualboyadvance-m/visualboyadvance-m/releases/latest"
+        ]
+      }
     },
     {
       "name": "Game Boy Web Emulator",
@@ -195,7 +235,17 @@
       "autoSearchEnabled": false,
       "biosRequired": false,
       "runCommandsBefore": [],
-      "downloadUrl": "https://emubro.net/tools/gameboy-emulator/"
+      "downloadUrl": {
+        "win": [
+          "https://emubro.net/tools/gameboy-emulator/"
+        ],
+        "mac": [
+          "https://emubro.net/tools/gameboy-emulator/"
+        ],
+        "linux": [
+          "https://emubro.net/tools/gameboy-emulator/"
+        ]
+      }
     }
   ],
   "directExecutionMode": "none",
