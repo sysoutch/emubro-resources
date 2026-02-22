@@ -1,61 +1,179 @@
-{  
-  "name":"Nintendo DS",
-  "shortName":"nds",
-  "iconFilename":"",
-  "defaultGameCover":"",
-  "plugins":[
-	{
-	  "covers":"",
-	  "titles":""
-	}
+{
+  "name": "Nintendo DS",
+  "shortName": "nds",
+  "releaseDate": {
+    "us": "2004-11-21",
+    "eu": "2005-03-11",
+    "jp": "2004-12-02"
+  },
+  "companyName": "Nintendo",
+  "iconFilename": "",
+  "defaultGameCover": "",
+  "recommendedEmulators": [
+    "melonDS"
   ],
-  "gameSearchModes":[  
-	 "FILE_FILE_NAME_MATCH",
-	 "ARCHIVE_FILE_NAME_MATCH"
+  "plugins": [
+    {
+      "covers": "",
+      "titles": ""
+    }
   ],
-  "searchFor":"^(.+)\\.nds$|^(.+)\\.srl$",
-  "fileStructure":[  
-
+  "gameSearchModes": [
+    "FILE_FILE_NAME_MATCH",
+    "ARCHIVE_FILE_NAME_MATCH"
   ],
-  "supportedArchiveTypes":[  
-	 ".zip",
-	 ".rar",
-	 ".7z",
-	 ".gz"
+  "searchFor": "^(.+)\\.nds$|^(.+)\\.srl$",
+  "fileStructure": [],
+  "supportedArchiveTypes": [
+    ".zip",
+    ".rar",
+    ".7z",
+    ".gz"
   ],
-  "supportedImageTypes":[  
-
+  "supportedImageTypes": [],
+  "emulators": [
+    {
+      "name": "melonDS",
+      "type": "standalone",
+      "os": [
+        "windows",
+        "linux",
+        "mac"
+      ],
+      "path": "",
+      "iconFilename": "blank.png",
+      "configFilePath": "",
+      "website": "https://melonds.kuribo64.net/downloads.php",
+      "startParameters": "%emupath% %gamepath%",
+      "supportedFileTypes": [
+        ".nds",
+        ".ds",
+        ".srl",
+        ".zip",
+        ".7z",
+        ".rar",
+        ".gz"
+      ],
+      "searchString": "^(melonDS)\\.exe$|^(melonds)\\.exe$",
+      "archiveFileMatchWin": "^(melonDS-(.*)-win_x64)\\.zip$|^(melonds-(.*)-win_x64)\\.zip$",
+      "archiveFileMatchLinux": "^(melonDS-(.*)-linux_x64)\\.tar$|^(melonds-(.*)-linux_x64)\\.tar$",
+      "archiveFileMatchMac": "^(melonDS-(.*)-osx_x64)\\.zip$|^(melonds-(.*)-osx_x64)\\.zip$",
+      "setupFileMatchWin": "",
+      "setupFileMatchLinux": "",
+      "setupFileMatchMac": "",
+      "autoSearchEnabled": true,
+      "biosRequired": false,
+      "runCommandsBefore": [],
+      "executableFileMatchWin": "^(melonDS)\\.exe$|^(melonds)\\.exe$",
+      "executableFileMatchLinux": "^(melonds(.*))\\.(AppImage|appimage)$",
+      "executableFileMatchMac": "^(melonds(.*))\\.app$",
+      "downloadUrl": {
+        "win": [
+          "https://github.com/melonDS-emu/melonDS/releases/latest"
+        ],
+        "mac": [
+          "https://github.com/melonDS-emu/melonDS/releases/latest"
+        ],
+        "linux": [
+          "https://github.com/melonDS-emu/melonDS/releases/latest"
+        ]
+      }
+    },
+    {
+      "name": "RetroArch (melonDS core)",
+      "type": "core",
+      "os": [
+        "windows",
+        "linux",
+        "mac"
+      ],
+      "path": "",
+      "iconFilename": "blank.png",
+      "configFilePath": "",
+      "website": "https://www.retroarch.com/?page=platforms",
+      "startParameters": "%emupath% -L cores\\melonds_libretro.dll %gamepath%",
+      "supportedFileTypes": [
+        ".nds",
+        ".ds",
+        ".srl",
+        ".zip",
+        ".7z",
+        ".rar",
+        ".gz"
+      ],
+      "searchString": "^(retroarch)\\.exe$",
+      "archiveFileMatchWin": "^(RetroArch-Win64)\\.7z$|^(retroarch-(.*)-win_x64)\\.zip$",
+      "archiveFileMatchLinux": "^(RetroArch-Linux-x86_64)\\.tar\\.gz$|^(retroarch-(.*)-linux_x64)\\.tar$",
+      "archiveFileMatchMac": "^(RetroArch_Metal)\\.dmg$|^(retroarch-(.*)-osx_x64)\\.zip$",
+      "setupFileMatchWin": "",
+      "setupFileMatchLinux": "",
+      "setupFileMatchMac": "",
+      "autoSearchEnabled": true,
+      "biosRequired": false,
+      "runCommandsBefore": [],
+      "executableFileMatchWin": "^(retroarch)\\.exe$",
+      "executableFileMatchLinux": "^(retroarch(.*))\\.(AppImage|appimage)$",
+      "executableFileMatchMac": "^(retroarch(.*))\\.app$",
+      "downloadUrl": {
+        "win": [
+          "https://github.com/libretro/RetroArch/releases/latest"
+        ],
+        "mac": [
+          "https://github.com/libretro/RetroArch/releases/latest"
+        ],
+        "linux": [
+          "https://github.com/libretro/RetroArch/releases/latest"
+        ]
+      }
+    },
+    {
+      "name": "DeSmuME",
+      "type": "standalone",
+      "os": [
+        "windows",
+        "linux",
+        "mac"
+      ],
+      "path": "",
+      "iconFilename": "desmume.png",
+      "configFilePath": "desmume.ini",
+      "website": "http://desmume.org/download/",
+      "startParameters": "%emupath% %gamepath%",
+      "supportedFileTypes": [
+        ".nds",
+        ".ds",
+        ".srl",
+        ".zip",
+        ".7z",
+        ".rar",
+        ".gz"
+      ],
+      "searchString": "^(desmume.*)\\.exe$",
+      "archiveFileMatchWin": "^(desmume-(.*)-win_x64)\\.zip$",
+      "archiveFileMatchLinux": "^(desmume-(.*)-linux_x64)\\.tar$",
+      "archiveFileMatchMac": "^(desmume-(.*)-osx_x64)\\.zip$",
+      "setupFileMatchWin": "",
+      "setupFileMatchLinux": "",
+      "setupFileMatchMac": "",
+      "autoSearchEnabled": true,
+      "biosRequired": false,
+      "runCommandsBefore": [],
+      "executableFileMatchWin": "^(desmume.*)\\.exe$",
+      "executableFileMatchLinux": "^(desmume(.*))\\.(AppImage|appimage)$",
+      "executableFileMatchMac": "^(desmume(.*))\\.app$",
+      "downloadUrl": {
+        "win": [
+          "https://github.com/TASEmulators/desmume/releases/latest"
+        ],
+        "mac": [
+          "https://github.com/TASEmulators/desmume/releases/latest"
+        ],
+        "linux": [
+          "https://github.com/TASEmulators/desmume/releases/latest"
+        ]
+      }
+    }
   ],
-  "emulators":[  
-	 {  
-		"name":"DeSmuME",
-		"os":[
-
-		],
-		"path":"",
-		"iconFilename":"desmume.png",
-		"configFilePath":"",
-		"website":"http://desmume.org/download/",
-		"startParameters":"%emupath% %gamepath%",
-		"supportedFileTypes":[  
-		   ".nds",
-		   ".ds",
-		   ".srl",
-		   ".zip",
-		   ".7z",
-		   ".rar",
-		   ".gz"
-		],
-		"searchString":"^(desmume.*)\\.exe$",
-		"archiveFileMatchWin":"^(desmume-(.*)-win_x64)\\.zip$",
-		"archiveFileMatchLinux":"^(desmume-(.*)-linux_x64)\\.tar$",
-		"archiveFileMatchMac":"^(desmume-(.*)-osx_x64)\\.zip$",
-		"setupFileMatchWin":"",
-		"setupFileMatchLinux":"",
-		"setupFileMatchMac":"",
-		"autoSearchEnabled":true
-	 }
-  ],
-  "directExecutionMode":"none",
-  "autoSearchEnabled":true
+  "directExecutionMode": "none",
+  "autoSearchEnabled": true
 }

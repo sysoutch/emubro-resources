@@ -1,61 +1,200 @@
-{  
-  "name":"Nintendo 64",
-  "shortName":"n64",
-  "iconFilename":"",
-  "defaultGameCover":"",
-  "plugins":[
-	{
-	  "covers":"",
-	  "titles":""
-	}
+{
+  "name": "Nintendo 64",
+  "shortName": "n64",
+  "releaseDate": {
+    "us": "1996-09-29",
+    "eu": "1997-03-01",
+    "jp": "1996-06-23"
+  },
+  "companyName": "Nintendo",
+  "iconFilename": "",
+  "defaultGameCover": "",
+  "recommendedEmulators": [
+    "Mupen64Plus",
+    "Project64"
   ],
-  "gameSearchModes":[  
-	 "FILE_FILE_NAME_MATCH",
-	 "ARCHIVE_FILE_NAME_MATCH",
-	 "IMAGE_FILE_NAME_MATCH"
+  "plugins": [
+    {
+      "covers": "",
+      "titles": ""
+    }
   ],
-  "searchFor":"^(.*)\\.z64$|^(.*)\\.v64$|^(.*)\\.n64$",
-  "fileStructure":[  
-
+  "gameSearchModes": [
+    "FILE_FILE_NAME_MATCH",
+    "ARCHIVE_FILE_NAME_MATCH",
+    "IMAGE_FILE_NAME_MATCH"
   ],
-  "supportedArchiveTypes":[  
-	 ".zip"
+  "searchFor": "^(.*)\\.z64$|^(.*)\\.v64$|^(.*)\\.n64$",
+  "fileStructure": [],
+  "supportedArchiveTypes": [
+    ".zip"
   ],
-  "supportedImageTypes":[  
-	 ".bin"
+  "supportedImageTypes": [
+    ".bin"
   ],
-  "emulators":[  
-	 {  
-		"name":"Project64",
-		"os":[
-
-		],
-		"path":"",
-		"iconFilename":"project64.png",
-		"configFilePath":"/config/project64.cfg",
-		"website":"https://www.emuparadise.me/Nintendo_64_Emulators/Windows/Project64/45",
-		"startParameters":"%emupath% %gamepath%",
-		"supportedFileTypes":[  
-		   ".bin",
-		   ".zip",
-		   ".z64",
-		   ".v64",
-		   ".n64",
-		   ".rom",
-		   ".usa",
-		   ".jap",
-		   ".pal"
-		],
-		"searchString":"^(project64)\\.exe$",
-		"archiveFileMatchWin":"^(project64)\\.rar$",
-		"archiveFileMatchLinux":"^(project64)\\.tar$",
-		"archiveFileMatchMac":"^(project64)\\.zip$",
-		"setupFileMatchWin":"",
-		"setupFileMatchLinux":"",
-		"setupFileMatchMac":"",
-		"autoSearchEnabled":true
-	 }
+  "emulators": [
+    {
+      "name": "Mupen64Plus",
+      "type": "standalone",
+      "os": [
+        "windows",
+        "linux",
+        "mac"
+      ],
+      "path": "",
+      "iconFilename": "blank.png",
+      "configFilePath": "",
+      "website": "https://mupen64plus.org/",
+      "startParameters": "%emupath% %gamepath%",
+      "supportedFileTypes": [
+        ".bin",
+        ".zip",
+        ".z64",
+        ".v64",
+        ".n64",
+        ".rom",
+        ".usa",
+        ".jap",
+        ".pal"
+      ],
+      "searchString": "^(mupen64plus)\\.exe$",
+      "archiveFileMatchWin": "^(mupen64plus-(.*)-win_x64)\\.zip$",
+      "archiveFileMatchLinux": "^(mupen64plus-(.*)-linux_x64)\\.tar$",
+      "archiveFileMatchMac": "^(mupen64plus-(.*)-osx_x64)\\.zip$",
+      "setupFileMatchWin": "",
+      "setupFileMatchLinux": "",
+      "setupFileMatchMac": "",
+      "autoSearchEnabled": true,
+      "biosRequired": false,
+      "runCommandsBefore": [],
+      "executableFileMatchWin": "^(mupen64plus)\\.exe$",
+      "executableFileMatchLinux": "^(mupen64plus(.*))\\.(AppImage|appimage)$",
+      "executableFileMatchMac": "^(mupen64plus(.*))\\.app$",
+      "downloadUrl": {
+        "win": [
+          "https://mupen64plus.org/"
+        ],
+        "mac": [
+          "https://mupen64plus.org/"
+        ],
+        "linux": [
+          "https://mupen64plus.org/"
+        ]
+      }
+    },
+    {
+      "name": "RetroArch (Mupen64Plus-Next core)",
+      "type": "core",
+      "os": [
+        "windows",
+        "linux",
+        "mac"
+      ],
+      "path": "",
+      "iconFilename": "blank.png",
+      "configFilePath": "",
+      "website": "https://www.retroarch.com/?page=platforms",
+      "startParameters": "%emupath% -L cores\\mupen64plus_next_libretro.dll %gamepath%",
+      "supportedFileTypes": [
+        ".bin",
+        ".zip",
+        ".z64",
+        ".v64",
+        ".n64",
+        ".rom",
+        ".usa",
+        ".jap",
+        ".pal"
+      ],
+      "searchString": "^(retroarch)\\.exe$",
+      "archiveFileMatchWin": "^(RetroArch-Win64)\\.7z$|^(retroarch-(.*)-win_x64)\\.zip$",
+      "archiveFileMatchLinux": "^(RetroArch-Linux-x86_64)\\.tar\\.gz$|^(retroarch-(.*)-linux_x64)\\.tar$",
+      "archiveFileMatchMac": "^(RetroArch_Metal)\\.dmg$|^(retroarch-(.*)-osx_x64)\\.zip$",
+      "setupFileMatchWin": "",
+      "setupFileMatchLinux": "",
+      "setupFileMatchMac": "",
+      "autoSearchEnabled": true,
+      "biosRequired": false,
+      "runCommandsBefore": [],
+      "executableFileMatchWin": "^(retroarch)\\.exe$",
+      "executableFileMatchLinux": "^(retroarch(.*))\\.(AppImage|appimage)$",
+      "executableFileMatchMac": "^(retroarch(.*))\\.app$",
+      "downloadUrl": {
+        "win": [
+          "https://github.com/libretro/RetroArch/releases/latest"
+        ],
+        "mac": [
+          "https://github.com/libretro/RetroArch/releases/latest"
+        ],
+        "linux": [
+          "https://github.com/libretro/RetroArch/releases/latest"
+        ]
+      }
+    },
+    {
+      "name": "Project64",
+      "type": "standalone",
+      "os": [
+        "windows"
+      ],
+      "path": "",
+      "iconFilename": "project64.png",
+      "configFilePath": "/config/project64.cfg",
+      "website": "https://www.pj64-emu.com/nightly-builds",
+      "startParameters": "%emupath% %gamepath%",
+      "supportedFileTypes": [
+        ".bin",
+        ".zip",
+        ".z64",
+        ".v64",
+        ".n64",
+        ".rom",
+        ".usa",
+        ".jap",
+        ".pal"
+      ],
+      "searchString": "^(project64)\\.exe$",
+      "archiveFileMatchWin": "^(project64)\\.rar$",
+      "archiveFileMatchLinux": "^(project64)\\.tar$",
+      "archiveFileMatchMac": "^(project64)\\.zip$",
+      "setupFileMatchWin": "",
+      "setupFileMatchLinux": "",
+      "setupFileMatchMac": "",
+      "autoSearchEnabled": true,
+      "biosRequired": false,
+      "runCommandsBefore": [
+        "reg",
+        "delete",
+        "\"HKCU\\SOFTWARE\\Project64\"",
+        "/v",
+        "\"user\"",
+        "/f",
+        "/reg:64",
+        "|",
+        "reg",
+        "delete",
+        "\"HKCU\\SOFTWARE\\Project64\"",
+        "/v",
+        "\"user\"",
+        "/f",
+        "/reg:32"
+      ],
+      "executableFileMatchWin": "^(project64)\\.exe$",
+      "executableFileMatchLinux": "^(project64(.*))\\.(AppImage|appimage)$",
+      "executableFileMatchMac": "^(project64(.*))\\.app$",
+      "downloadUrl": {
+        "win": [
+          "https://github.com/project64/project64/releases/latest"
+        ],
+        "mac": [
+          "https://github.com/project64/project64/releases/latest"
+        ],
+        "linux": [
+          "https://github.com/project64/project64/releases/latest"
+        ]
+      }
+    }
   ],
-  "directExecutionMode":"none",
-  "autoSearchEnabled":true
+  "directExecutionMode": "none",
+  "autoSearchEnabled": true
 }

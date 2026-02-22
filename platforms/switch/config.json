@@ -1,68 +1,110 @@
-{  
-  "name":"Nintendo Switch",
-  "shortName":"switch",
-  "iconFilename":"",
-  "defaultGameCover":"",
-  "gameSearchModes":[  
-	 "FILE_FILE_NAME_MATCH"
+{
+  "name": "Nintendo Switch",
+  "shortName": "switch",
+  "releaseDate": {
+    "us": "2017-03-03",
+    "eu": "2017-03-03",
+    "jp": "2017-03-03"
+  },
+  "companyName": "Nintendo",
+  "iconFilename": "",
+  "defaultGameCover": "",
+  "recommendedEmulators": [
+    "yuzu"
   ],
-  "searchFor":"^(.*)\\.nso$|^(.*)\\.nro$",
-  "fileStructure":[  
-
+  "gameSearchModes": [
+    "FILE_FILE_NAME_MATCH"
   ],
-  "supportedArchiveTypes":[  
-
+  "searchFor": "^(.*)\\.nsp$|^(.*)\\.xci$",
+  "fileStructure": [],
+  "supportedArchiveTypes": [],
+  "supportedImageTypes": [],
+  "emulators": [
+    {
+      "name": "Ryujinx",
+      "type": "standalone",
+      "os": [
+        "windows",
+        "linux",
+        "mac"
+      ],
+      "path": "",
+      "iconFilename": "ryujinx.png",
+      "configFilePath": "",
+      "website": "https://ryujinx.org/download",
+      "startParameters": "%emupath% %gamepath%",
+      "supportedFileTypes": [
+        ".nsp",
+        ".xci"
+      ],
+      "searchString": "^(Ryujinx)\\.exe$",
+      "archiveFileMatchWin": "^(ryujinx-(.*)-win_x64)\\.zip$",
+      "archiveFileMatchLinux": "^(ryujinx-(.*)-linux_x64)\\.tar$",
+      "archiveFileMatchMac": "^(ryujinx-(.*)-osx_x64)\\.zip$",
+      "setupFileMatchWin": "",
+      "setupFileMatchLinux": "",
+      "setupFileMatchMac": "",
+      "autoSearchEnabled": true,
+      "biosRequired": false,
+      "runCommandsBefore": [],
+      "executableFileMatchWin": "^(Ryujinx)\\.exe$",
+      "executableFileMatchLinux": "^(ryujinx(.*))\\.(AppImage|appimage)$",
+      "executableFileMatchMac": "^(ryujinx(.*))\\.app$",
+      "downloadUrl": {
+        "win": [
+          "https://github.com/Ryujinx/release-channel-master/releases/latest"
+        ],
+        "mac": [
+          "https://github.com/Ryujinx/release-channel-master/releases/latest"
+        ],
+        "linux": [
+          "https://github.com/Ryujinx/release-channel-master/releases/latest"
+        ]
+      }
+    },
+    {
+      "name": "yuzu",
+      "type": "standalone",
+      "os": [
+        "windows",
+        "linux",
+        "mac"
+      ],
+      "path": "",
+      "iconFilename": "yuzu.png",
+      "configFilePath": "",
+      "website": "https://yuzu-emu.org/downloads/",
+      "startParameters": "%emupath% -g %gamepath%",
+      "supportedFileTypes": [
+        ".nsp",
+        ".xci"
+      ],
+      "searchString": "^(yuzu)\\.exe$",
+      "archiveFileMatchWin": "^(yuzu-(.*)-win_x64)\\.zip$",
+      "archiveFileMatchLinux": "^(yuzu-(.*)-linux_x64)\\.tar$",
+      "archiveFileMatchMac": "^(yuzu-(.*)-osx_x64)\\.zip$",
+      "setupFileMatchWin": "",
+      "setupFileMatchLinux": "",
+      "setupFileMatchMac": "",
+      "autoSearchEnabled": true,
+      "biosRequired": false,
+      "runCommandsBefore": [],
+      "executableFileMatchWin": "^(yuzu)\\.exe$",
+      "executableFileMatchLinux": "^(yuzu(.*))\\.(AppImage|appimage)$",
+      "executableFileMatchMac": "^(yuzu(.*))\\.app$",
+      "downloadUrl": {
+        "win": [
+          "https://yuzu-emu.org/downloads/"
+        ],
+        "mac": [
+          "https://yuzu-emu.org/downloads/"
+        ],
+        "linux": [
+          "https://yuzu-emu.org/downloads/"
+        ]
+      }
+    }
   ],
-  "supportedImageTypes":[ 
-  ],
-  "emulators":[
-	 {  
-		"name":"Ryujinx",
-		"os":[
-
-		],
-		"path":"",
-		"iconFilename":"ryujinx.png",
-		"configFilePath":"",
-		"website":"https://ryujinx.org/download",
-		"startParameters":"%emupath% %gamepath%",
-		"supportedFileTypes":[  
-		   ".nso",
-		   ".nro"
-		],
-		"searchString":"^(Ryujinx)\\.exe$",
-		"archiveFileMatchWin":"^(ryujinx-(.*)-win_x64)\\.zip$",
-		"archiveFileMatchLinux":"^(ryujinx-(.*)-linux_x64)\\.tar$",
-		"archiveFileMatchMac":"^(ryujinx-(.*)-osx_x64)\\.zip$",
-		"setupFileMatchWin":"",
-		"setupFileMatchLinux":"",
-		"setupFileMatchMac":"",
-		"autoSearchEnabled":true
-	 },
-	 {  
-		"name":"yuzu",
-		"os":[
-
-		],
-		"path":"",
-		"iconFilename":"yuzu.png",
-		"configFilePath":"",
-		"website":"https://yuzu-emu.org/downloads/",
-		"startParameters":"%emupath% %gamepath%",
-		"supportedFileTypes":[  
-		   ".nso",
-		   ".nro"
-		],
-		"searchString":"^(yuzu)\\.exe$",
-		"archiveFileMatchWin":"^(yuzu-(.*)-win_x64)\\.zip$",
-		"archiveFileMatchLinux":"^(yuzu-(.*)-linux_x64)\\.tar$",
-		"archiveFileMatchMac":"^(yuzu-(.*)-osx_x64)\\.zip$",
-		"setupFileMatchWin":"",
-		"setupFileMatchLinux":"",
-		"setupFileMatchMac":"",
-		"autoSearchEnabled":true
-	 }
-  ],
-  "directExecutionMode":"none",
-  "autoSearchEnabled":true
+  "directExecutionMode": "none",
+  "autoSearchEnabled": true
 }

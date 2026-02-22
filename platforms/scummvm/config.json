@@ -1,63 +1,132 @@
-{  
-  "name":"ScummVM",
-  "shortName":"scummvm",
-  "iconFilename":"",
-  "defaultGameCover":"",
-  "plugins":[
-	{
-	  "covers":"",
-	  "titles":""
-	}
+{
+  "name": "ScummVM",
+  "shortName": "scummvm",
+  "releaseDate": {
+    "us": "2001-10-08",
+    "eu": "2001-10-08",
+    "jp": "2001-10-08"
+  },
+  "companyName": "",
+  "iconFilename": "",
+  "defaultGameCover": "",
+  "recommendedEmulators": [
+    "ScummVM"
   ],
-  "gameSearchModes":[  
-	 "FILE_STRUCTURE_MATCH"
+  "plugins": [
+    {
+      "covers": "",
+      "titles": ""
+    }
   ],
-  "supportedArchiveTypes":[  
-
+  "gameSearchModes": [
+    "FILE_STRUCTURE_MATCH"
   ],
-  "supportedImageTypes":[  
-
+  "supportedArchiveTypes": [],
+  "supportedImageTypes": [],
+  "searchFor": "^(.+)\\.la[0-9]+$",
+  "fileStructure": [
+    {
+      "folderName": "RESOURCE",
+      "files": [
+        "^(.+)\\.bun$",
+        "^(.+)\\.nut$",
+        "^(.+)\\.san$",
+        "^(.+)\\.tab$"
+      ]
+    }
   ],
-  "searchFor":"^(.+)\\.la[0-9]+$",
-  "fileStructure":[  
-	 {  
-		"folderName":"RESOURCE",
-		"files":[  
-		   "^(.+)\\.bun$",
-		   "^(.+)\\.nut$",
-		   "^(.+)\\.san$",
-		   "^(.+)\\.tab$"
-		]
-	 }
+  "emulators": [
+    {
+      "name": "RetroArch (ScummVM core)",
+      "type": "core",
+      "os": [
+        "windows",
+        "linux",
+        "mac"
+      ],
+      "path": "",
+      "iconFilename": "blank.png",
+      "configFilePath": "",
+      "website": "https://www.retroarch.com/?page=platforms",
+      "startParameters": "%emupath% -L cores\\scummvm_libretro.dll %gamepath%",
+      "supportedFileTypes": [
+        ".la0",
+        ".bun",
+        ".nut",
+        ".san",
+        ".tab"
+      ],
+      "searchString": "^(retroarch)\\.exe$",
+      "archiveFileMatchWin": "^(RetroArch-Win64)\\.7z$|^(retroarch-(.*)-win_x64)\\.zip$",
+      "archiveFileMatchLinux": "^(RetroArch-Linux-x86_64)\\.tar\\.gz$|^(retroarch-(.*)-linux_x64)\\.tar$",
+      "archiveFileMatchMac": "^(RetroArch_Metal)\\.dmg$|^(retroarch-(.*)-osx_x64)\\.zip$",
+      "setupFileMatchWin": "",
+      "setupFileMatchLinux": "",
+      "setupFileMatchMac": "",
+      "autoSearchEnabled": true,
+      "biosRequired": false,
+      "runCommandsBefore": [],
+      "executableFileMatchWin": "^(retroarch)\\.exe$",
+      "executableFileMatchLinux": "^(retroarch(.*))\\.(AppImage|appimage)$",
+      "executableFileMatchMac": "^(retroarch(.*))\\.app$",
+      "downloadUrl": {
+        "win": [
+          "https://github.com/libretro/RetroArch/releases/latest"
+        ],
+        "mac": [
+          "https://github.com/libretro/RetroArch/releases/latest"
+        ],
+        "linux": [
+          "https://github.com/libretro/RetroArch/releases/latest"
+        ]
+      }
+    },
+    {
+      "name": "ScummVM",
+      "type": "standalone",
+      "os": [
+        "windows",
+        "linux",
+        "mac"
+      ],
+      "path": "",
+      "iconFilename": "scummvm.png",
+      "configFilePath": "",
+      "website": "http://scummvm.org/downloads/",
+      "startParameters": "%emupath% -f -p %gamedir% %0%",
+      "supportedFileTypes": [
+        ".la0",
+        ".bun",
+        ".nut",
+        ".san",
+        ".tab"
+      ],
+      "searchString": "^(scummvm.*)\\.exe$",
+      "archiveFileMatchWin": "^(scummvm-(.*)-win_x64)\\.zip$",
+      "archiveFileMatchLinux": "^(scummvm-(.*)-linux_x64)\\.tar$",
+      "archiveFileMatchMac": "^(scummvm-(.*)-osx_x64)\\.zip$",
+      "setupFileMatchWin": "",
+      "setupFileMatchLinux": "",
+      "setupFileMatchMac": "",
+      "autoSearchEnabled": true,
+      "biosRequired": false,
+      "runCommandsBefore": [],
+      "executableFileMatchWin": "^(scummvm.*)\\.exe$",
+      "executableFileMatchLinux": "^(scummvm(.*))\\.(AppImage|appimage)$",
+      "executableFileMatchMac": "^(scummvm(.*))\\.app$",
+      "downloadUrl": {
+        "win": [
+          "https://github.com/scummvm/scummvm/releases/latest"
+        ],
+        "mac": [
+          "https://github.com/scummvm/scummvm/releases/latest"
+        ],
+        "linux": [
+          "https://github.com/scummvm/scummvm/releases/latest"
+        ]
+      }
+    }
   ],
-  "emulators":[  
-	 {  
-		"name":"ScummVM",
-		"os":[
-
-		],
-		"path":"",
-		"iconFilename":"scummvm.png",
-		"configFilePath":"",
-		"website":"http://scummvm.org/downloads/",
-		"startParameters":"%emupath% -f -p %gamedir% %0%",
-		"supportedFileTypes":[  
-		   ".la0",
-		   ".bun",
-		   ".nut",
-		   ".san",
-		   ".tab"
-		],
-		"searchString":"^(scummvm.*)\\.exe$",
-		"archiveFileMatchWin":"^(scummvm-(.*)-win_x64)\\.zip$",
-		"archiveFileMatchLinux":"^(scummvm-(.*)-linux_x64)\\.tar$",
-		"archiveFileMatchMac":"^(scummvm-(.*)-osx_x64)\\.zip$",
-		"setupFileMatchWin":"",
-		"setupFileMatchLinux":"",
-		"setupFileMatchMac":"",
-		"autoSearchEnabled":true
-	 }
-  ],
-  "directExecutionMode":"none",
-  "autoSearchEnabled":true
+  "directExecutionMode": "none",
+  "autoSearchEnabled": true
 }

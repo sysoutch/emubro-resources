@@ -1,0 +1,69 @@
+{
+  "name": "Microsoft Windows",
+  "shortName": "pc",
+  "releaseDate": {
+    "us": "1985-11-20",
+    "eu": "1985-11-20",
+    "jp": "1985-11-20"
+  },
+  "companyName": "Microsoft",
+  "iconFilename": "",
+  "defaultGameCover": "",
+  "recommendedEmulators": [
+    "Windows Shell"
+  ],
+  "plugins": [
+    {
+      "covers": "",
+      "titles": ""
+    }
+  ],
+  "gameSearchModes": [
+    "FILE_FILE_NAME_MATCH"
+  ],
+  "searchFor": "",
+  "fileStructure": [],
+  "supportedArchiveTypes": [],
+  "supportedImageTypes": [],
+  "emulators": [
+    {
+      "name": "Windows Shell",
+      "type": "standalone",
+      "os": [
+        "windows"
+      ],
+      "path": "%windir%\\system32\\cmd.exe",
+      "iconFilename": "win-8.png",
+      "configFilePath": "",
+      "website": "https://www.microsoft.com/resources/documentation/windows/xp/all/proddocs/en-us/cmd.mspx",
+      "startParameters": "%gamepath%",
+      "supportedFileTypes": [],
+      "searchString": "^(cmd)\\.exe$",
+      "archiveFileMatchWin": "",
+      "archiveFileMatchLinux": "",
+      "archiveFileMatchMac": "",
+      "setupFileMatchWin": "",
+      "setupFileMatchLinux": "",
+      "setupFileMatchMac": "",
+      "autoSearchEnabled": false,
+      "biosRequired": false,
+      "runCommandsBefore": [],
+      "executableFileMatchWin": "^(cmd)\\.exe$",
+      "executableFileMatchLinux": "^(windows-shell(.*))\\.(AppImage|appimage)$|^(windowsshell(.*))\\.(AppImage|appimage)$|^(windows(.*))\\.(AppImage|appimage)$",
+      "executableFileMatchMac": "^(windows-shell(.*))\\.app$|^(windowsshell(.*))\\.app$|^(windows(.*))\\.app$",
+      "downloadUrl": {
+        "win": [
+          "https://www.microsoft.com/resources/documentation/windows/xp/all/proddocs/en-us/cmd.mspx"
+        ],
+        "mac": [
+          "https://www.microsoft.com/resources/documentation/windows/xp/all/proddocs/en-us/cmd.mspx"
+        ],
+        "linux": [
+          "https://www.microsoft.com/resources/documentation/windows/xp/all/proddocs/en-us/cmd.mspx"
+        ]
+      }
+    }
+  ],
+  "directExecutionMode": "windows",
+  "autoSearchEnabled": false
+}

@@ -1,71 +1,157 @@
-{  
-  "name":"Nintendo GameCube",
-  "shortName":"gcn",
-  "iconFilename":"",
-  "defaultGameCover":"",
-  "gameSearchModes":[  
-	 "FILE_FILE_NAME_MATCH",
-	 "IMAGE_FILE_NAME_MATCH"
+{
+  "name": "Nintendo GameCube",
+  "shortName": "gcn",
+  "releaseDate": {
+    "us": "2001-11-18",
+    "eu": "2002-05-03",
+    "jp": "2001-09-14"
+  },
+  "companyName": "Nintendo",
+  "iconFilename": "",
+  "defaultGameCover": "",
+  "recommendedEmulators": [
+    "Dolphin"
   ],
-  "searchFor":"^(.+)\\.gcm$|^(.+)\\.gcs$",
-  "fileStructure":[  
-
+  "gameSearchModes": [
+    "FILE_FILE_NAME_MATCH",
+    "IMAGE_FILE_NAME_MATCH"
   ],
-  "supportedArchiveTypes":[  
-
+  "searchFor": "^(.+)\\.gcm$|^(.+)\\.gcs$",
+  "fileStructure": [],
+  "supportedArchiveTypes": [],
+  "supportedImageTypes": [
+    ".iso",
+    ".ciso"
   ],
-  "supportedImageTypes":[  
-	 ".iso",
-	 ".ciso"
+  "emulators": [
+    {
+      "name": "RetroArch (Dolphin core)",
+      "type": "core",
+      "os": [
+        "windows",
+        "linux",
+        "mac"
+      ],
+      "path": "",
+      "iconFilename": "blank.png",
+      "configFilePath": "",
+      "website": "https://www.retroarch.com/?page=platforms",
+      "startParameters": "%emupath% -L cores\\dolphin_libretro.dll %gamepath%",
+      "supportedFileTypes": [
+        "^\\.gcm$",
+        "^\\.gcz$",
+        ".iso"
+      ],
+      "searchString": "^(retroarch)\\.exe$",
+      "archiveFileMatchWin": "^(RetroArch-Win64)\\.7z$|^(retroarch-(.*)-win_x64)\\.zip$",
+      "archiveFileMatchLinux": "^(RetroArch-Linux-x86_64)\\.tar\\.gz$|^(retroarch-(.*)-linux_x64)\\.tar$",
+      "archiveFileMatchMac": "^(RetroArch_Metal)\\.dmg$|^(retroarch-(.*)-osx_x64)\\.zip$",
+      "setupFileMatchWin": "",
+      "setupFileMatchLinux": "",
+      "setupFileMatchMac": "",
+      "autoSearchEnabled": true,
+      "biosRequired": false,
+      "runCommandsBefore": [],
+      "executableFileMatchWin": "^(retroarch)\\.exe$",
+      "executableFileMatchLinux": "^(retroarch(.*))\\.(AppImage|appimage)$",
+      "executableFileMatchMac": "^(retroarch(.*))\\.app$",
+      "downloadUrl": {
+        "win": [
+          "https://github.com/libretro/RetroArch/releases/latest"
+        ],
+        "mac": [
+          "https://github.com/libretro/RetroArch/releases/latest"
+        ],
+        "linux": [
+          "https://github.com/libretro/RetroArch/releases/latest"
+        ]
+      }
+    },
+    {
+      "name": "Dolphin",
+      "type": "standalone",
+      "os": [
+        "windows",
+        "linux",
+        "mac"
+      ],
+      "path": "",
+      "iconFilename": "dolphin.png",
+      "configFilePath": "",
+      "website": "https://dolphin-emu.org/download/",
+      "startParameters": "%emupath% /e %gamepath%",
+      "supportedFileTypes": [
+        "^\\.gcm$",
+        "^\\.gcz$"
+      ],
+      "searchString": "^(dolphin)\\.exe$",
+      "archiveFileMatchWin": "^(dolphin-(.*)-win_x64)\\.zip$",
+      "archiveFileMatchLinux": "^(dolphin-(.*)-linux_x64)\\.tar$",
+      "archiveFileMatchMac": "^(dolphin-(.*)-osx_x64)\\.zip$",
+      "setupFileMatchWin": "",
+      "setupFileMatchLinux": "",
+      "setupFileMatchMac": "",
+      "autoSearchEnabled": true,
+      "biosRequired": false,
+      "runCommandsBefore": [],
+      "executableFileMatchWin": "^(dolphin)\\.exe$",
+      "executableFileMatchLinux": "^(dolphin(.*))\\.(AppImage|appimage)$",
+      "executableFileMatchMac": "^(dolphin(.*))\\.app$",
+      "downloadUrl": {
+        "win": [
+          "https://github.com/dolphin-emu/dolphin/releases/latest"
+        ],
+        "mac": [
+          "https://github.com/dolphin-emu/dolphin/releases/latest"
+        ],
+        "linux": [
+          "https://github.com/dolphin-emu/dolphin/releases/latest"
+        ]
+      }
+    },
+    {
+      "name": "Dolphin VR",
+      "type": "standalone",
+      "os": [
+        "windows",
+        "linux",
+        "mac"
+      ],
+      "path": "",
+      "iconFilename": "dolphin.png",
+      "configFilePath": "",
+      "website": "https://dolphinvr.wordpress.com/downloads/",
+      "startParameters": "%emupath% /e %gamepath%",
+      "supportedFileTypes": [
+        "^\\.gcm$",
+        "^\\.gcz$"
+      ],
+      "searchString": "^(dolphin)\\.exe$",
+      "archiveFileMatchWin": "^(dolphin-(.*)-win_x64)\\.zip$",
+      "archiveFileMatchLinux": "^(dolphin-(.*)-linux_x64)\\.tar$",
+      "archiveFileMatchMac": "^(dolphin-(.*)-osx_x64)\\.zip$",
+      "setupFileMatchWin": "",
+      "setupFileMatchLinux": "",
+      "setupFileMatchMac": "",
+      "autoSearchEnabled": true,
+      "biosRequired": false,
+      "runCommandsBefore": [],
+      "executableFileMatchWin": "^(dolphin)\\.exe$",
+      "executableFileMatchLinux": "^(dolphin-vr(.*))\\.(AppImage|appimage)$|^(dolphinvr(.*))\\.(AppImage|appimage)$|^(dolphin(.*))\\.(AppImage|appimage)$",
+      "executableFileMatchMac": "^(dolphin-vr(.*))\\.app$|^(dolphinvr(.*))\\.app$|^(dolphin(.*))\\.app$",
+      "downloadUrl": {
+        "win": [
+          "https://github.com/dolphin-emu/dolphin/releases/latest"
+        ],
+        "mac": [
+          "https://github.com/dolphin-emu/dolphin/releases/latest"
+        ],
+        "linux": [
+          "https://github.com/dolphin-emu/dolphin/releases/latest"
+        ]
+      }
+    }
   ],
-  "emulators":[  
-	 {  
-		"name":"Dolphin",
-		"os":[
-
-		],
-		"path":"",
-		"iconFilename":"dolphin.png",
-		"configFilePath":"",
-		"website":"https://dolphin-emu.org/download/",
-		"startParameters":"%emupath% /e %gamepath%",
-		"supportedFileTypes":[  
-		   "^\\.gcm$",
-		   "^\\.gcz$"
-		],
-		"searchString":"^(dolphin)\\.exe$",
-		"archiveFileMatchWin":"^(dolphin-(.*)-win_x64)\\.zip$",
-		"archiveFileMatchLinux":"^(dolphin-(.*)-linux_x64)\\.tar$",
-		"archiveFileMatchMac":"^(dolphin-(.*)-osx_x64)\\.zip$",
-		"setupFileMatchWin":"",
-		"setupFileMatchLinux":"",
-		"setupFileMatchMac":"",
-		"autoSearchEnabled":true
-	 },
-	 {  
-		"name":"Dolphin VR",
-		"os":[
-
-		],
-		"path":"",
-		"iconFilename":"dolphin.png",
-		"configFilePath":"",
-		"website":"https://dolphinvr.wordpress.com/downloads/",
-		"startParameters":"%emupath% /e %gamepath%",
-		"supportedFileTypes":[  
-		   "^\\.gcm$",
-		   "^\\.gcz$"
-		],
-		"searchString":"^(dolphin)\\.exe$",
-		"archiveFileMatchWin":"^(dolphin-(.*)-win_x64)\\.zip$",
-		"archiveFileMatchLinux":"^(dolphin-(.*)-linux_x64)\\.tar$",
-		"archiveFileMatchMac":"^(dolphin-(.*)-osx_x64)\\.zip$",
-		"setupFileMatchWin":"",
-		"setupFileMatchLinux":"",
-		"setupFileMatchMac":"",
-		"autoSearchEnabled":true
-	 }
-  ],
-  "directExecutionMode":"none",
-  "autoSearchEnabled":true
+  "directExecutionMode": "none",
+  "autoSearchEnabled": true
 }

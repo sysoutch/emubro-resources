@@ -1,60 +1,85 @@
-{  
-  "name":"Sony Playstation 2",
-  "shortName":"ps2",
-  "iconFilename":"",
-  "defaultGameCover":"",
-  "plugins":[
-	{
-	  "covers":"",
-	  "titles":""
-	}
+{
+  "name": "Sony Playstation 2",
+  "shortName": "ps2",
+  "releaseDate": {
+    "us": "2000-10-26",
+    "eu": "2000-11-24",
+    "jp": "2000-03-04"
+  },
+  "companyName": "Sony",
+  "iconFilename": "",
+  "defaultGameCover": "",
+  "recommendedEmulators": [
+    "PCSX2"
   ],
-  "gameSearchModes":[  
-	 "FILE_FILE_NAME_MATCH",
-	 "IMAGE_FILE_NAME_MATCH"
+  "plugins": [
+    {
+      "covers": "",
+      "titles": ""
+    }
   ],
-  "searchFor":"",
-  "fileStructure":[  
-
+  "gameSearchModes": [
+    "FILE_FILE_NAME_MATCH",
+    "IMAGE_FILE_NAME_MATCH"
   ],
-  "supportedArchiveTypes":[  
-
+  "searchFor": "",
+  "fileStructure": [],
+  "supportedArchiveTypes": [],
+  "supportedImageTypes": [
+    ".iso",
+    ".bin",
+    ".cue",
+    ".img",
+    ".mdf",
+    ".nrg"
   ],
-  "supportedImageTypes":[  
-	 ".iso",
-	 ".bin",
-	 ".img",
-	 ".mdf",
-	 ".nrg"
+  "emulators": [
+    {
+      "name": "PCSX2",
+      "type": "standalone",
+      "os": [
+        "windows",
+        "linux",
+        "mac"
+      ],
+      "path": "",
+      "iconFilename": "pcsx2.png",
+      "configFilePath": "",
+      "website": "https://pcsx2.net/downloads",
+      "startParameters": "%emupath% %gamepath%",
+      "supportedFileTypes": [
+        ".iso",
+        ".bin",
+        ".img",
+        ".mdf",
+        ".nrg"
+      ],
+      "searchString": "^(pcsx2-r\\d+)\\.exe$|^(pcsx2)\\.exe$",
+      "archiveFileMatchWin": "^(pcsx2-(.*)-win_x64)\\.zip$",
+      "archiveFileMatchLinux": "^(pcsx2-(.*)-linux_x64)\\.tar$",
+      "archiveFileMatchMac": "^(pcsx2-(.*)-osx_x64)\\.zip$",
+      "setupFileMatchWin": "",
+      "setupFileMatchLinux": "",
+      "setupFileMatchMac": "",
+      "autoSearchEnabled": true,
+      "biosRequired": true,
+      "runCommandsBefore": [],
+      "executableFileMatchWin": "^(pcsx2-r\\d+)\\.exe$|^(pcsx2)\\.exe$",
+      "executableFileMatchLinux": "^(pcsx2(.*))\\.(AppImage|appimage)$",
+      "executableFileMatchMac": "^(pcsx2(.*))\\.app$",
+      "downloadUrl": {
+        "win": [
+          "https://github.com/PCSX2/pcsx2/releases/latest"
+        ],
+        "mac": [
+          "https://github.com/PCSX2/pcsx2/releases/latest"
+        ],
+        "linux": [
+          "https://github.com/PCSX2/pcsx2/releases/latest"
+        ]
+      }
+    }
   ],
-  "emulators":[  
-	 {  
-		"name":"PCSX2",
-		"os":[
-
-		],
-		"path":"",
-		"iconFilename":"pcsx2.png",
-		"configFilePath":"",
-		"website":"http://pcsx2.net/download/releases.html",
-		"startParameters":"%emupath% %gamepath%",
-		"supportedFileTypes":[  
-		   ".iso",
-		   ".bin",
-		   ".img",
-		   ".mdf",
-		   ".nrg"
-		],
-		"searchString":"^(pcsx2-r\\d+)\\.exe$|^(pcsx2)\\.exe$",
-		"archiveFileMatchWin":"^(pcsx2-(.*)-win_x64)\\.zip$",
-		"archiveFileMatchLinux":"^(pcsx2-(.*)-linux_x64)\\.tar$",
-		"archiveFileMatchMac":"^(pcsx2-(.*)-osx_x64)\\.zip$",
-		"setupFileMatchWin":"",
-		"setupFileMatchLinux":"",
-		"setupFileMatchMac":"",
-		"autoSearchEnabled":true
-	 }
-  ],
-  "directExecutionMode":"none",
-  "autoSearchEnabled":true
+  "directExecutionMode": "none",
+  "autoSearchEnabled": true
 }

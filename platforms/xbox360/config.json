@@ -1,51 +1,71 @@
-{  
-  "name":"Microsoft Xbox 360",
-  "shortName":"xbox360",
-  "iconFilename":"",
-  "defaultGameCover":"",
-  "plugins":[
-	{
-	  "covers":"",
-	  "titles":""
-	}
+{
+  "name": "Microsoft Xbox 360",
+  "shortName": "xbox360",
+  "releaseDate": {
+    "us": "2005-11-22",
+    "eu": "2005-12-02",
+    "jp": "2005-12-10"
+  },
+  "companyName": "Microsoft",
+  "iconFilename": "",
+  "defaultGameCover": "",
+  "recommendedEmulators": [
+    "Xenia"
   ],
-  "gameSearchModes":[  
-	 "FILE_FILE_NAME_MATCH"
+  "plugins": [
+    {
+      "covers": "",
+      "titles": ""
+    }
   ],
-  "searchFor":"",
-  "fileStructure":[  
-
+  "gameSearchModes": [
+    "FILE_FILE_NAME_MATCH"
   ],
-  "supportedArchiveTypes":[  
-
+  "searchFor": "",
+  "fileStructure": [],
+  "supportedArchiveTypes": [],
+  "supportedImageTypes": [],
+  "emulators": [
+    {
+      "name": "Xenia",
+      "type": "standalone",
+      "os": [
+        "windows",
+        "linux",
+        "mac"
+      ],
+      "path": "",
+      "iconFilename": "xenia.png",
+      "configFilePath": "",
+      "website": "http://xenia.jp/download/",
+      "startParameters": "%gamepath%",
+      "supportedFileTypes": [],
+      "searchString": "^(xenia)\\.exe$",
+      "archiveFileMatchWin": "^(xenia-(.*)-win_x64)\\.zip$",
+      "archiveFileMatchLinux": "^(xenia-(.*)-linux_x64)\\.tar$",
+      "archiveFileMatchMac": "^(xenia-(.*)-osx_x64)\\.zip$",
+      "setupFileMatchWin": "",
+      "setupFileMatchLinux": "",
+      "setupFileMatchMac": "",
+      "autoSearchEnabled": true,
+      "biosRequired": false,
+      "runCommandsBefore": [],
+      "executableFileMatchWin": "^(xenia)\\.exe$",
+      "executableFileMatchLinux": "^(xenia(.*))\\.(AppImage|appimage)$",
+      "executableFileMatchMac": "^(xenia(.*))\\.app$",
+      "downloadUrl": {
+        "win": [
+          "https://github.com/xenia-project/release-builds-windows/releases/latest"
+        ],
+        "mac": [
+          "https://github.com/xenia-project/release-builds-windows/releases/latest"
+        ],
+        "linux": [
+          "https://github.com/xenia-project/release-builds-windows/releases/latest"
+        ]
+      }
+    }
   ],
-  "supportedImageTypes":[  
-
-  ],
-  "emulators":[  
-	 {  
-		"name":"Xenia",
-		"os":[
-
-		],
-		"path":"",
-		"iconFilename":"xenia.png",
-		"configFilePath":"",
-		"website":"http://xenia.jp/download/",
-		"startParameters":"%gamepath%",
-		"supportedFileTypes":[  
-
-		],
-		"searchString":"^(xenia)\\.exe$",
-		"archiveFileMatchWin":"^(xenia-(.*)-win_x64)\\.zip$",
-		"archiveFileMatchLinux":"^(xenia-(.*)-linux_x64)\\.tar$",
-		"archiveFileMatchMac":"^(xenia-(.*)-osx_x64)\\.zip$",
-		"setupFileMatchWin":"",
-		"setupFileMatchLinux":"",
-		"setupFileMatchMac":"",
-		"autoSearchEnabled":true
-	 }
-  ],
-  "directExecutionMode":"none",
-  "autoSearchEnabled":true
+  "directExecutionMode": "none",
+  "autoSearchEnabled": true
 }

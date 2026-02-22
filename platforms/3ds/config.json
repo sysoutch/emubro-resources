@@ -1,47 +1,111 @@
-{  
-  "name":"Nintendo 3DS",
-  "shortName":"3ds",
-  "iconFilename":"",
-  "defaultGameCover":"",
-  "gameSearchModes":[  
-	 "FILE_FILE_NAME_MATCH",
-	 "ARCHIVE_FILE_NAME_MATCH"
+{
+  "name": "Nintendo 3DS",
+  "shortName": "3ds",
+  "releaseDate": {
+    "us": "2011-03-27",
+    "eu": "2011-03-25",
+    "jp": "2011-02-26"
+  },
+  "companyName": "Nintendo",
+  "iconFilename": "",
+  "defaultGameCover": "",
+  "recommendedEmulators": [
+    "citra"
   ],
-  "searchFor":"^(.+)\\.3ds$|^(.+)\\.3dsx$",
-  "fileStructure":[  
-
+  "gameSearchModes": [
+    "FILE_FILE_NAME_MATCH",
+    "ARCHIVE_FILE_NAME_MATCH"
   ],
-  "supportedArchiveTypes":[  
-
+  "searchFor": "^(.+)\\.3ds$|^(.+)\\.3dsx$",
+  "fileStructure": [],
+  "supportedArchiveTypes": [],
+  "supportedImageTypes": [],
+  "emulators": [
+    {
+      "name": "RetroArch (Citra core)",
+      "type": "core",
+      "os": [
+        "windows",
+        "linux",
+        "mac"
+      ],
+      "path": "",
+      "iconFilename": "blank.png",
+      "configFilePath": "",
+      "website": "https://www.retroarch.com/?page=platforms",
+      "startParameters": "%emupath% -L cores\\citra_libretro.dll %gamepath%",
+      "supportedFileTypes": [
+        ".3ds",
+        ".3dsx"
+      ],
+      "searchString": "^(retroarch)\\.exe$",
+      "archiveFileMatchWin": "^(RetroArch-Win64)\\.7z$|^(retroarch-(.*)-win_x64)\\.zip$",
+      "archiveFileMatchLinux": "^(RetroArch-Linux-x86_64)\\.tar\\.gz$|^(retroarch-(.*)-linux_x64)\\.tar$",
+      "archiveFileMatchMac": "^(RetroArch_Metal)\\.dmg$|^(retroarch-(.*)-osx_x64)\\.zip$",
+      "setupFileMatchWin": "",
+      "setupFileMatchLinux": "",
+      "setupFileMatchMac": "",
+      "autoSearchEnabled": true,
+      "biosRequired": false,
+      "runCommandsBefore": [],
+      "executableFileMatchWin": "^(retroarch)\\.exe$",
+      "executableFileMatchLinux": "^(retroarch(.*))\\.(AppImage|appimage)$",
+      "executableFileMatchMac": "^(retroarch(.*))\\.app$",
+      "downloadUrl": {
+        "win": [
+          "https://github.com/libretro/RetroArch/releases/latest"
+        ],
+        "mac": [
+          "https://github.com/libretro/RetroArch/releases/latest"
+        ],
+        "linux": [
+          "https://github.com/libretro/RetroArch/releases/latest"
+        ]
+      }
+    },
+    {
+      "name": "citra",
+      "type": "standalone",
+      "os": [
+        "windows",
+        "linux",
+        "mac"
+      ],
+      "path": "",
+      "iconFilename": "citra.png",
+      "configFilePath": "",
+      "website": "https://citra-emu.org/download/",
+      "startParameters": "%emupath% %gamepath%",
+      "supportedFileTypes": [
+        ".3ds",
+        ".3dsx"
+      ],
+      "searchString": "^(citra-qt)\\.exe$",
+      "archiveFileMatchWin": "^(citra-(.*)-win_x64)\\.zip$",
+      "archiveFileMatchLinux": "^(citra-(.*)-linux_x64)\\.tar$",
+      "archiveFileMatchMac": "^(citra-(.*)-osx_x64)\\.zip$",
+      "setupFileMatchWin": "",
+      "setupFileMatchLinux": "",
+      "setupFileMatchMac": "",
+      "autoSearchEnabled": true,
+      "biosRequired": false,
+      "runCommandsBefore": [],
+      "executableFileMatchWin": "^(citra-qt)\\.exe$",
+      "executableFileMatchLinux": "^(citra(.*))\\.(AppImage|appimage)$",
+      "executableFileMatchMac": "^(citra(.*))\\.app$",
+      "downloadUrl": {
+        "win": [
+          "https://github.com/PabloMK7/citra/releases/latest"
+        ],
+        "mac": [
+          "https://github.com/PabloMK7/citra/releases/latest"
+        ],
+        "linux": [
+          "https://github.com/PabloMK7/citra/releases/latest"
+        ]
+      }
+    }
   ],
-  "supportedImageTypes":[  
-
-  ],
-  "emulators":[  
-	 {  
-		"name":"citra",
-		"os":[
-
-		],
-		"path":"",
-		"iconFilename":"citra.png",
-		"configFilePath":"",
-		"website":"https://citra-emu.org/download/",
-		"startParameters":"%emupath% %gamepath%",
-		"supportedFileTypes":[  
-		   ".3ds",
-		   ".3dsx"
-		],
-		"searchString":"^(citra-qt)\\.exe$",
-		"archiveFileMatchWin":"^(citra-(.*)-win_x64)\\.zip$",
-		"archiveFileMatchLinux":"^(citra-(.*)-linux_x64)\\.tar$",
-		"archiveFileMatchMac":"^(citra-(.*)-osx_x64)\\.zip$",
-		"setupFileMatchWin":"",
-		"setupFileMatchLinux":"",
-		"setupFileMatchMac":"",
-		"autoSearchEnabled":true
-	 }
-  ],
-  "directExecutionMode":"none",
-  "autoSearchEnabled":true
+  "directExecutionMode": "none",
+  "autoSearchEnabled": true
 }

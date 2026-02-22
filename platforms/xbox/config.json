@@ -1,95 +1,193 @@
-{  
-  "name":"Microsoft Xbox",
-  "shortName":"xbox",
-  "iconFilename":"",
-  "defaultGameCover":"",
-  "plugins":[
-	{
-	  "covers":"",
-	  "titles":""
-	}
+{
+  "name": "Microsoft Xbox",
+  "shortName": "xbox",
+  "releaseDate": {
+    "us": "2001-11-15",
+    "eu": "2002-03-14",
+    "jp": "2002-02-22"
+  },
+  "companyName": "Microsoft",
+  "iconFilename": "",
+  "defaultGameCover": "",
+  "recommendedEmulators": [
+    "Cxbx-Reloaded",
+    "Qemu"
   ],
-  "gameSearchModes":[  
-	 "FILE_FILE_NAME_MATCH"
+  "plugins": [
+    {
+      "covers": "",
+      "titles": ""
+    }
   ],
-  "searchFor":"",
-  "fileStructure":[  
-
+  "gameSearchModes": [
+    "FILE_FILE_NAME_MATCH"
   ],
-  "supportedArchiveTypes":[  
-
+  "searchFor": "",
+  "fileStructure": [],
+  "supportedArchiveTypes": [],
+  "supportedImageTypes": [],
+  "emulators": [
+    {
+      "name": "Cxbx-Reloaded",
+      "type": "standalone",
+      "os": [
+        "windows",
+        "linux",
+        "mac"
+      ],
+      "path": "",
+      "iconFilename": "blank.png",
+      "configFilePath": "",
+      "website": "https://github.com/Cxbx-Reloaded/Cxbx-Reloaded/releases",
+      "startParameters": "%emupath% %gamepath%",
+      "supportedFileTypes": [
+        ".iso",
+        ".xbe",
+        ".xiso"
+      ],
+      "searchString": "^(Cxbx-Reloaded)\\.exe$|^(cxbx)\\.exe$",
+      "archiveFileMatchWin": "^(CxbxReloaded(.*)-VS(.*)-Release)\\.7z$|^(cxbx-reloaded-(.*)-win_x64)\\.zip$",
+      "archiveFileMatchLinux": "^(cxbx-reloaded-(.*)-linux_x64)\\.tar$",
+      "archiveFileMatchMac": "^(cxbx-reloaded-(.*)-osx_x64)\\.zip$",
+      "setupFileMatchWin": "",
+      "setupFileMatchLinux": "",
+      "setupFileMatchMac": "",
+      "autoSearchEnabled": true,
+      "biosRequired": false,
+      "runCommandsBefore": [],
+      "executableFileMatchWin": "^(Cxbx-Reloaded)\\.exe$|^(cxbx)\\.exe$",
+      "executableFileMatchLinux": "^(cxbx-reloaded(.*))\\.(AppImage|appimage)$|^(cxbxreloaded(.*))\\.(AppImage|appimage)$",
+      "executableFileMatchMac": "^(cxbx-reloaded(.*))\\.app$|^(cxbxreloaded(.*))\\.app$",
+      "downloadUrl": {
+        "win": [
+          "https://github.com/Cxbx-Reloaded/Cxbx-Reloaded/releases/latest"
+        ],
+        "mac": [
+          "https://github.com/Cxbx-Reloaded/Cxbx-Reloaded/releases/latest"
+        ],
+        "linux": [
+          "https://github.com/Cxbx-Reloaded/Cxbx-Reloaded/releases/latest"
+        ]
+      }
+    },
+    {
+      "name": "Qemu",
+      "type": "standalone",
+      "os": [
+        "windows",
+        "linux",
+        "mac"
+      ],
+      "path": "",
+      "iconFilename": "blank.png",
+      "configFilePath": "",
+      "website": "http://wiki.qemu.org/Download",
+      "startParameters": "%gamepath%",
+      "supportedFileTypes": [],
+      "searchString": "^(qemu)\\.exe$",
+      "archiveFileMatchWin": "^(qemu-(.*)-win_x64)\\.zip$",
+      "archiveFileMatchLinux": "^(qemu-(.*)-linux_x64)\\.tar$",
+      "archiveFileMatchMac": "^(qemu-(.*)-osx_x64)\\.zip$",
+      "setupFileMatchWin": "",
+      "setupFileMatchLinux": "",
+      "setupFileMatchMac": "",
+      "autoSearchEnabled": true,
+      "biosRequired": false,
+      "runCommandsBefore": [],
+      "executableFileMatchWin": "^(qemu)\\.exe$",
+      "executableFileMatchLinux": "^(qemu(.*))\\.(AppImage|appimage)$",
+      "executableFileMatchMac": "^(qemu(.*))\\.app$",
+      "downloadUrl": {
+        "win": [
+          "https://www.qemu.org/download/"
+        ],
+        "mac": [
+          "https://www.qemu.org/download/"
+        ],
+        "linux": [
+          "https://www.qemu.org/download/"
+        ]
+      }
+    },
+    {
+      "name": "XQEMU",
+      "type": "standalone",
+      "os": [
+        "windows",
+        "linux",
+        "mac"
+      ],
+      "path": "",
+      "iconFilename": "blank.png",
+      "configFilePath": "",
+      "website": "https://github.com/xqemu/xqemu",
+      "startParameters": "%gamepath%",
+      "supportedFileTypes": [],
+      "searchString": "^(xqemu)\\.exe$",
+      "archiveFileMatchWin": "^(xqemu-(.*)-win_x64)\\.zip$",
+      "archiveFileMatchLinux": "^(xqemu-(.*)-linux_x64)\\.tar$",
+      "archiveFileMatchMac": "^(xqemu-(.*)-osx_x64)\\.zip$",
+      "setupFileMatchWin": "",
+      "setupFileMatchLinux": "",
+      "setupFileMatchMac": "",
+      "autoSearchEnabled": true,
+      "biosRequired": false,
+      "runCommandsBefore": [],
+      "executableFileMatchWin": "^(xqemu)\\.exe$",
+      "executableFileMatchLinux": "^(xqemu(.*))\\.(AppImage|appimage)$",
+      "executableFileMatchMac": "^(xqemu(.*))\\.app$",
+      "downloadUrl": {
+        "win": [
+          "https://github.com/xqemu/xqemu/releases/latest"
+        ],
+        "mac": [
+          "https://github.com/xqemu/xqemu/releases/latest"
+        ],
+        "linux": [
+          "https://github.com/xqemu/xqemu/releases/latest"
+        ]
+      }
+    },
+    {
+      "name": "Xeon",
+      "type": "standalone",
+      "os": [
+        "windows",
+        "linux",
+        "mac"
+      ],
+      "path": "",
+      "iconFilename": "xeon.png",
+      "configFilePath": "",
+      "website": "http://www.emulator-zone.com/doc.php/xbox/xeon.html",
+      "startParameters": "%gamepath%",
+      "supportedFileTypes": [],
+      "searchString": "^(xeon)\\.exe$",
+      "archiveFileMatchWin": "^(xeon-(.*)-win_x64)\\.zip$",
+      "archiveFileMatchLinux": "^(xeon-(.*)-linux_x64)\\.tar$",
+      "archiveFileMatchMac": "^(xeon-(.*)-osx_x64)\\.zip$",
+      "setupFileMatchWin": "",
+      "setupFileMatchLinux": "",
+      "setupFileMatchMac": "",
+      "autoSearchEnabled": true,
+      "biosRequired": false,
+      "runCommandsBefore": [],
+      "executableFileMatchWin": "^(xeon)\\.exe$",
+      "executableFileMatchLinux": "^(xeon(.*))\\.(AppImage|appimage)$",
+      "executableFileMatchMac": "^(xeon(.*))\\.app$",
+      "downloadUrl": {
+        "win": [
+          "http://www.emulator-zone.com/doc.php/xbox/xeon.html"
+        ],
+        "mac": [
+          "http://www.emulator-zone.com/doc.php/xbox/xeon.html"
+        ],
+        "linux": [
+          "http://www.emulator-zone.com/doc.php/xbox/xeon.html"
+        ]
+      }
+    }
   ],
-  "supportedImageTypes":[  
-
-  ],
-  "emulators":[  
-	 {  
-		"name":"Qemu",
-		"os":[
-
-		],
-		"path":"",
-		"iconFilename":"blank.png",
-		"configFilePath":"",
-		"website":"http://wiki.qemu.org/Download",
-		"startParameters":"%gamepath%",
-		"supportedFileTypes":[  
-
-		],
-		"searchString":"^(qemu)\\.exe$",
-		"archiveFileMatchWin":"^(qemu-(.*)-win_x64)\\.zip$",
-		"archiveFileMatchLinux":"^(qemu-(.*)-linux_x64)\\.tar$",
-		"archiveFileMatchMac":"^(qemu-(.*)-osx_x64)\\.zip$",
-		"setupFileMatchWin":"",
-		"setupFileMatchLinux":"",
-		"setupFileMatchMac":"",
-		"autoSearchEnabled":true
-	 },
-	 {  
-		"name":"XQEMU",
-		"os":[
-
-		],
-		"path":"",
-		"iconFilename":"blank.png",
-		"configFilePath":"",
-		"website":"https://github.com/xqemu/xqemu",
-		"startParameters":"%gamepath%",
-		"supportedFileTypes":[  
-
-		],
-		"searchString":"^(xqemu)\\.exe$",
-		"archiveFileMatchWin":"^(xqemu-(.*)-win_x64)\\.zip$",
-		"archiveFileMatchLinux":"^(xqemu-(.*)-linux_x64)\\.tar$",
-		"archiveFileMatchMac":"^(xqemu-(.*)-osx_x64)\\.zip$",
-		"setupFileMatchWin":"",
-		"setupFileMatchLinux":"",
-		"setupFileMatchMac":"",
-		"autoSearchEnabled":true
-	 },
-	 {  
-		"name":"Xeon",
-		"os":[
-
-		],
-		"path":"",
-		"iconFilename":"xeon.png",
-		"configFilePath":"",
-		"website":"http://www.emulator-zone.com/doc.php/xbox/xeon.html",
-		"startParameters":"%gamepath%",
-		"supportedFileTypes":[  
-
-		],
-		"searchString":"^(xeon)\\.exe$",
-		"archiveFileMatchWin":"^(xeon-(.*)-win_x64)\\.zip$",
-		"archiveFileMatchLinux":"^(xeon-(.*)-linux_x64)\\.tar$",
-		"archiveFileMatchMac":"^(xeon-(.*)-osx_x64)\\.zip$",
-		"setupFileMatchWin":"",
-		"setupFileMatchLinux":"",
-		"setupFileMatchMac":"",
-		"autoSearchEnabled":true
-	 }
-  ],
-  "directExecutionMode":"none",
-  "autoSearchEnabled":true
+  "directExecutionMode": "none",
+  "autoSearchEnabled": true
 }

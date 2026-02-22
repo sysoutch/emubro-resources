@@ -1,99 +1,248 @@
-{  
-  "name":"Super Nintendo",
-  "shortName":"snes",
-  "iconFilename":"",
-  "defaultGameCover":"",
-  "plugins":[
-	{
-	  "covers":"",
-	  "titles":""
-	}
+{
+  "name": "Super Nintendo",
+  "shortName": "snes",
+  "releaseDate": {
+    "us": "1991-08-23",
+    "eu": "1992-04-11",
+    "jp": "1990-11-21"
+  },
+  "companyName": "Nintendo",
+  "iconFilename": "",
+  "defaultGameCover": "",
+  "recommendedEmulators": [
+    "Snes9x"
   ],
-  "gameSearchModes":[  
-	 "FILE_FILE_NAME_MATCH",
-	 "ARCHIVE_FILE_NAME_MATCH"
+  "plugins": [
+    {
+      "covers": "",
+      "titles": ""
+    }
   ],
-  "searchFor":"^(.+)\\.smc$",
-  "fileStructure":[  
-
+  "gameSearchModes": [
+    "FILE_FILE_NAME_MATCH",
+    "ARCHIVE_FILE_NAME_MATCH"
   ],
-  "supportedArchiveTypes":[  
-	 ".zip"
+  "searchFor": "^(.+)\\.smc|^(.+)\\.sfc$",
+  "fileStructure": [],
+  "supportedArchiveTypes": [
+    ".zip"
   ],
-  "supportedImageTypes":[  
-	 ""
+  "supportedImageTypes": [
+    ""
   ],
-  "emulators":[  
-	 {  
-		"name":"Snes9x",
-		"os":[
-
-		],
-		"path":"",
-		"iconFilename":"snes9x.png",
-		"configFilePath":"snes9x.conf",
-		"website":"http://www.snes9x.com/downloads.php",
-		"startParameters":"%emupath% %gamepath% -fullscreen",
-		"supportedFileTypes":[  
-		   ".zip",
-		   ".smc"
-		],
-		"searchString":"^(snes9x.*)\\.exe$",
-		"archiveFileMatchWin":"^(snes9x-(.*)-win_x64)\\.zip$",
-		"archiveFileMatchLinux":"^(snes9x-(.*)-linux_x64)\\.tar$",
-		"archiveFileMatchMac":"^(snes9x-(.*)-osx_x64)\\.zip$",
-		"setupFileMatchWin":"",
-		"setupFileMatchLinux":"",
-		"setupFileMatchMac":"",
-		"autoSearchEnabled":true
-	 },
-	 {  
-		"name":"ZSNES",
-		"os":[
-
-		],
-		"path":"",
-		"iconFilename":"zsnes.png",
-		"configFilePath":"",
-		"website":"http://www.emuparadise.me/Super_Nintendo_Entertainment_System_(SNES)_Emulators/Windows/ZSNES/24",
-		"startParameters":"%emupath% %gamepath%",
-		"supportedFileTypes":[  
-		   ".zip",
-		   ".smc"
-		],
-		"searchString":"^(zsnesw)\\.exe$|^(zsnes)$",
-		"archiveFileMatchWin":"^(zsnes-(.*)-win_x64)\\.zip$",
-		"archiveFileMatchLinux":"^(zsnes-(.*)-linux_x64)\\.tar$",
-		"archiveFileMatchMac":"^(zsnes-(.*)-osx_x64)\\.zip$",
-		"setupFileMatchWin":"",
-		"setupFileMatchLinux":"",
-		"setupFileMatchMac":"",
-		"autoSearchEnabled":true
-	 },
-	 {  
-		"name":"FakeNES",
-		"os":[
-
-		],
-		"path":"",
-		"iconFilename":"fakenes.png",
-		"configFilePath":"fakenesw.cfg",
-		"website":"https://sourceforge.net/projects/fakenes/files/",
-		"startParameters":"%emupath% %gamepath%",
-		"supportedFileTypes":[  
-		   ".zip",
-		   ".smc"
-		],
-		"searchString":"^(fakenesw)\\.exe$|^(fakenes)$",
-		"archiveFileMatchWin":"^(fakenes-(.*)-win_x64)\\.zip$",
-		"archiveFileMatchLinux":"^(fakenes-(.*)-linux_x64)\\.tar$",
-		"archiveFileMatchMac":"^(fakenes-(.*)-osx_x64)\\.zip$",
-		"setupFileMatchWin":"",
-		"setupFileMatchLinux":"",
-		"setupFileMatchMac":"",
-		"autoSearchEnabled":true
-	 }
+  "emulators": [
+    {
+      "name": "RetroArch (Snes9x core)",
+      "type": "core",
+      "os": [
+        "windows",
+        "linux",
+        "mac"
+      ],
+      "path": "",
+      "iconFilename": "blank.png",
+      "configFilePath": "",
+      "website": "https://www.retroarch.com/?page=platforms",
+      "startParameters": "%emupath% -L cores\\snes9x_libretro.dll %gamepath%",
+      "supportedFileTypes": [
+        ".zip",
+        ".smc",
+        ".sfc"
+      ],
+      "searchString": "^(retroarch)\\.exe$",
+      "archiveFileMatchWin": "^(RetroArch-Win64)\\.7z$|^(retroarch-(.*)-win_x64)\\.zip$",
+      "archiveFileMatchLinux": "^(RetroArch-Linux-x86_64)\\.tar\\.gz$|^(retroarch-(.*)-linux_x64)\\.tar$",
+      "archiveFileMatchMac": "^(RetroArch_Metal)\\.dmg$|^(retroarch-(.*)-osx_x64)\\.zip$",
+      "setupFileMatchWin": "",
+      "setupFileMatchLinux": "",
+      "setupFileMatchMac": "",
+      "autoSearchEnabled": true,
+      "biosRequired": false,
+      "runCommandsBefore": [],
+      "executableFileMatchWin": "^(retroarch)\\.exe$",
+      "executableFileMatchLinux": "^(retroarch(.*))\\.(AppImage|appimage)$",
+      "executableFileMatchMac": "^(retroarch(.*))\\.app$",
+      "downloadUrl": {
+        "win": [
+          "https://github.com/libretro/RetroArch/releases/latest"
+        ],
+        "mac": [
+          "https://github.com/libretro/RetroArch/releases/latest"
+        ],
+        "linux": [
+          "https://github.com/libretro/RetroArch/releases/latest"
+        ]
+      }
+    },
+    {
+      "name": "bsnes",
+      "type": "standalone",
+      "os": [
+        "windows",
+        "linux",
+        "mac"
+      ],
+      "path": "",
+      "iconFilename": "bsnes.png",
+      "configFilePath": "bsnes.conf",
+      "website": "https://bsnes.org/download",
+      "startParameters": "%emupath% %gamepath% -fullscreen",
+      "supportedFileTypes": [
+        ".zip",
+        ".smc"
+      ],
+      "searchString": "^(bsnes.*)\\.exe$",
+      "archiveFileMatchWin": "^(bsnes-windows)\\.zip$",
+      "archiveFileMatchLinux": "^(bsnes-linux)\\.tar$",
+      "archiveFileMatchMac": "^(bsnes-osx)\\.zip$",
+      "setupFileMatchWin": "",
+      "setupFileMatchLinux": "",
+      "setupFileMatchMac": "",
+      "autoSearchEnabled": true,
+      "biosRequired": false,
+      "runCommandsBefore": [],
+      "executableFileMatchWin": "^(bsnes.*)\\.exe$",
+      "executableFileMatchLinux": "^(bsnes(.*))\\.(AppImage|appimage)$",
+      "executableFileMatchMac": "^(bsnes(.*))\\.app$",
+      "downloadUrl": {
+        "win": [
+          "https://github.com/bsnes-emu/bsnes/releases/download/nightly/bsnes-windows.zip"
+        ],
+        "mac": [
+          "https://github.com/bsnes-emu/bsnes/releases/download/nightly/bsnes-macos.zip"
+        ],
+        "linux": [
+          "https://github.com/bsnes-emu/bsnes/releases/download/nightly/bsnes-ubuntu.zip"
+        ]
+      }
+    },
+    {
+      "name": "Snes9x",
+      "type": "standalone",
+      "os": [
+        "windows",
+        "linux",
+        "mac"
+      ],
+      "path": "",
+      "iconFilename": "snes9x.png",
+      "configFilePath": "snes9x.conf",
+      "website": "http://www.snes9x.com/downloads.php",
+      "startParameters": "%emupath% %gamepath% -fullscreen",
+      "supportedFileTypes": [
+        ".zip",
+        ".smc"
+      ],
+      "searchString": "^(snes9x.*)\\.exe$",
+      "archiveFileMatchWin": "^(snes9x-(.*)-win_x64)\\.zip$",
+      "archiveFileMatchLinux": "^(snes9x-(.*)-linux_x64)\\.tar$",
+      "archiveFileMatchMac": "^(snes9x-(.*)-osx_x64)\\.zip$",
+      "setupFileMatchWin": "",
+      "setupFileMatchLinux": "",
+      "setupFileMatchMac": "",
+      "autoSearchEnabled": true,
+      "biosRequired": false,
+      "runCommandsBefore": [],
+      "executableFileMatchWin": "^(snes9x.*)\\.exe$",
+      "executableFileMatchLinux": "^(snes9x(.*))\\.(AppImage|appimage)$",
+      "executableFileMatchMac": "^(snes9x(.*))\\.app$",
+      "downloadUrl": {
+        "win": [
+          "https://github.com/snes9xgit/snes9x/releases/latest"
+        ],
+        "mac": [
+          "https://github.com/snes9xgit/snes9x/releases/latest"
+        ],
+        "linux": [
+          "https://github.com/snes9xgit/snes9x/releases/latest"
+        ]
+      }
+    },
+    {
+      "name": "ZSNES",
+      "type": "standalone",
+      "os": [
+        "windows",
+        "linux",
+        "mac"
+      ],
+      "path": "",
+      "iconFilename": "zsnes.png",
+      "configFilePath": "",
+      "website": "http://www.emuparadise.me/Super_Nintendo_Entertainment_System_(SNES)_Emulators/Windows/ZSNES/24",
+      "startParameters": "%emupath% %gamepath%",
+      "supportedFileTypes": [
+        ".zip",
+        ".smc"
+      ],
+      "searchString": "^(zsnesw)\\.exe$|^(zsnes)$",
+      "archiveFileMatchWin": "^(zsnes-(.*)-win_x64)\\.zip$",
+      "archiveFileMatchLinux": "^(zsnes-(.*)-linux_x64)\\.tar$",
+      "archiveFileMatchMac": "^(zsnes-(.*)-osx_x64)\\.zip$",
+      "setupFileMatchWin": "",
+      "setupFileMatchLinux": "",
+      "setupFileMatchMac": "",
+      "autoSearchEnabled": true,
+      "biosRequired": false,
+      "runCommandsBefore": [],
+      "executableFileMatchWin": "^(zsnesw)\\.exe$|^(zsnes)$",
+      "executableFileMatchLinux": "^(zsnes(.*))\\.(AppImage|appimage)$",
+      "executableFileMatchMac": "^(zsnes(.*))\\.app$",
+      "downloadUrl": {
+        "win": [
+          "http://www.emuparadise.me/Super_Nintendo_Entertainment_System_(SNES)_Emulators/Windows/ZSNES/24"
+        ],
+        "mac": [
+          "http://www.emuparadise.me/Super_Nintendo_Entertainment_System_(SNES)_Emulators/Windows/ZSNES/24"
+        ],
+        "linux": [
+          "http://www.emuparadise.me/Super_Nintendo_Entertainment_System_(SNES)_Emulators/Windows/ZSNES/24"
+        ]
+      }
+    },
+    {
+      "name": "FakeNES",
+      "type": "standalone",
+      "os": [
+        "windows",
+        "linux",
+        "mac"
+      ],
+      "path": "",
+      "iconFilename": "fakenes.png",
+      "configFilePath": "fakenesw.cfg",
+      "website": "https://fakenes.sourceforge.net/",
+      "startParameters": "%emupath% %gamepath%",
+      "supportedFileTypes": [
+        ".zip",
+        ".smc"
+      ],
+      "searchString": "^(fakenesw)\\.exe$|^(fakenes)$",
+      "archiveFileMatchWin": "^(fakenes-(.*)-win_x64)\\.zip$",
+      "archiveFileMatchLinux": "^(fakenes-(.*)-linux_x64)\\.tar$",
+      "archiveFileMatchMac": "^(fakenes-(.*)-osx_x64)\\.zip$",
+      "setupFileMatchWin": "",
+      "setupFileMatchLinux": "",
+      "setupFileMatchMac": "",
+      "autoSearchEnabled": true,
+      "biosRequired": false,
+      "runCommandsBefore": [],
+      "executableFileMatchWin": "^(fakenesw)\\.exe$|^(fakenes)$",
+      "executableFileMatchLinux": "^(fakenes(.*))\\.(AppImage|appimage)$",
+      "executableFileMatchMac": "^(fakenes(.*))\\.app$",
+      "downloadUrl": {
+        "win": [
+          "https://sourceforge.net/projects/fakenes/files/latest/download"
+        ],
+        "mac": [
+          "https://sourceforge.net/projects/fakenes/files/latest/download"
+        ],
+        "linux": [
+          "https://sourceforge.net/projects/fakenes/files/latest/download"
+        ]
+      }
+    }
   ],
-  "directExecutionMode":"none",
-  "autoSearchEnabled":true
+  "directExecutionMode": "none",
+  "autoSearchEnabled": true
 }

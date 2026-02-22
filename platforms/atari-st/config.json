@@ -1,52 +1,161 @@
-{  
-  "name":"Atari ST",
-  "shortName":"atari-st",
-  "iconFilename":"",
-  "defaultGameCover":"",
-  "plugins":[
-	{
-	  "covers":"",
-	  "titles":""
-	}
+{
+  "name": "Atari ST",
+  "shortName": "atari-st",
+  "releaseDate": {
+    "us": "1985-07",
+    "eu": "1985-07",
+    "jp": "1985"
+  },
+  "companyName": "Atari",
+  "iconFilename": "",
+  "defaultGameCover": "",
+  "recommendedEmulators": [
+    "Hatari",
+    "Steem"
   ],
-  "gameSearchModes":[  
-	 "FILE_FILE_NAME_MATCH",
-	 "ARCHIVE_FILE_NAME_MATCH"
+  "plugins": [
+    {
+      "covers": "",
+      "titles": ""
+    }
   ],
-  "searchFor":"",
-  "fileStructure":[  
-
+  "gameSearchModes": [
+    "FILE_FILE_NAME_MATCH",
+    "ARCHIVE_FILE_NAME_MATCH"
   ],
-  "supportedArchiveTypes":[  
-
+  "searchFor": "",
+  "fileStructure": [],
+  "supportedArchiveTypes": [],
+  "supportedImageTypes": [],
+  "emulators": [
+    {
+      "name": "Hatari",
+      "type": "standalone",
+      "os": [
+        "windows",
+        "linux",
+        "mac"
+      ],
+      "path": "",
+      "iconFilename": "blank.png",
+      "configFilePath": "hatari.cfg",
+      "website": "https://hatari.tuxfamily.org/download.html",
+      "startParameters": "%emupath% %gamepath%",
+      "supportedFileTypes": [
+        ".st",
+        ".msa",
+        ".stx",
+        ".zip"
+      ],
+      "searchString": "^(hatari)\\.exe$",
+      "archiveFileMatchWin": "^(hatari-(.*)-win_x64)\\.zip$",
+      "archiveFileMatchLinux": "^(hatari-(.*)-linux_x64)\\.tar$",
+      "archiveFileMatchMac": "^(hatari-(.*)-osx_x64)\\.zip$",
+      "setupFileMatchWin": "",
+      "setupFileMatchLinux": "",
+      "setupFileMatchMac": "",
+      "autoSearchEnabled": true,
+      "biosRequired": false,
+      "runCommandsBefore": [],
+      "executableFileMatchWin": "^(hatari)\\.exe$",
+      "executableFileMatchLinux": "^(hatari(.*))\\.(AppImage|appimage)$",
+      "executableFileMatchMac": "^(hatari(.*))\\.app$",
+      "downloadUrl": {
+        "win": [
+          "https://github.com/hatari/hatari/releases/latest"
+        ],
+        "mac": [
+          "https://github.com/hatari/hatari/releases/latest"
+        ],
+        "linux": [
+          "https://github.com/hatari/hatari/releases/latest"
+        ]
+      }
+    },
+    {
+      "name": "RetroArch (Hatari core)",
+      "type": "core",
+      "os": [
+        "windows",
+        "linux",
+        "mac"
+      ],
+      "path": "",
+      "iconFilename": "blank.png",
+      "configFilePath": "",
+      "website": "https://www.retroarch.com/?page=platforms",
+      "startParameters": "%emupath% -L cores\\hatari_libretro.dll %gamepath%",
+      "supportedFileTypes": [
+        ".st",
+        ".msa",
+        ".stx",
+        ".zip"
+      ],
+      "searchString": "^(retroarch)\\.exe$",
+      "archiveFileMatchWin": "^(RetroArch-Win64)\\.7z$|^(retroarch-(.*)-win_x64)\\.zip$",
+      "archiveFileMatchLinux": "^(RetroArch-Linux-x86_64)\\.tar\\.gz$|^(retroarch-(.*)-linux_x64)\\.tar$",
+      "archiveFileMatchMac": "^(RetroArch_Metal)\\.dmg$|^(retroarch-(.*)-osx_x64)\\.zip$",
+      "setupFileMatchWin": "",
+      "setupFileMatchLinux": "",
+      "setupFileMatchMac": "",
+      "autoSearchEnabled": true,
+      "biosRequired": false,
+      "runCommandsBefore": [],
+      "executableFileMatchWin": "^(retroarch)\\.exe$",
+      "executableFileMatchLinux": "^(retroarch(.*))\\.(AppImage|appimage)$",
+      "executableFileMatchMac": "^(retroarch(.*))\\.app$",
+      "downloadUrl": {
+        "win": [
+          "https://github.com/libretro/RetroArch/releases/latest"
+        ],
+        "mac": [
+          "https://github.com/libretro/RetroArch/releases/latest"
+        ],
+        "linux": [
+          "https://github.com/libretro/RetroArch/releases/latest"
+        ]
+      }
+    },
+    {
+      "name": "Steem",
+      "type": "standalone",
+      "os": [
+        "windows",
+        "linux",
+        "mac"
+      ],
+      "path": "",
+      "iconFilename": "steem.png",
+      "configFilePath": "steem.ini",
+      "website": "http://steem.atari.st/download.htm",
+      "startParameters": "%emupath% %gamepath%",
+      "supportedFileTypes": [],
+      "searchString": "^(steem)\\.exe$|^(steem.*\\+)\\.exe$",
+      "archiveFileMatchWin": "^(steem-(.*)-win_x64)\\.zip$",
+      "archiveFileMatchLinux": "^(steem-(.*)-linux_x64)\\.tar$",
+      "archiveFileMatchMac": "^(steem-(.*)-osx_x64)\\.zip$",
+      "setupFileMatchWin": "",
+      "setupFileMatchLinux": "",
+      "setupFileMatchMac": "",
+      "autoSearchEnabled": true,
+      "biosRequired": false,
+      "runCommandsBefore": [],
+      "executableFileMatchWin": "^(steem)\\.exe$|^(steem.*\\+)\\.exe$",
+      "executableFileMatchLinux": "^(steem(.*))\\.(AppImage|appimage)$",
+      "executableFileMatchMac": "^(steem(.*))\\.app$",
+      "downloadUrl": {
+        "win": [
+          "http://steem.atari.st/download.htm"
+        ],
+        "mac": [
+          "http://steem.atari.st/download.htm"
+        ],
+        "linux": [
+          "http://steem.atari.st/download.htm"
+        ]
+      }
+    }
   ],
-  "supportedImageTypes":[  
-
-  ],
-  "emulators":[  
-	 {  
-		"name":"Steem",
-		"os":[
-
-		],
-		"path":"",
-		"iconFilename":"steem.png",
-		"configFilePath":"steem.ini",
-		"website":"http://steem.atari.st/download.htm",
-		"startParameters":"%emupath% %gamepath%",
-		"supportedFileTypes":[  
-
-		],
-		"searchString":"^(steem)\\.exe$|^(steem.*\\+)\\.exe$",
-		"archiveFileMatchWin":"^(steem-(.*)-win_x64)\\.zip$",
-		"archiveFileMatchLinux":"^(steem-(.*)-linux_x64)\\.tar$",
-		"archiveFileMatchMac":"^(steem-(.*)-osx_x64)\\.zip$",
-		"setupFileMatchWin":"",
-		"setupFileMatchLinux":"",
-		"setupFileMatchMac":"",
-		"autoSearchEnabled":true
-	 }
-  ],
-  "directExecutionMode":"none",
-  "autoSearchEnabled":true
+  "directExecutionMode": "none",
+  "autoSearchEnabled": true
 }

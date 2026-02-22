@@ -1,99 +1,187 @@
-{  
-  "name":"Atari 2600",
-  "shortName":"atari2600",
-  "iconFilename":"",
-  "defaultGameCover":"",
-  "plugins":[
-	{
-	  "covers":"",
-	  "titles":""
-	}
+{
+  "name": "Atari 2600",
+  "shortName": "atari2600",
+  "releaseDate": {
+    "us": "1977-09",
+    "eu": "1978",
+    "jp": "1983"
+  },
+  "companyName": "Atari",
+  "iconFilename": "",
+  "defaultGameCover": "",
+  "recommendedEmulators": [],
+  "plugins": [
+    {
+      "covers": "",
+      "titles": ""
+    }
   ],
-  "gameSearchModes":[  
-	 "FILE_FILE_NAME_MATCH",
-	 "ARCHIVE_FILE_NAME_MATCH"
+  "gameSearchModes": [
+    "FILE_FILE_NAME_MATCH",
+    "ARCHIVE_FILE_NAME_MATCH"
   ],
-  "searchFor":"",
-  "fileStructure":[  
-
+  "searchFor": "",
+  "fileStructure": [],
+  "supportedArchiveTypes": [],
+  "supportedImageTypes": [],
+  "emulators": [
+    {
+      "name": "RetroArch (Stella core)",
+      "type": "core",
+      "os": [
+        "windows",
+        "linux",
+        "mac"
+      ],
+      "path": "",
+      "iconFilename": "blank.png",
+      "configFilePath": "",
+      "website": "https://www.retroarch.com/?page=platforms",
+      "startParameters": "%emupath% -L cores\\stella_libretro.dll %gamepath%",
+      "supportedFileTypes": [],
+      "searchString": "^(retroarch)\\.exe$",
+      "archiveFileMatchWin": "^(RetroArch-Win64)\\.7z$|^(retroarch-(.*)-win_x64)\\.zip$",
+      "archiveFileMatchLinux": "^(RetroArch-Linux-x86_64)\\.tar\\.gz$|^(retroarch-(.*)-linux_x64)\\.tar$",
+      "archiveFileMatchMac": "^(RetroArch_Metal)\\.dmg$|^(retroarch-(.*)-osx_x64)\\.zip$",
+      "setupFileMatchWin": "",
+      "setupFileMatchLinux": "",
+      "setupFileMatchMac": "",
+      "autoSearchEnabled": true,
+      "biosRequired": false,
+      "runCommandsBefore": [],
+      "executableFileMatchWin": "^(retroarch)\\.exe$",
+      "executableFileMatchLinux": "^(retroarch(.*))\\.(AppImage|appimage)$",
+      "executableFileMatchMac": "^(retroarch(.*))\\.app$",
+      "downloadUrl": {
+        "win": [
+          "https://github.com/libretro/RetroArch/releases/latest"
+        ],
+        "mac": [
+          "https://github.com/libretro/RetroArch/releases/latest"
+        ],
+        "linux": [
+          "https://github.com/libretro/RetroArch/releases/latest"
+        ]
+      }
+    },
+    {
+      "name": "Stella",
+      "type": "standalone",
+      "os": [
+        "windows",
+        "linux",
+        "mac"
+      ],
+      "path": "",
+      "iconFilename": "stella.png",
+      "configFilePath": "",
+      "website": "https://stella-emu.github.io/downloads.html",
+      "startParameters": "%emupath% %gamepath%",
+      "supportedFileTypes": [],
+      "searchString": "^(stella)\\.exe$",
+      "archiveFileMatchWin": "^(stella-(.*)-win_x64)\\.zip$",
+      "archiveFileMatchLinux": "^(stella-(.*)-linux_x64)\\.tar$",
+      "archiveFileMatchMac": "^(stella-(.*)-osx_x64)\\.zip$",
+      "setupFileMatchWin": "",
+      "setupFileMatchLinux": "",
+      "setupFileMatchMac": "",
+      "autoSearchEnabled": true,
+      "biosRequired": false,
+      "runCommandsBefore": [],
+      "executableFileMatchWin": "^(stella)\\.exe$",
+      "executableFileMatchLinux": "^(stella(.*))\\.(AppImage|appimage)$",
+      "executableFileMatchMac": "^(stella(.*))\\.app$",
+      "downloadUrl": {
+        "win": [
+          "https://github.com/stella-emu/stella/releases/latest"
+        ],
+        "mac": [
+          "https://github.com/stella-emu/stella/releases/latest"
+        ],
+        "linux": [
+          "https://github.com/stella-emu/stella/releases/latest"
+        ]
+      }
+    },
+    {
+      "name": "Pcaewin",
+      "type": "standalone",
+      "os": [
+        "windows",
+        "linux",
+        "mac"
+      ],
+      "path": "",
+      "iconFilename": "pcaewin.png",
+      "configFilePath": "",
+      "website": "http://pcae.vg-network.com/main.html#Downloads",
+      "startParameters": "%emupath% %gamepath%",
+      "supportedFileTypes": [],
+      "searchString": "^(pcaewin)\\.exe$",
+      "archiveFileMatchWin": "^(pcaewin-(.*)-win_x64)\\.zip$",
+      "archiveFileMatchLinux": "^(pcaewin-(.*)-linux_x64)\\.tar$",
+      "archiveFileMatchMac": "^(pcaewin-(.*)-osx_x64)\\.zip$",
+      "setupFileMatchWin": "",
+      "setupFileMatchLinux": "",
+      "setupFileMatchMac": "",
+      "autoSearchEnabled": true,
+      "biosRequired": false,
+      "runCommandsBefore": [],
+      "executableFileMatchWin": "^(pcaewin)\\.exe$",
+      "executableFileMatchLinux": "^(pcaewin(.*))\\.(AppImage|appimage)$",
+      "executableFileMatchMac": "^(pcaewin(.*))\\.app$",
+      "downloadUrl": {
+        "win": [
+          "http://pcae.vg-network.com/main.html#Downloads"
+        ],
+        "mac": [
+          "http://pcae.vg-network.com/main.html#Downloads"
+        ],
+        "linux": [
+          "http://pcae.vg-network.com/main.html#Downloads"
+        ]
+      }
+    },
+    {
+      "name": "z26",
+      "type": "standalone",
+      "os": [
+        "windows",
+        "linux",
+        "mac"
+      ],
+      "path": "",
+      "iconFilename": "z26.png",
+      "configFilePath": "",
+      "website": "http://www.whimsey.com/z26/",
+      "startParameters": "%emupath% %gamepath%",
+      "supportedFileTypes": [],
+      "searchString": "^(z26)\\.exe$",
+      "archiveFileMatchWin": "^(z26-(.*)-win_x64)\\.zip$",
+      "archiveFileMatchLinux": "^(z26-(.*)-linux_x64)\\.tar$",
+      "archiveFileMatchMac": "^(z26-(.*)-osx_x64)\\.zip$",
+      "setupFileMatchWin": "",
+      "setupFileMatchLinux": "",
+      "setupFileMatchMac": "",
+      "autoSearchEnabled": true,
+      "biosRequired": false,
+      "runCommandsBefore": [],
+      "executableFileMatchWin": "^(z26)\\.exe$",
+      "executableFileMatchLinux": "^(z26(.*))\\.(AppImage|appimage)$",
+      "executableFileMatchMac": "^(z26(.*))\\.app$",
+      "downloadUrl": {
+        "win": [
+          "http://www.whimsey.com/z26/"
+        ],
+        "mac": [
+          "http://www.whimsey.com/z26/"
+        ],
+        "linux": [
+          "http://www.whimsey.com/z26/"
+        ]
+      }
+    }
   ],
-  "supportedArchiveTypes":[  
-
-  ],
-  "supportedImageTypes":[  
-
-  ],
-  "emulators":[  
-	 {  
-		"name":"Stella",
-		"os":[
-
-		],
-		"path":"",
-		"iconFilename":"stella.png",
-		"configFilePath":"",
-		"website":"https://stella-emu.github.io/downloads.html",
-		"startParameters":"%emupath% %gamepath%",
-		"supportedFileTypes":[  
-
-		],
-		"searchString":"^(stella)\\.exe$",
-		"archiveFileMatchWin":"^(stella-(.*)-win_x64)\\.zip$",
-		"archiveFileMatchLinux":"^(stella-(.*)-linux_x64)\\.tar$",
-		"archiveFileMatchMac":"^(stella-(.*)-osx_x64)\\.zip$",
-		"setupFileMatchWin":"",
-		"setupFileMatchLinux":"",
-		"setupFileMatchMac":"",
-		"autoSearchEnabled":true
-	 },
-	 {  
-		"name":"Pcaewin",
-		"os":[
-
-		],
-		"path":"",
-		"iconFilename":"pcaewin.png",
-		"configFilePath":"",
-		"website":"http://pcae.vg-network.com/main.html#Downloads",
-		"startParameters":"%emupath% %gamepath%",
-		"supportedFileTypes":[  
-
-		],
-		"searchString":"^(pcaewin)\\.exe$",
-		"archiveFileMatchWin":"^(pcaewin-(.*)-win_x64)\\.zip$",
-		"archiveFileMatchLinux":"^(pcaewin-(.*)-linux_x64)\\.tar$",
-		"archiveFileMatchMac":"^(pcaewin-(.*)-osx_x64)\\.zip$",
-		"setupFileMatchWin":"",
-		"setupFileMatchLinux":"",
-		"setupFileMatchMac":"",
-		"autoSearchEnabled":true
-	 },
-	 {  
-		"name":"z26",
-		"os":[
-
-		],
-		"path":"",
-		"os":[
-
-		],
-		"iconFilename":"z26.png",
-		"configFilePath":"",
-		"website":"http://www.whimsey.com/z26/",
-		"startParameters":"%emupath% %gamepath%",
-		"supportedFileTypes":[  
-
-		],
-		"searchString":"^(z26)\\.exe$",
-		"archiveFileMatchWin":"^(z26-(.*)-win_x64)\\.zip$",
-		"archiveFileMatchLinux":"^(z26-(.*)-linux_x64)\\.tar$",
-		"archiveFileMatchMac":"^(z26-(.*)-osx_x64)\\.zip$",
-		"setupFileMatchWin":"",
-		"setupFileMatchLinux":"",
-		"setupFileMatchMac":"",
-		"autoSearchEnabled":true
-	 }
-  ],
-  "directExecutionMode":"none",
-  "autoSearchEnabled":true
+  "directExecutionMode": "none",
+  "autoSearchEnabled": true
 }

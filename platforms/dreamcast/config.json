@@ -1,53 +1,215 @@
-{  
-  "name":"Sega Dreamcast",
-  "shortName":"dreamcast",
-  "iconFilename":"",
-  "defaultGameCover":"",
-  "plugins":[
-	{
-	  "covers":"",
-	  "titles":""
-	}
+{
+  "name": "Sega Dreamcast",
+  "shortName": "dreamcast",
+  "releaseDate": {
+    "us": "1999-09-09",
+    "eu": "1999-10-14",
+    "jp": "1998-11-27"
+  },
+  "companyName": "Sega",
+  "iconFilename": "",
+  "defaultGameCover": "",
+  "recommendedEmulators": [
+    "redream"
   ],
-  "gameSearchModes":[  
-	 "FILE_FILE_NAME_MATCH",
-	 "IMAGE_FILE_CONTENT_MATCH"
+  "plugins": [
+    {
+      "covers": "",
+      "titles": ""
+    }
   ],
-  "searchFor":"^(.*)\\.elf$",
-  "fileStructure":[  
-
+  "gameSearchModes": [
+    "FILE_FILE_NAME_MATCH",
+    "IMAGE_FILE_CONTENT_MATCH"
   ],
-  "supportedArchiveTypes":[  
-
+  "searchFor": "^(.*)\\.elf$",
+  "fileStructure": [],
+  "supportedArchiveTypes": [],
+  "supportedImageTypes": [
+    ".bin"
   ],
-  "supportedImageTypes":[  
-	 ".bin"
+  "emulators": [
+    {
+      "name": "redream",
+      "type": "standalone",
+      "os": [
+        "windows",
+        "linux",
+        "mac"
+      ],
+      "path": "",
+      "iconFilename": "blank.png",
+      "configFilePath": "",
+      "website": "https://redream.io/download",
+      "startParameters": "%emupath% %gamepath%",
+      "supportedFileTypes": [
+        ".cdi",
+        ".gdi",
+        ".chd",
+        ".cue",
+        ".bin",
+        ".elf"
+      ],
+      "searchString": "^(redream)\\.exe$",
+      "archiveFileMatchWin": "^(redream-windows-x64)\\.zip$|^(redream-(.*)-win_x64)\\.zip$",
+      "archiveFileMatchLinux": "^(redream-linux-x64)\\.tar\\.gz$|^(redream-(.*)-linux_x64)\\.tar$",
+      "archiveFileMatchMac": "^(redream-macos-x64)\\.zip$|^(redream-(.*)-osx_x64)\\.zip$",
+      "setupFileMatchWin": "",
+      "setupFileMatchLinux": "",
+      "setupFileMatchMac": "",
+      "autoSearchEnabled": true,
+      "biosRequired": false,
+      "runCommandsBefore": [],
+      "executableFileMatchWin": "^(redream)\\.exe$",
+      "executableFileMatchLinux": "^(redream(.*))\\.(AppImage|appimage)$",
+      "executableFileMatchMac": "^(redream(.*))\\.app$",
+      "downloadUrl": {
+        "win": [
+          "https://redream.io/download"
+        ],
+        "mac": [
+          "https://redream.io/download"
+        ],
+        "linux": [
+          "https://redream.io/download"
+        ]
+      }
+    },
+    {
+      "name": "Flycast",
+      "type": "standalone",
+      "os": [
+        "windows",
+        "linux",
+        "mac"
+      ],
+      "path": "",
+      "iconFilename": "blank.png",
+      "configFilePath": "",
+      "website": "https://github.com/flyinghead/flycast/releases",
+      "startParameters": "%emupath% %gamepath%",
+      "supportedFileTypes": [
+        ".cdi",
+        ".gdi",
+        ".chd",
+        ".cue",
+        ".bin",
+        ".elf"
+      ],
+      "searchString": "^(flycast)\\.exe$",
+      "archiveFileMatchWin": "^(flycast-(.*)-win64)\\.zip$|^(flycast-(.*)-windows-x64)\\.zip$",
+      "archiveFileMatchLinux": "^(flycast-(.*)-linux-x64)\\.tar\\.gz$|^(flycast-(.*)-linux_x64)\\.tar$",
+      "archiveFileMatchMac": "^(flycast-(.*)-macos-x64)\\.zip$|^(flycast-(.*)-osx_x64)\\.zip$",
+      "setupFileMatchWin": "",
+      "setupFileMatchLinux": "",
+      "setupFileMatchMac": "",
+      "autoSearchEnabled": true,
+      "biosRequired": false,
+      "runCommandsBefore": [],
+      "executableFileMatchWin": "^(flycast)\\.exe$",
+      "executableFileMatchLinux": "^(flycast(.*))\\.(AppImage|appimage)$",
+      "executableFileMatchMac": "^(flycast(.*))\\.app$",
+      "downloadUrl": {
+        "win": [
+          "https://github.com/flyinghead/flycast/releases/latest"
+        ],
+        "mac": [
+          "https://github.com/flyinghead/flycast/releases/latest"
+        ],
+        "linux": [
+          "https://github.com/flyinghead/flycast/releases/latest"
+        ]
+      }
+    },
+    {
+      "name": "RetroArch (Flycast core)",
+      "type": "core",
+      "os": [
+        "windows",
+        "linux",
+        "mac"
+      ],
+      "path": "",
+      "iconFilename": "blank.png",
+      "configFilePath": "",
+      "website": "https://www.retroarch.com/?page=platforms",
+      "startParameters": "%emupath% -L cores\\flycast_libretro.dll %gamepath%",
+      "supportedFileTypes": [
+        ".cdi",
+        ".gdi",
+        ".chd",
+        ".cue",
+        ".bin",
+        ".elf"
+      ],
+      "searchString": "^(retroarch)\\.exe$",
+      "archiveFileMatchWin": "^(RetroArch-Win64)\\.7z$|^(retroarch-(.*)-win_x64)\\.zip$",
+      "archiveFileMatchLinux": "^(RetroArch-Linux-x86_64)\\.tar\\.gz$|^(retroarch-(.*)-linux_x64)\\.tar$",
+      "archiveFileMatchMac": "^(RetroArch_Metal)\\.dmg$|^(retroarch-(.*)-osx_x64)\\.zip$",
+      "setupFileMatchWin": "",
+      "setupFileMatchLinux": "",
+      "setupFileMatchMac": "",
+      "autoSearchEnabled": true,
+      "biosRequired": false,
+      "runCommandsBefore": [],
+      "executableFileMatchWin": "^(retroarch)\\.exe$",
+      "executableFileMatchLinux": "^(retroarch(.*))\\.(AppImage|appimage)$",
+      "executableFileMatchMac": "^(retroarch(.*))\\.app$",
+      "downloadUrl": {
+        "win": [
+          "https://github.com/libretro/RetroArch/releases/latest"
+        ],
+        "mac": [
+          "https://github.com/libretro/RetroArch/releases/latest"
+        ],
+        "linux": [
+          "https://github.com/libretro/RetroArch/releases/latest"
+        ]
+      }
+    },
+    {
+      "name": "nullDC",
+      "type": "standalone",
+      "os": [
+        "windows",
+        "linux",
+        "mac"
+      ],
+      "path": "",
+      "iconFilename": "nulldc.jpg",
+      "configFilePath": "nulldc.cfg",
+      "website": "https://code.google.com/archive/p/nulldc/downloads",
+      "startParameters": "%emupath% -loadbin %gamepath%",
+      "supportedFileTypes": [
+        ".bin",
+        ".elf"
+      ],
+      "searchString": "^(nulldc.*)\\.exe$",
+      "archiveFileMatchWin": "^(nulldc-(.*)-win_x64)\\.zip$",
+      "archiveFileMatchLinux": "^(nulldc-(.*)-linux_x64)\\.tar$",
+      "archiveFileMatchMac": "^(nulldc-(.*)-osx_x64)\\.zip$",
+      "setupFileMatchWin": "",
+      "setupFileMatchLinux": "",
+      "setupFileMatchMac": "",
+      "autoSearchEnabled": true,
+      "biosRequired": false,
+      "runCommandsBefore": [],
+      "executableFileMatchWin": "^(nulldc.*)\\.exe$",
+      "executableFileMatchLinux": "^(nulldc(.*))\\.(AppImage|appimage)$",
+      "executableFileMatchMac": "^(nulldc(.*))\\.app$",
+      "downloadUrl": {
+        "win": [
+          "https://code.google.com/archive/p/nulldc/downloads"
+        ],
+        "mac": [
+          "https://code.google.com/archive/p/nulldc/downloads"
+        ],
+        "linux": [
+          "https://code.google.com/archive/p/nulldc/downloads"
+        ]
+      }
+    }
   ],
-  "emulators":[  
-	 {  
-		"name":"nullDC",
-		"os":[
-
-		],
-		"path":"",
-		"iconFilename":"nulldc.jpg",
-		"configFilePath":"nulldc.cfg",
-		"website":"https://code.google.com/archive/p/nulldc/downloads",
-		"startParameters":"%emupath% -loadbin %gamepath%",
-		"supportedFileTypes":[  
-		   ".bin",
-		   ".elf"
-		],
-		"searchString":"^(nulldc.*)\\.exe$",
-		"archiveFileMatchWin":"^(nulldc-(.*)-win_x64)\\.zip$",
-		"archiveFileMatchLinux":"^(nulldc-(.*)-linux_x64)\\.tar$",
-		"archiveFileMatchMac":"^(nulldc-(.*)-osx_x64)\\.zip$",
-		"setupFileMatchWin":"",
-		"setupFileMatchLinux":"",
-		"setupFileMatchMac":"",
-		"autoSearchEnabled":true
-	 }
-  ],
-  "directExecutionMode":"none",
-  "autoSearchEnabled":true
+  "directExecutionMode": "none",
+  "autoSearchEnabled": true
 }

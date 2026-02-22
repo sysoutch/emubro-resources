@@ -1,48 +1,70 @@
-{  
-  "name":"Nintendo Wii U",
-  "shortName":"wii-u",
-  "iconFilename":"",
-  "defaultGameCover":"",
-  "gameSearchModes":[  
-	 "FILE_FILE_NAME_MATCH",
-	 "IMAGE_FILE_NAME_MATCH"
+{
+  "name": "Nintendo Wii U",
+  "shortName": "wii-u",
+  "releaseDate": {
+    "us": "2012-11-18",
+    "eu": "2012-11-30",
+    "jp": "2012-12-08"
+  },
+  "companyName": "Nintendo",
+  "iconFilename": "",
+  "defaultGameCover": "",
+  "recommendedEmulators": [
+    "Cemu"
   ],
-  "searchFor":"^(.*)\\.rpx$|^(.*)\\.wud$|^(.*)\\.wux$",
-  "fileStructure":[  
-
+  "gameSearchModes": [
+    "FILE_FILE_NAME_MATCH",
+    "IMAGE_FILE_NAME_MATCH"
   ],
-  "supportedArchiveTypes":[  
-
+  "searchFor": "^(.*)\\.rpx$|^(.*)\\.wud$|^(.*)\\.wux$",
+  "fileStructure": [],
+  "supportedArchiveTypes": [],
+  "supportedImageTypes": [
+    ".iso"
   ],
-  "supportedImageTypes":[  
-	 ".iso"
+  "emulators": [
+    {
+      "name": "Cemu",
+      "type": "standalone",
+      "os": [
+        "windows"
+      ],
+      "path": "",
+      "iconFilename": "cemu.png",
+      "configFilePath": "",
+      "website": "http://cemu.info/#download",
+      "startParameters": "%emupath% -g %gamepath%",
+      "supportedFileTypes": [
+        ".rpx",
+        ".wud",
+        ".wux"
+      ],
+      "searchString": "^(cemu)\\.exe$",
+      "archiveFileMatchWin": "^(cemu_(.*))\\.zip$",
+      "archiveFileMatchLinux": "^(cemu_(.*))\\.tar$",
+      "archiveFileMatchMac": "^(cemu_(.*))\\.zip$",
+      "setupFileMatchWin": "",
+      "setupFileMatchLinux": "",
+      "setupFileMatchMac": "",
+      "autoSearchEnabled": true,
+      "biosRequired": false,
+      "runCommandsBefore": [],
+      "executableFileMatchWin": "^(cemu)\\.exe$",
+      "executableFileMatchLinux": "^(cemu(.*))\\.(AppImage|appimage)$",
+      "executableFileMatchMac": "^(cemu(.*))\\.app$",
+      "downloadUrl": {
+        "win": [
+          "https://github.com/cemu-project/Cemu/releases/latest"
+        ],
+        "mac": [
+          "https://github.com/cemu-project/Cemu/releases/latest"
+        ],
+        "linux": [
+          "https://github.com/cemu-project/Cemu/releases/latest"
+        ]
+      }
+    }
   ],
-  "emulators":[  
-	 {  
-		"name":"Cemu",
-		"os":[
-
-		],
-		"path":"",
-		"iconFilename":"cemu.png",
-		"configFilePath":"",
-		"website":"http://cemu.info/#download",
-		"startParameters":"%emupath% -g %gamepath%",
-		"supportedFileTypes":[  
-		   ".rpx",
-		   ".wud",
-		   ".wux"
-		],
-		"searchString":"^(cemu)\\.exe$",
-		"archiveFileMatchWin":"^(cemu_(.*))\\.zip$",
-		"archiveFileMatchLinux":"^(cemu_(.*))\\.tar$",
-		"archiveFileMatchMac":"^(cemu_(.*))\\.zip$",
-		"setupFileMatchWin":"",
-		"setupFileMatchLinux":"",
-		"setupFileMatchMac":"",
-		"autoSearchEnabled":true
-	 }
-  ],
-  "directExecutionMode":"none",
-  "autoSearchEnabled":true
+  "directExecutionMode": "none",
+  "autoSearchEnabled": true
 }

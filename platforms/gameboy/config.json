@@ -1,52 +1,253 @@
-{  
-  "name":"Game Boy",
-  "shortName":"gameboy",
-  "iconFilename":"",
-  "defaultGameCover":"",
-  "plugins":[
-	{
-	  "covers":"",
-	  "titles":""
-	}
+{
+  "name": "Game Boy",
+  "shortName": "gameboy",
+  "releaseDate": {
+    "us": "1989-07-31",
+    "eu": "1990-09-28",
+    "jp": "1989-04-21"
+  },
+  "companyName": "Nintendo",
+  "iconFilename": "",
+  "defaultGameCover": "",
+  "recommendedEmulators": [
+    "mGBA",
+    "VisualBoyAdvance"
   ],
-  "gameSearchModes":[  
-	 "FILE_FILE_NAME_MATCH",
-	 "ARCHIVE_FILE_NAME_MATCH"
+  "plugins": [
+    {
+      "covers": "",
+      "titles": ""
+    }
   ],
-  "searchFor":"^(.+)\\.gb$",
-  "fileStructure":[  
-
+  "gameSearchModes": [
+    "FILE_FILE_NAME_MATCH",
+    "ARCHIVE_FILE_NAME_MATCH"
   ],
-  "supportedArchiveTypes":[  
-	 ".zip"
+  "searchFor": "^(.+)\\.gb$",
+  "fileStructure": [],
+  "supportedArchiveTypes": [
+    ".zip"
   ],
-  "supportedImageTypes":[  
-	 ""
+  "supportedImageTypes": [
+    ""
   ],
-  "emulators":[  
-	 {  
-		"name":"VisualBoyAdvance",
-		"os":[
-
-		],
-		"path":"",
-		"iconFilename":"visualboyadvance.png",
-		"configFilePath":"vba.ini",
-		"website":"http://www.emulator-zone.com/doc.php/gba/vboyadvance.HTML",
-		"startParameters":"%emupath% %gamepath%",
-		"supportedFileTypes":[  
-		   ".zip"
-		],
-		"searchString":"^(visualboyadvance)\\.exe$",
-		"archiveFileMatchWin":"^(visualboyadvance-(.*)-win_x64)\\.zip$",
-		"archiveFileMatchLinux":"^(visualboyadvance-(.*)-linux_x64)\\.tar$",
-		"archiveFileMatchMac":"^(visualboyadvance-(.*)-osx_x64)\\.zip$",
-		"setupFileMatchWin":"",
-		"setupFileMatchLinux":"",
-		"setupFileMatchMac":"",
-		"autoSearchEnabled":true
-	 }
+  "emulators": [
+    {
+      "name": "mGBA",
+      "type": "standalone",
+      "os": [
+        "windows",
+        "linux",
+        "mac"
+      ],
+      "path": "",
+      "iconFilename": "blank.png",
+      "configFilePath": "",
+      "website": "https://mgba.io/downloads.html",
+      "startParameters": "%emupath% %gamepath%",
+      "supportedFileTypes": [
+        ".gb",
+        ".gbc",
+        ".zip"
+      ],
+      "searchString": "^(mGBA)\\.exe$|^(mgba)\\.exe$",
+      "archiveFileMatchWin": "^(mGBA-(.*)-win64)\\.7z$|^(mgba-(.*)-win_x64)\\.zip$",
+      "archiveFileMatchLinux": "^(mGBA-(.*)-linux-x64)\\.tar\\.xz$|^(mgba-(.*)-linux_x64)\\.tar$",
+      "archiveFileMatchMac": "^(mGBA-(.*)-macos-universal)\\.zip$|^(mgba-(.*)-osx_x64)\\.zip$",
+      "setupFileMatchWin": "",
+      "setupFileMatchLinux": "",
+      "setupFileMatchMac": "",
+      "executableFileMatchWin": "^(mGBA)\\.exe$|^(mgba)\\.exe$",
+      "executableFileMatchLinux": "^(mgba(.*))\\.(AppImage|appimage)$",
+      "executableFileMatchMac": "^(mgba(.*))\\.app$",
+      "autoSearchEnabled": true,
+      "biosRequired": false,
+      "runCommandsBefore": [],
+      "downloadUrl": {
+        "win": [
+          "https://github.com/mgba-emu/mgba/releases/latest"
+        ],
+        "mac": [
+          "https://github.com/mgba-emu/mgba/releases/latest"
+        ],
+        "linux": [
+          "https://github.com/mgba-emu/mgba/releases/latest"
+        ]
+      }
+    },
+    {
+      "name": "SameBoy",
+      "type": "standalone",
+      "os": [
+        "windows",
+        "linux",
+        "mac"
+      ],
+      "path": "",
+      "iconFilename": "blank.png",
+      "configFilePath": "",
+      "website": "https://sameboy.github.io",
+      "startParameters": "%emupath% %gamepath%",
+      "supportedFileTypes": [
+        ".gb",
+        ".gbc",
+        ".zip"
+      ],
+      "searchString": "^(sameboy)\\.exe$",
+      "archiveFileMatchWin": "^(sameboy-(.*)-win64)\\.zip$|^(sameboy-(.*)-win_x64)\\.zip$",
+      "archiveFileMatchLinux": "^(sameboy-(.*)-linux-x64)\\.tar\\.gz$|^(sameboy-(.*)-linux_x64)\\.tar$",
+      "archiveFileMatchMac": "^(sameboy-(.*)-macos)\\.zip$|^(sameboy-(.*)-osx_x64)\\.zip$",
+      "setupFileMatchWin": "",
+      "setupFileMatchLinux": "",
+      "setupFileMatchMac": "",
+      "executableFileMatchWin": "^(sameboy)\\.exe$",
+      "executableFileMatchLinux": "^(sameboy(.*))\\.(AppImage|appimage)$",
+      "executableFileMatchMac": "^(sameboy(.*))\\.app$",
+      "autoSearchEnabled": true,
+      "biosRequired": false,
+      "runCommandsBefore": [],
+      "downloadUrl": {
+        "win": [
+          "https://github.com/LIJI32/SameBoy/releases/latest"
+        ],
+        "mac": [
+          "https://github.com/LIJI32/SameBoy/releases/latest"
+        ],
+        "linux": [
+          "https://github.com/LIJI32/SameBoy/releases/latest"
+        ]
+      }
+    },
+    {
+      "name": "RetroArch (Gambatte core)",
+      "type": "core",
+      "os": [
+        "windows",
+        "linux",
+        "mac"
+      ],
+      "path": "",
+      "iconFilename": "blank.png",
+      "configFilePath": "",
+      "website": "https://www.retroarch.com/?page=platforms",
+      "startParameters": "%emupath% -L cores\\gambatte_libretro.dll %gamepath%",
+      "supportedFileTypes": [
+        ".gb",
+        ".gbc",
+        ".zip"
+      ],
+      "searchString": "^(retroarch)\\.exe$",
+      "archiveFileMatchWin": "^(RetroArch-Win64)\\.7z$|^(retroarch-(.*)-win_x64)\\.zip$",
+      "archiveFileMatchLinux": "^(RetroArch-Linux-x86_64)\\.tar\\.gz$|^(retroarch-(.*)-linux_x64)\\.tar$",
+      "archiveFileMatchMac": "^(RetroArch_Metal)\\.dmg$|^(retroarch-(.*)-osx_x64)\\.zip$",
+      "setupFileMatchWin": "",
+      "setupFileMatchLinux": "",
+      "setupFileMatchMac": "",
+      "executableFileMatchWin": "^(retroarch)\\.exe$",
+      "executableFileMatchLinux": "^(retroarch(.*))\\.(AppImage|appimage)$",
+      "executableFileMatchMac": "^(retroarch(.*))\\.app$",
+      "autoSearchEnabled": true,
+      "biosRequired": false,
+      "runCommandsBefore": [],
+      "downloadUrl": {
+        "win": [
+          "https://github.com/libretro/RetroArch/releases/latest"
+        ],
+        "mac": [
+          "https://github.com/libretro/RetroArch/releases/latest"
+        ],
+        "linux": [
+          "https://github.com/libretro/RetroArch/releases/latest"
+        ]
+      }
+    },
+    {
+      "name": "VisualBoyAdvance",
+      "type": "standalone",
+      "os": [
+        "windows",
+        "linux",
+        "mac"
+      ],
+      "path": "",
+      "iconFilename": "visualboyadvance.png",
+      "configFilePath": "vba.ini",
+      "website": "http://www.emulator-zone.com/doc.php/gba/vboyadvance.HTML",
+      "startParameters": "%emupath% %gamepath%",
+      "supportedFileTypes": [
+        ".zip"
+      ],
+      "searchString": "^(visualboyadvance)\\.exe$",
+      "archiveFileMatchWin": "^(visualboyadvance-(.*)-win_x64)\\.zip$",
+      "archiveFileMatchLinux": "^(visualboyadvance-(.*)-linux_x64)\\.tar$",
+      "archiveFileMatchMac": "^(visualboyadvance-(.*)-osx_x64)\\.zip$",
+      "setupFileMatchWin": "",
+      "setupFileMatchLinux": "",
+      "setupFileMatchMac": "",
+      "executableFileMatchWin": "^(visualboyadvance)\\.exe$",
+      "executableFileMatchLinux": "^(visualboyadvance(.*))\\.(AppImage|appimage)$",
+      "executableFileMatchMac": "^(visualboyadvance(.*))\\.app$",
+      "autoSearchEnabled": true,
+      "biosRequired": false,
+      "runCommandsBefore": [],
+      "downloadUrl": {
+        "win": [
+          "https://github.com/visualboyadvance-m/visualboyadvance-m/releases/latest"
+        ],
+        "mac": [
+          "https://github.com/visualboyadvance-m/visualboyadvance-m/releases/latest"
+        ],
+        "linux": [
+          "https://github.com/visualboyadvance-m/visualboyadvance-m/releases/latest"
+        ]
+      }
+    },
+    {
+      "name": "Game Boy Web Emulator",
+      "type": "web",
+      "os": [
+        "windows",
+        "linux",
+        "mac"
+      ],
+      "path": "",
+      "iconFilename": "",
+      "configFilePath": "",
+      "website": "https://emubro.net/tools/gameboy-emulator/",
+      "webUrl": "/tools/gb-emu/index.html",
+      "webUrlOnline": "https://emubro.net/tools/gb-emu/index.html",
+      "startParameters": "?rom=%gamepath%",
+      "supportedFileTypes": [
+        ".gb",
+        ".gbc",
+        ".zip"
+      ],
+      "searchString": "",
+      "archiveFileMatchWin": "",
+      "archiveFileMatchLinux": "",
+      "archiveFileMatchMac": "",
+      "setupFileMatchWin": "",
+      "setupFileMatchLinux": "",
+      "setupFileMatchMac": "",
+      "executableFileMatchWin": "",
+      "executableFileMatchLinux": "",
+      "executableFileMatchMac": "",
+      "autoSearchEnabled": false,
+      "biosRequired": false,
+      "runCommandsBefore": [],
+      "downloadUrl": {
+        "win": [
+          "https://emubro.net/tools/gameboy-emulator/"
+        ],
+        "mac": [
+          "https://emubro.net/tools/gameboy-emulator/"
+        ],
+        "linux": [
+          "https://emubro.net/tools/gameboy-emulator/"
+        ]
+      }
+    }
   ],
-  "directExecutionMode":"none",
-  "autoSearchEnabled":true
+  "directExecutionMode": "none",
+  "autoSearchEnabled": true
 }

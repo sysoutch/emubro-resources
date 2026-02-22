@@ -1,51 +1,73 @@
-{  
-  "name":"Android",
-  "shortName":"android",
-  "iconFilename":"",
-  "defaultGameCover":"",
-  "plugins":[
-	{
-	  "covers":"",
-	  "titles":""
-	}
+{
+  "name": "Android",
+  "shortName": "android",
+  "releaseDate": {
+    "us": "2008-09-23",
+    "eu": "2008-09-23",
+    "jp": "2008-09-23"
+  },
+  "companyName": "Android",
+  "iconFilename": "",
+  "defaultGameCover": "",
+  "recommendedEmulators": [
+    "BlueStacks"
   ],
-  "gameSearchModes":[  
-	 "FILE_FILE_NAME_MATCH"
+  "plugins": [
+    {
+      "covers": "",
+      "titles": ""
+    }
   ],
-  "searchFor":"^(.+)\\.apk$",
-  "fileStructure":[  
-
+  "gameSearchModes": [
+    "FILE_FILE_NAME_MATCH"
   ],
-  "supportedArchiveTypes":[  
-
+  "searchFor": "^(.+)\\.apk$",
+  "fileStructure": [],
+  "supportedArchiveTypes": [],
+  "supportedImageTypes": [],
+  "emulators": [
+    {
+      "name": "Andy",
+      "type": "standalone",
+      "os": [
+        "windows",
+        "linux",
+        "mac"
+      ],
+      "path": "",
+      "iconFilename": "andy.png",
+      "configFilePath": "",
+      "website": "http://www.andyroid.net/",
+      "startParameters": "%emupath% %gamepath%",
+      "supportedFileTypes": [
+        ".apk"
+      ],
+      "searchString": "^(andy)\\.exe$",
+      "archiveFileMatchWin": "^(andy-(.*)-win_x64)\\.zip$",
+      "archiveFileMatchLinux": "^(andy-(.*)-linux_x64)\\.tar$",
+      "archiveFileMatchMac": "^(andy-(.*)-osx_x64)\\.zip$",
+      "setupFileMatchWin": "",
+      "setupFileMatchLinux": "",
+      "setupFileMatchMac": "",
+      "autoSearchEnabled": true,
+      "biosRequired": false,
+      "runCommandsBefore": [],
+      "executableFileMatchWin": "^(andy)\\.exe$",
+      "executableFileMatchLinux": "^(andy(.*))\\.(AppImage|appimage)$",
+      "executableFileMatchMac": "^(andy(.*))\\.app$",
+      "downloadUrl": {
+        "win": [
+          "http://www.andyroid.net/"
+        ],
+        "mac": [
+          "http://www.andyroid.net/"
+        ],
+        "linux": [
+          "http://www.andyroid.net/"
+        ]
+      }
+    }
   ],
-  "supportedImageTypes":[  
-
-  ],
-  "emulators":[  
-	 {  
-		"name":"Andy",
-		"os":[
-
-		],
-		"path":"",
-		"iconFilename":"andy.png",
-		"configFilePath":"",
-		"website":"http://www.andyroid.net/",
-		"startParameters":"%emupath% %gamepath%",
-		"supportedFileTypes":[  
-		   ".apk"
-		],
-		"searchString":"^(andy)\\.exe$",
-		"archiveFileMatchWin":"^(andy-(.*)-win_x64)\\.zip$",
-		"archiveFileMatchLinux":"^(andy-(.*)-linux_x64)\\.tar$",
-		"archiveFileMatchMac":"^(andy-(.*)-osx_x64)\\.zip$",
-		"setupFileMatchWin":"",
-		"setupFileMatchLinux":"",
-		"setupFileMatchMac":"",
-		"autoSearchEnabled":true
-	 }
-  ],
-  "directExecutionMode":"none",
-  "autoSearchEnabled":true
+  "directExecutionMode": "none",
+  "autoSearchEnabled": true
 }

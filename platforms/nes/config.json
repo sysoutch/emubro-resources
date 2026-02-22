@@ -1,52 +1,169 @@
-{  
-  "name":"Nintendo Entertainment System",
-  "shortName":"nes",
-  "iconFilename":"",
-  "defaultGameCover":"",
-  "plugins":[
-	{
-	  "covers":"",
-	  "titles":""
-	}
+{
+  "name": "NES",
+  "shortName": "nes",
+  "releaseDate": {
+    "us": "1985-10-18",
+    "eu": "1986-09",
+    "jp": "1983-07-15"
+  },
+  "companyName": "Nintendo",
+  "iconFilename": "",
+  "defaultGameCover": "",
+  "recommendedEmulators": [
+    "Mesen",
+    "FCEUX"
   ],
-  "gameSearchModes":[  
-	 "FILE_FILE_NAME_MATCH",
-	 "ARCHIVE_FILE_NAME_MATCH"
+  "plugins": [
+    {
+      "covers": "",
+      "titles": ""
+    }
   ],
-  "searchFor":"^(.+)\\.nes$|^(.+)\\.nsf$|^(.+)\\.fds$|^(.+)\\.unf$",
-  "fileStructure":[  
-
+  "gameSearchModes": [
+    "FILE_FILE_NAME_MATCH",
+    "ARCHIVE_FILE_NAME_MATCH"
   ],
-  "supportedArchiveTypes":[  
-	 ".zip"
+  "searchFor": "^(.+)\\.nes$|^(.+)\\.nsf$|^(.+)\\.fds$|^(.+)\\.unf$",
+  "fileStructure": [],
+  "supportedArchiveTypes": [
+    ".zip"
   ],
-  "supportedImageTypes":[  
-	 ""
+  "supportedImageTypes": [
+    ""
   ],
-  "emulators":[  
-	 {  
-		"name":"FCEUX",
-		"os":[
-
-		],
-		"path":"",
-		"iconFilename":"fceux.png",
-		"configFilePath":"fceux.cfg",
-		"website":"http://www.fceux.com/web/download.html",
-		"startParameters":"%emupath% %gamepath%",
-		"supportedFileTypes":[  
-		   ".zip"
-		],
-		"searchString":"^(fceux)\\.exe$",
-		"archiveFileMatchWin":"^(fceux-(.*)-win_x64)\\.zip$",
-		"archiveFileMatchLinux":"^(fceux-(.*)-linux_x64)\\.tar$",
-		"archiveFileMatchMac":"^(fceux-(.*)-osx_x64)\\.zip$",
-		"setupFileMatchWin":"",
-		"setupFileMatchLinux":"",
-		"setupFileMatchMac":"",
-		"autoSearchEnabled":true
-	 }
+  "emulators": [
+    {
+      "name": "Mesen",
+      "type": "standalone",
+      "os": [
+        "windows",
+        "linux",
+        "mac"
+      ],
+      "path": "",
+      "iconFilename": "blank.png",
+      "configFilePath": "",
+      "website": "https://github.com/SourMesen/Mesen2/releases",
+      "startParameters": "%emupath% %gamepath%",
+      "supportedFileTypes": [
+        ".nes",
+        ".nsf",
+        ".fds",
+        ".unf",
+        ".zip"
+      ],
+      "searchString": "^(Mesen)\\.exe$|^(mesen)\\.exe$",
+      "archiveFileMatchWin": "^(Mesen-(.*)-windows-x64)\\.zip$|^(mesen-(.*)-win_x64)\\.zip$",
+      "archiveFileMatchLinux": "^(Mesen-(.*)-linux-x64)\\.tar\\.gz$|^(mesen-(.*)-linux_x64)\\.tar$",
+      "archiveFileMatchMac": "^(Mesen-(.*)-macos)\\.zip$|^(mesen-(.*)-osx_x64)\\.zip$",
+      "setupFileMatchWin": "",
+      "setupFileMatchLinux": "",
+      "setupFileMatchMac": "",
+      "autoSearchEnabled": true,
+      "biosRequired": false,
+      "runCommandsBefore": [],
+      "executableFileMatchWin": "^(Mesen)\\.exe$|^(mesen)\\.exe$",
+      "executableFileMatchLinux": "^(mesen(.*))\\.(AppImage|appimage)$",
+      "executableFileMatchMac": "^(mesen(.*))\\.app$",
+      "downloadUrl": {
+        "win": [
+          "https://github.com/SourMesen/Mesen2/releases/latest"
+        ],
+        "mac": [
+          "https://github.com/SourMesen/Mesen2/releases/latest"
+        ],
+        "linux": [
+          "https://github.com/SourMesen/Mesen2/releases/latest"
+        ]
+      }
+    },
+    {
+      "name": "RetroArch (Mesen core)",
+      "type": "core",
+      "os": [
+        "windows",
+        "linux",
+        "mac"
+      ],
+      "path": "",
+      "iconFilename": "blank.png",
+      "configFilePath": "",
+      "website": "https://www.retroarch.com/?page=platforms",
+      "startParameters": "%emupath% -L cores\\mesen_libretro.dll %gamepath%",
+      "supportedFileTypes": [
+        ".nes",
+        ".nsf",
+        ".fds",
+        ".unf",
+        ".zip"
+      ],
+      "searchString": "^(retroarch)\\.exe$",
+      "archiveFileMatchWin": "^(RetroArch-Win64)\\.7z$|^(retroarch-(.*)-win_x64)\\.zip$",
+      "archiveFileMatchLinux": "^(RetroArch-Linux-x86_64)\\.tar\\.gz$|^(retroarch-(.*)-linux_x64)\\.tar$",
+      "archiveFileMatchMac": "^(RetroArch_Metal)\\.dmg$|^(retroarch-(.*)-osx_x64)\\.zip$",
+      "setupFileMatchWin": "",
+      "setupFileMatchLinux": "",
+      "setupFileMatchMac": "",
+      "autoSearchEnabled": true,
+      "biosRequired": false,
+      "runCommandsBefore": [],
+      "executableFileMatchWin": "^(retroarch)\\.exe$",
+      "executableFileMatchLinux": "^(retroarch(.*))\\.(AppImage|appimage)$",
+      "executableFileMatchMac": "^(retroarch(.*))\\.app$",
+      "downloadUrl": {
+        "win": [
+          "https://github.com/libretro/RetroArch/releases/latest"
+        ],
+        "mac": [
+          "https://github.com/libretro/RetroArch/releases/latest"
+        ],
+        "linux": [
+          "https://github.com/libretro/RetroArch/releases/latest"
+        ]
+      }
+    },
+    {
+      "name": "FCEUX",
+      "type": "standalone",
+      "os": [
+        "windows",
+        "linux",
+        "mac"
+      ],
+      "path": "",
+      "iconFilename": "fceux.png",
+      "configFilePath": "fceux.cfg",
+      "website": "http://www.fceux.com/web/download.html",
+      "startParameters": "%emupath% %gamepath%",
+      "supportedFileTypes": [
+        ".zip"
+      ],
+      "searchString": "^(fceux)\\.exe$|^(fceux64)\\.exe$",
+      "archiveFileMatchWin": "^(fceux-(.*)-win_x64)\\.zip$",
+      "archiveFileMatchLinux": "^(fceux-(.*)-linux_x64)\\.tar$",
+      "archiveFileMatchMac": "^(fceux-(.*)-osx_x64)\\.zip$",
+      "setupFileMatchWin": "",
+      "setupFileMatchLinux": "",
+      "setupFileMatchMac": "",
+      "autoSearchEnabled": true,
+      "biosRequired": false,
+      "runCommandsBefore": [],
+      "executableFileMatchWin": "^(fceux)\\.exe$|^(fceux64)\\.exe$",
+      "executableFileMatchLinux": "^(fceux(.*))\\.(AppImage|appimage)$",
+      "executableFileMatchMac": "^(fceux(.*))\\.app$",
+      "downloadUrl": {
+        "win": [
+          "https://github.com/TASEmulators/fceux/releases/latest"
+        ],
+        "mac": [
+          "https://github.com/TASEmulators/fceux/releases/latest"
+        ],
+        "linux": [
+          "https://github.com/TASEmulators/fceux/releases/latest"
+        ]
+      }
+    }
   ],
-  "directExecutionMode":"none",
-  "autoSearchEnabled":true
+  "directExecutionMode": "none",
+  "autoSearchEnabled": true
 }
