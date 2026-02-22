@@ -1,0 +1,878 @@
+﻿{
+    "name":  "emuBro Resources",
+    "version":  1,
+    "files":  [
+                  {
+                      "path":  "emulators/andy.png",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/emulators/andy.png"
+                  },
+                  {
+                      "path":  "emulators/atari800.png",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/emulators/atari800.png"
+                  },
+                  {
+                      "path":  "emulators/atariplusplus.png",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/emulators/atariplusplus.png"
+                  },
+                  {
+                      "path":  "emulators/blank.png",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/emulators/blank.png"
+                  },
+                  {
+                      "path":  "emulators/cemu.png",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/emulators/cemu.png"
+                  },
+                  {
+                      "path":  "emulators/citra.png",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/emulators/citra.png"
+                  },
+                  {
+                      "path":  "emulators/desmume.png",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/emulators/desmume.png"
+                  },
+                  {
+                      "path":  "emulators/dolphin.png",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/emulators/dolphin.png"
+                  },
+                  {
+                      "path":  "emulators/epsxe.png",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/emulators/epsxe.png"
+                  },
+                  {
+                      "path":  "emulators/fakenes.png",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/emulators/fakenes.png"
+                  },
+                  {
+                      "path":  "emulators/fceux.png",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/emulators/fceux.png"
+                  },
+                  {
+                      "path":  "emulators/fpse.png",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/emulators/fpse.png"
+                  },
+                  {
+                      "path":  "emulators/ipadian.png",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/emulators/ipadian.png"
+                  },
+                  {
+                      "path":  "emulators/kat5200.png",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/emulators/kat5200.png"
+                  },
+                  {
+                      "path":  "emulators/nulldc.jpg",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/emulators/nulldc.jpg"
+                  },
+                  {
+                      "path":  "emulators/pcaewin.png",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/emulators/pcaewin.png"
+                  },
+                  {
+                      "path":  "emulators/pcsx2.png",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/emulators/pcsx2.png"
+                  },
+                  {
+                      "path":  "emulators/ppsspp.png",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/emulators/ppsspp.png"
+                  },
+                  {
+                      "path":  "emulators/project64.png",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/emulators/project64.png"
+                  },
+                  {
+                      "path":  "emulators/rpcs3.png",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/emulators/rpcs3.png"
+                  },
+                  {
+                      "path":  "emulators/ryujinx.png",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/emulators/ryujinx.png"
+                  },
+                  {
+                      "path":  "emulators/scummvm.png",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/emulators/scummvm.png"
+                  },
+                  {
+                      "path":  "emulators/snes9x.png",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/emulators/snes9x.png"
+                  },
+                  {
+                      "path":  "emulators/steem.png",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/emulators/steem.png"
+                  },
+                  {
+                      "path":  "emulators/stella.png",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/emulators/stella.png"
+                  },
+                  {
+                      "path":  "emulators/visualboyadvance.png",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/emulators/visualboyadvance.png"
+                  },
+                  {
+                      "path":  "emulators/vss.png",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/emulators/vss.png"
+                  },
+                  {
+                      "path":  "emulators/win-8.png",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/emulators/win-8.png"
+                  },
+                  {
+                      "path":  "emulators/win-xp.png",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/emulators/win-xp.png"
+                  },
+                  {
+                      "path":  "emulators/winfellow.png",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/emulators/winfellow.png"
+                  },
+                  {
+                      "path":  "emulators/xenia.png",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/emulators/xenia.png"
+                  },
+                  {
+                      "path":  "emulators/xeon.png",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/emulators/xeon.png"
+                  },
+                  {
+                      "path":  "emulators/yuzu.png",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/emulators/yuzu.png"
+                  },
+                  {
+                      "path":  "emulators/z26.png",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/emulators/z26.png"
+                  },
+                  {
+                      "path":  "emulators/zsnes-2.png",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/emulators/zsnes-2.png"
+                  },
+                  {
+                      "path":  "emulators/zsnes.png",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/emulators/zsnes.png"
+                  },
+                  {
+                      "path":  "emulators/epsxe/init_config/emulator.reg",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/emulators/epsxe/init_config/emulator.reg"
+                  },
+                  {
+                      "path":  "emulators/epsxe/init_config/plugins/gpu/PeteOpenGL2.reg",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/emulators/epsxe/init_config/plugins/gpu/PeteOpenGL2.reg"
+                  },
+                  {
+                      "path":  "emulators/project64/other/reset_nagware.bat",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/emulators/project64/other/reset_nagware.bat"
+                  },
+                  {
+                      "path":  "emulators/project64/other/reset_nagware.reg",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/emulators/project64/other/reset_nagware.reg"
+                  },
+                  {
+                      "path":  "platforms/2ds/logos/default.png",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/platforms/2ds/logos/default.png"
+                  },
+                  {
+                      "path":  "platforms/3ds/config.json",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/platforms/3ds/config.json"
+                  },
+                  {
+                      "path":  "platforms/3ds/emulators/null/logo/default.png",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/platforms/3ds/emulators/null/logo/default.png"
+                  },
+                  {
+                      "path":  "platforms/3ds/logos/default.png",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/platforms/3ds/logos/default.png"
+                  },
+                  {
+                      "path":  "platforms/amiga/config.json",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/platforms/amiga/config.json"
+                  },
+                  {
+                      "path":  "platforms/amiga/logos/default.png",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/platforms/amiga/logos/default.png"
+                  },
+                  {
+                      "path":  "platforms/android/config.json",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/platforms/android/config.json"
+                  },
+                  {
+                      "path":  "platforms/android/covers/default.jpg",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/platforms/android/covers/default.jpg"
+                  },
+                  {
+                      "path":  "platforms/android/logos/default.png",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/platforms/android/logos/default.png"
+                  },
+                  {
+                      "path":  "platforms/atari/logos/default.png",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/platforms/atari/logos/default.png"
+                  },
+                  {
+                      "path":  "platforms/atari-st/config.json",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/platforms/atari-st/config.json"
+                  },
+                  {
+                      "path":  "platforms/atari-st/covers/default.jpg",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/platforms/atari-st/covers/default.jpg"
+                  },
+                  {
+                      "path":  "platforms/atari2600/config.json",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/platforms/atari2600/config.json"
+                  },
+                  {
+                      "path":  "platforms/atari2600/covers/default.jpg",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/platforms/atari2600/covers/default.jpg"
+                  },
+                  {
+                      "path":  "platforms/atari2600/logos/default.png",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/platforms/atari2600/logos/default.png"
+                  },
+                  {
+                      "path":  "platforms/atari5200/config.json",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/platforms/atari5200/config.json"
+                  },
+                  {
+                      "path":  "platforms/atari5200/covers/default.jpg",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/platforms/atari5200/covers/default.jpg"
+                  },
+                  {
+                      "path":  "platforms/atari5200/logos/default.png",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/platforms/atari5200/logos/default.png"
+                  },
+                  {
+                      "path":  "platforms/atari7800/config.json",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/platforms/atari7800/config.json"
+                  },
+                  {
+                      "path":  "platforms/atari7800/covers/default.jpg",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/platforms/atari7800/covers/default.jpg"
+                  },
+                  {
+                      "path":  "platforms/atari7800/logos/default.png",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/platforms/atari7800/logos/default.png"
+                  },
+                  {
+                      "path":  "platforms/dreamcast/config.json",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/platforms/dreamcast/config.json"
+                  },
+                  {
+                      "path":  "platforms/dreamcast/covers/default.jpg",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/platforms/dreamcast/covers/default.jpg"
+                  },
+                  {
+                      "path":  "platforms/dreamcast/logos/dc-blue.png",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/platforms/dreamcast/logos/dc-blue.png"
+                  },
+                  {
+                      "path":  "platforms/dreamcast/logos/default.png",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/platforms/dreamcast/logos/default.png"
+                  },
+                  {
+                      "path":  "platforms/gameboy/config.json",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/platforms/gameboy/config.json"
+                  },
+                  {
+                      "path":  "platforms/gameboy/covers/default.jpg",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/platforms/gameboy/covers/default.jpg"
+                  },
+                  {
+                      "path":  "platforms/gameboy/covers/gbc.jpg",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/platforms/gameboy/covers/gbc.jpg"
+                  },
+                  {
+                      "path":  "platforms/gameboy/emulators/null/logo/default.png",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/platforms/gameboy/emulators/null/logo/default.png"
+                  },
+                  {
+                      "path":  "platforms/gameboy/logos/default.png",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/platforms/gameboy/logos/default.png"
+                  },
+                  {
+                      "path":  "platforms/gameboy/logos/gbc.png",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/platforms/gameboy/logos/gbc.png"
+                  },
+                  {
+                      "path":  "platforms/gba/config.json",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/platforms/gba/config.json"
+                  },
+                  {
+                      "path":  "platforms/gba/covers/default.jpg",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/platforms/gba/covers/default.jpg"
+                  },
+                  {
+                      "path":  "platforms/gba/emulators/null/logo/default.png",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/platforms/gba/emulators/null/logo/default.png"
+                  },
+                  {
+                      "path":  "platforms/gba/logos/default.png",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/platforms/gba/logos/default.png"
+                  },
+                  {
+                      "path":  "platforms/gcn/config.json",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/platforms/gcn/config.json"
+                  },
+                  {
+                      "path":  "platforms/gcn/covers/default.jpg",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/platforms/gcn/covers/default.jpg"
+                  },
+                  {
+                      "path":  "platforms/gcn/emulators/null/logo/default.png",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/platforms/gcn/emulators/null/logo/default.png"
+                  },
+                  {
+                      "path":  "platforms/gcn/logos/default.png",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/platforms/gcn/logos/default.png"
+                  },
+                  {
+                      "path":  "platforms/ios/logos/default.png",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/platforms/ios/logos/default.png"
+                  },
+                  {
+                      "path":  "platforms/ios/logos/ios-blue.png",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/platforms/ios/logos/ios-blue.png"
+                  },
+                  {
+                      "path":  "platforms/n64/config.json",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/platforms/n64/config.json"
+                  },
+                  {
+                      "path":  "platforms/n64/covers/default.jpg",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/platforms/n64/covers/default.jpg"
+                  },
+                  {
+                      "path":  "platforms/n64/emulators/null/logo/default.png",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/platforms/n64/emulators/null/logo/default.png"
+                  },
+                  {
+                      "path":  "platforms/n64/logos/default.png",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/platforms/n64/logos/default.png"
+                  },
+                  {
+                      "path":  "platforms/n64/logos/Nintendo_64_Logo.svg",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/platforms/n64/logos/Nintendo_64_Logo.svg"
+                  },
+                  {
+                      "path":  "platforms/nds/config.json",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/platforms/nds/config.json"
+                  },
+                  {
+                      "path":  "platforms/nds/emulators/null/logo/default.png",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/platforms/nds/emulators/null/logo/default.png"
+                  },
+                  {
+                      "path":  "platforms/nds/logos/default.png",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/platforms/nds/logos/default.png"
+                  },
+                  {
+                      "path":  "platforms/nds/logos/nds-text.png",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/platforms/nds/logos/nds-text.png"
+                  },
+                  {
+                      "path":  "platforms/nes/config.json",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/platforms/nes/config.json"
+                  },
+                  {
+                      "path":  "platforms/nes/emulators/null/logo/default.png",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/platforms/nes/emulators/null/logo/default.png"
+                  },
+                  {
+                      "path":  "platforms/nes/logos/default.png",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/platforms/nes/logos/default.png"
+                  },
+                  {
+                      "path":  "platforms/pc/config.json",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/platforms/pc/config.json"
+                  },
+                  {
+                      "path":  "platforms/pc/covers/default.jpg",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/platforms/pc/covers/default.jpg"
+                  },
+                  {
+                      "path":  "platforms/pc/logos/default.png",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/platforms/pc/logos/default.png"
+                  },
+                  {
+                      "path":  "platforms/pc/logos/win-xp.png",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/platforms/pc/logos/win-xp.png"
+                  },
+                  {
+                      "path":  "platforms/ps2/config.json",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/platforms/ps2/config.json"
+                  },
+                  {
+                      "path":  "platforms/ps2/covers/default.jpg",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/platforms/ps2/covers/default.jpg"
+                  },
+                  {
+                      "path":  "platforms/ps2/emulators/null/logo/default.png",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/platforms/ps2/emulators/null/logo/default.png"
+                  },
+                  {
+                      "path":  "platforms/ps2/logos/default.png",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/platforms/ps2/logos/default.png"
+                  },
+                  {
+                      "path":  "platforms/ps2/logos/ps2-text.png",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/platforms/ps2/logos/ps2-text.png"
+                  },
+                  {
+                      "path":  "platforms/ps3/config.json",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/platforms/ps3/config.json"
+                  },
+                  {
+                      "path":  "platforms/ps3/covers/default.jpg",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/platforms/ps3/covers/default.jpg"
+                  },
+                  {
+                      "path":  "platforms/ps3/emulators/null/logo/default.png",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/platforms/ps3/emulators/null/logo/default.png"
+                  },
+                  {
+                      "path":  "platforms/ps3/logos/default.png",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/platforms/ps3/logos/default.png"
+                  },
+                  {
+                      "path":  "platforms/psp/config.json",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/platforms/psp/config.json"
+                  },
+                  {
+                      "path":  "platforms/psp/covers/default.jpg",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/platforms/psp/covers/default.jpg"
+                  },
+                  {
+                      "path":  "platforms/psp/emulators/null/logo/default.png",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/platforms/psp/emulators/null/logo/default.png"
+                  },
+                  {
+                      "path":  "platforms/psp/logos/default.png",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/platforms/psp/logos/default.png"
+                  },
+                  {
+                      "path":  "platforms/psx/config.json",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/platforms/psx/config.json"
+                  },
+                  {
+                      "path":  "platforms/psx/covers/default.jpg",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/platforms/psx/covers/default.jpg"
+                  },
+                  {
+                      "path":  "platforms/psx/emulators/null/logo/default.png",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/platforms/psx/emulators/null/logo/default.png"
+                  },
+                  {
+                      "path":  "platforms/psx/logos/default.png",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/platforms/psx/logos/default.png"
+                  },
+                  {
+                      "path":  "platforms/psx/logos/Playstation_logo_colour.svg",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/platforms/psx/logos/Playstation_logo_colour.svg"
+                  },
+                  {
+                      "path":  "platforms/saturn/logos/default.png",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/platforms/saturn/logos/default.png"
+                  },
+                  {
+                      "path":  "platforms/scummvm/config.json",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/platforms/scummvm/config.json"
+                  },
+                  {
+                      "path":  "platforms/scummvm/logos/default.png",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/platforms/scummvm/logos/default.png"
+                  },
+                  {
+                      "path":  "platforms/snes/config.json",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/platforms/snes/config.json"
+                  },
+                  {
+                      "path":  "platforms/snes/covers/default.jpg",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/platforms/snes/covers/default.jpg"
+                  },
+                  {
+                      "path":  "platforms/snes/emulators/bsnes/logo/default.png",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/platforms/snes/emulators/bsnes/logo/default.png"
+                  },
+                  {
+                      "path":  "platforms/snes/emulators/null/logo/default.png",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/platforms/snes/emulators/null/logo/default.png"
+                  },
+                  {
+                      "path":  "platforms/snes/logos/default.png",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/platforms/snes/logos/default.png"
+                  },
+                  {
+                      "path":  "platforms/switch/config.json",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/platforms/switch/config.json"
+                  },
+                  {
+                      "path":  "platforms/switch/covers/default.jpg",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/platforms/switch/covers/default.jpg"
+                  },
+                  {
+                      "path":  "platforms/switch/emulators/null/logo/default.png",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/platforms/switch/emulators/null/logo/default.png"
+                  },
+                  {
+                      "path":  "platforms/switch/logos/default.png",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/platforms/switch/logos/default.png"
+                  },
+                  {
+                      "path":  "platforms/wii/config.json",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/platforms/wii/config.json"
+                  },
+                  {
+                      "path":  "platforms/wii/covers/default.jpg",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/platforms/wii/covers/default.jpg"
+                  },
+                  {
+                      "path":  "platforms/wii/emulators/null/logo/default.png",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/platforms/wii/emulators/null/logo/default.png"
+                  },
+                  {
+                      "path":  "platforms/wii/logos/default.png",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/platforms/wii/logos/default.png"
+                  },
+                  {
+                      "path":  "platforms/wii-u/config.json",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/platforms/wii-u/config.json"
+                  },
+                  {
+                      "path":  "platforms/wii-u/emulators/null/logo/default.png",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/platforms/wii-u/emulators/null/logo/default.png"
+                  },
+                  {
+                      "path":  "platforms/wii-u/logos/default.png",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/platforms/wii-u/logos/default.png"
+                  },
+                  {
+                      "path":  "platforms/xbox/config.json",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/platforms/xbox/config.json"
+                  },
+                  {
+                      "path":  "platforms/xbox/logos/default.png",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/platforms/xbox/logos/default.png"
+                  },
+                  {
+                      "path":  "platforms/xbox360/config.json",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/platforms/xbox360/config.json"
+                  },
+                  {
+                      "path":  "platforms/xbox360/emulators/null/logo/default.png",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/platforms/xbox360/emulators/null/logo/default.png"
+                  },
+                  {
+                      "path":  "platforms/xbox360/logos/default.png",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/platforms/xbox360/logos/default.png"
+                  },
+                  {
+                      "path":  "tags/action-adventure.yaml",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/tags/action-adventure.yaml"
+                  },
+                  {
+                      "path":  "tags/action.yaml",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/tags/action.yaml"
+                  },
+                  {
+                      "path":  "tags/adventure.yaml",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/tags/adventure.yaml"
+                  },
+                  {
+                      "path":  "tags/arcade.yaml",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/tags/arcade.yaml"
+                  },
+                  {
+                      "path":  "tags/artillery.yaml",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/tags/artillery.yaml"
+                  },
+                  {
+                      "path":  "tags/baseball.yaml",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/tags/baseball.yaml"
+                  },
+                  {
+                      "path":  "tags/basketball.yaml",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/tags/basketball.yaml"
+                  },
+                  {
+                      "path":  "tags/battle.yaml",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/tags/battle.yaml"
+                  },
+                  {
+                      "path":  "tags/beat-em-up.yaml",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/tags/beat-em-up.yaml"
+                  },
+                  {
+                      "path":  "tags/bike.yaml",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/tags/bike.yaml"
+                  },
+                  {
+                      "path":  "tags/board.yaml",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/tags/board.yaml"
+                  },
+                  {
+                      "path":  "tags/bowling.yaml",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/tags/bowling.yaml"
+                  },
+                  {
+                      "path":  "tags/boxing.yaml",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/tags/boxing.yaml"
+                  },
+                  {
+                      "path":  "tags/brawler.yaml",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/tags/brawler.yaml"
+                  },
+                  {
+                      "path":  "tags/bullet-hell.yaml",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/tags/bullet-hell.yaml"
+                  },
+                  {
+                      "path":  "tags/card-game.yaml",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/tags/card-game.yaml"
+                  },
+                  {
+                      "path":  "tags/casino.yaml",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/tags/casino.yaml"
+                  },
+                  {
+                      "path":  "tags/chess.yaml",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/tags/chess.yaml"
+                  },
+                  {
+                      "path":  "tags/cinematic.yaml",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/tags/cinematic.yaml"
+                  },
+                  {
+                      "path":  "tags/collection.yaml",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/tags/collection.yaml"
+                  },
+                  {
+                      "path":  "tags/combat.yaml",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/tags/combat.yaml"
+                  },
+                  {
+                      "path":  "tags/dance-rhythm.yaml",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/tags/dance-rhythm.yaml"
+                  },
+                  {
+                      "path":  "tags/dating.yaml",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/tags/dating.yaml"
+                  },
+                  {
+                      "path":  "tags/drifting.yaml",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/tags/drifting.yaml"
+                  },
+                  {
+                      "path":  "tags/driving.yaml",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/tags/driving.yaml"
+                  },
+                  {
+                      "path":  "tags/dueling.yaml",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/tags/dueling.yaml"
+                  },
+                  {
+                      "path":  "tags/dungeon-crawler.yaml",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/tags/dungeon-crawler.yaml"
+                  },
+                  {
+                      "path":  "tags/educational.yaml",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/tags/educational.yaml"
+                  },
+                  {
+                      "path":  "tags/emergent.yaml",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/tags/emergent.yaml"
+                  },
+                  {
+                      "path":  "tags/fantasy.yaml",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/tags/fantasy.yaml"
+                  },
+                  {
+                      "path":  "tags/farm.yaml",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/tags/farm.yaml"
+                  },
+                  {
+                      "path":  "tags/fighting.yaml",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/tags/fighting.yaml"
+                  },
+                  {
+                      "path":  "tags/first-person-shooter.yaml",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/tags/first-person-shooter.yaml"
+                  },
+                  {
+                      "path":  "tags/fishing.yaml",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/tags/fishing.yaml"
+                  },
+                  {
+                      "path":  "tags/flight.yaml",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/tags/flight.yaml"
+                  },
+                  {
+                      "path":  "tags/football.yaml",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/tags/football.yaml"
+                  },
+                  {
+                      "path":  "tags/game-show.yaml",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/tags/game-show.yaml"
+                  },
+                  {
+                      "path":  "tags/golf.yaml",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/tags/golf.yaml"
+                  },
+                  {
+                      "path":  "tags/hack-and-slay.yaml",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/tags/hack-and-slay.yaml"
+                  },
+                  {
+                      "path":  "tags/hockey.yaml",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/tags/hockey.yaml"
+                  },
+                  {
+                      "path":  "tags/horror.yaml",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/tags/horror.yaml"
+                  },
+                  {
+                      "path":  "tags/ice-hockey.yaml",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/tags/ice-hockey.yaml"
+                  },
+                  {
+                      "path":  "tags/kart.yaml",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/tags/kart.yaml"
+                  },
+                  {
+                      "path":  "tags/maze.yaml",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/tags/maze.yaml"
+                  },
+                  {
+                      "path":  "tags/minigame.yaml",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/tags/minigame.yaml"
+                  },
+                  {
+                      "path":  "tags/misc.yaml",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/tags/misc.yaml"
+                  },
+                  {
+                      "path":  "tags/multiplayer.yaml",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/tags/multiplayer.yaml"
+                  },
+                  {
+                      "path":  "tags/music.yaml",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/tags/music.yaml"
+                  },
+                  {
+                      "path":  "tags/ninja.yaml",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/tags/ninja.yaml"
+                  },
+                  {
+                      "path":  "tags/paint.yaml",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/tags/paint.yaml"
+                  },
+                  {
+                      "path":  "tags/party.yaml",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/tags/party.yaml"
+                  },
+                  {
+                      "path":  "tags/pinball.yaml",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/tags/pinball.yaml"
+                  },
+                  {
+                      "path":  "tags/platformer.yaml",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/tags/platformer.yaml"
+                  },
+                  {
+                      "path":  "tags/pool.yaml",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/tags/pool.yaml"
+                  },
+                  {
+                      "path":  "tags/puzzle.yaml",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/tags/puzzle.yaml"
+                  },
+                  {
+                      "path":  "tags/racing.yaml",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/tags/racing.yaml"
+                  },
+                  {
+                      "path":  "tags/roguelike.yaml",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/tags/roguelike.yaml"
+                  },
+                  {
+                      "path":  "tags/rpg.yaml",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/tags/rpg.yaml"
+                  },
+                  {
+                      "path":  "tags/run-and-gun.yaml",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/tags/run-and-gun.yaml"
+                  },
+                  {
+                      "path":  "tags/scifi.yaml",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/tags/scifi.yaml"
+                  },
+                  {
+                      "path":  "tags/scrolling.yaml",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/tags/scrolling.yaml"
+                  },
+                  {
+                      "path":  "tags/shoot-em-up.yaml",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/tags/shoot-em-up.yaml"
+                  },
+                  {
+                      "path":  "tags/shooter.yaml",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/tags/shooter.yaml"
+                  },
+                  {
+                      "path":  "tags/side-scroller.yaml",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/tags/side-scroller.yaml"
+                  },
+                  {
+                      "path":  "tags/simulation.yaml",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/tags/simulation.yaml"
+                  },
+                  {
+                      "path":  "tags/simulator.yaml",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/tags/simulator.yaml"
+                  },
+                  {
+                      "path":  "tags/single-player.yaml",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/tags/single-player.yaml"
+                  },
+                  {
+                      "path":  "tags/snowboarding.yaml",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/tags/snowboarding.yaml"
+                  },
+                  {
+                      "path":  "tags/soccer.yaml",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/tags/soccer.yaml"
+                  },
+                  {
+                      "path":  "tags/sports.yaml",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/tags/sports.yaml"
+                  },
+                  {
+                      "path":  "tags/stealth.yaml",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/tags/stealth.yaml"
+                  },
+                  {
+                      "path":  "tags/strategy.yaml",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/tags/strategy.yaml"
+                  },
+                  {
+                      "path":  "tags/superhero.yaml",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/tags/superhero.yaml"
+                  },
+                  {
+                      "path":  "tags/survival-horror.yaml",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/tags/survival-horror.yaml"
+                  },
+                  {
+                      "path":  "tags/survival.yaml",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/tags/survival.yaml"
+                  },
+                  {
+                      "path":  "tags/tactical.yaml",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/tags/tactical.yaml"
+                  },
+                  {
+                      "path":  "tags/tennis.yaml",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/tags/tennis.yaml"
+                  },
+                  {
+                      "path":  "tags/third-person-shooter.yaml",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/tags/third-person-shooter.yaml"
+                  },
+                  {
+                      "path":  "tags/vehicular-combat.yaml",
+                      "url":  "https://raw.githubusercontent.com/sysoutch/emubro-resources/main/tags/vehicular-combat.yaml"
+                  }
+              ]
+}
