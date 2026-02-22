@@ -168,6 +168,23 @@
         "linux": [
           "https://github.com/libretro/RetroArch/releases/latest"
         ]
+      },
+      "installers": {
+        "linux": {
+          "flatpak": {
+            "id": "org.libretro.RetroArch",
+            "remote": "flathub",
+            "install": "flatpak install -y flathub org.libretro.RetroArch",
+            "run": "flatpak run org.libretro.RetroArch"
+          },
+          "apt": {
+            "packages": [
+              "retroarch"
+            ],
+            "install": "sudo apt install -y retroarch",
+            "run": "retroarch"
+          }
+        }
       }
     },
     {

@@ -25,6 +25,64 @@
   "fileStructure": [],
   "supportedArchiveTypes": [],
   "supportedImageTypes": [],
+  "launcherIntegrations": {
+    "preferredLaunch": "launcher",
+    "allowDirectExe": true,
+    "discoveryModeDefault": "both",
+    "stores": {
+      "steam": {
+        "enabled": true,
+        "discoveryModes": [
+          "api",
+          "filesystem"
+        ],
+        "manifestPaths": {
+          "win": [
+            "C:\\\\Program Files (x86)\\\\Steam\\\\steamapps",
+            "C:\\\\Program Files\\\\Steam\\\\steamapps"
+          ],
+          "linux": [
+            "~/.steam/steam/steamapps",
+            "~/.local/share/Steam/steamapps"
+          ],
+          "mac": [
+            "~/Library/Application Support/Steam/steamapps"
+          ]
+        },
+        "launch": {
+          "scheme": "steam://rungameid/{appid}"
+        }
+      },
+      "epic": {
+        "enabled": false,
+        "discoveryModes": [
+          "filesystem"
+        ],
+        "manifestPaths": {
+          "win": [
+            "C:\\\\ProgramData\\\\Epic\\\\EpicGamesLauncher\\\\Data\\\\Manifests"
+          ],
+          "linux": [],
+          "mac": []
+        }
+      },
+      "gog": {
+        "enabled": false,
+        "discoveryModes": [
+          "filesystem"
+        ],
+        "manifestPaths": {
+          "win": [
+            "C:\\\\ProgramData\\\\GOG.com\\\\Galaxy\\\\storage"
+          ],
+          "linux": [],
+          "mac": [
+            "~/Library/Application Support/GOG.com/Galaxy/storage"
+          ]
+        }
+      }
+    }
+  },
   "emulators": [
     {
       "name": "Windows Shell",

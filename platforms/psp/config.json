@@ -77,6 +77,23 @@
         "linux": [
           "https://github.com/libretro/RetroArch/releases/latest"
         ]
+      },
+      "installers": {
+        "linux": {
+          "flatpak": {
+            "id": "org.libretro.RetroArch",
+            "remote": "flathub",
+            "install": "flatpak install -y flathub org.libretro.RetroArch",
+            "run": "flatpak run org.libretro.RetroArch"
+          },
+          "apt": {
+            "packages": [
+              "retroarch"
+            ],
+            "install": "sudo apt install -y retroarch",
+            "run": "retroarch"
+          }
+        }
       }
     },
     {
@@ -123,6 +140,23 @@
         "linux": [
           "https://github.com/hrydgard/ppsspp/releases/latest"
         ]
+      },
+      "installers": {
+        "linux": {
+          "flatpak": {
+            "id": "org.ppsspp.PPSSPP",
+            "remote": "flathub",
+            "install": "flatpak install -y flathub org.ppsspp.PPSSPP",
+            "run": "flatpak run org.ppsspp.PPSSPP"
+          },
+          "apt": {
+            "packages": [
+              "ppsspp"
+            ],
+            "install": "sudo apt install -y ppsspp",
+            "run": "ppsspp"
+          }
+        }
       }
     }
   ],

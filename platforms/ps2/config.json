@@ -77,6 +77,23 @@
         "linux": [
           "https://github.com/PCSX2/pcsx2/releases/latest"
         ]
+      },
+      "installers": {
+        "linux": {
+          "flatpak": {
+            "id": "net.pcsx2.PCSX2",
+            "remote": "flathub",
+            "install": "flatpak install -y flathub net.pcsx2.PCSX2",
+            "run": "flatpak run net.pcsx2.PCSX2"
+          },
+          "apt": {
+            "packages": [
+              "pcsx2"
+            ],
+            "install": "sudo apt install -y pcsx2",
+            "run": "pcsx2"
+          }
+        }
       }
     }
   ],
