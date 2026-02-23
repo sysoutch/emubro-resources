@@ -9,6 +9,9 @@
   "companyName": "Sony",
   "iconFilename": "",
   "defaultGameCover": "",
+  "coverDownloadSources": [
+    "https://raw.githubusercontent.com/xlenore/ps2-covers/main/covers/default/${serial}.jpg"
+  ],
   "recommendedEmulators": [
     "PCSX2"
   ],
