@@ -254,13 +254,13 @@
       "runCommandsBefore": [],
       "downloadUrl": {
         "win": [
-          "https://emubro.net/tools/gameboy-emulator/"
+          "https://emubro.net/tools/gb-emu/index.html"
         ],
         "mac": [
-          "https://emubro.net/tools/gameboy-emulator/"
+          "https://emubro.net/tools/gb-emu/index.html"
         ],
         "linux": [
-          "https://emubro.net/tools/gameboy-emulator/"
+          "https://emubro.net/tools/gb-emu/index.html"
         ]
       }
     }
