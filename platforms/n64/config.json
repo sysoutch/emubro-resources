@@ -201,13 +201,12 @@
       "executableFileMatchMac": "^(project64(.*))\\.app$",
       "downloadUrl": {
         "win": [
-          "https://github.com/project64/project64/releases/latest"
+          "https://www.pj64-emu.com/nightly-builds",
+          "https://www.pj64-emu.com/public-releases"
         ],
         "mac": [
-          "https://github.com/project64/project64/releases/latest"
         ],
         "linux": [
-          "https://github.com/project64/project64/releases/latest"
         ]
       }
     }
