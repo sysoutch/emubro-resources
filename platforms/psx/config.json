@@ -114,7 +114,7 @@
       "path": "",
       "iconFilename": "duckstation.png",
       "configFilePath": "",
-      "website": "https://github.com/stenzek/duckstation/releases/tag/latest",
+      "website": "https://github.com/stenzek/duckstation/releases/latest",
       "startParameters": "%emupath% -batch -- %gamepath%",
       "supportedFileTypes": [
         ".iso",

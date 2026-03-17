@@ -22,7 +22,7 @@
     "FILE_FILE_NAME_MATCH",
     "IMAGE_FILE_CONTENT_MATCH"
   ],
-  "searchFor": "^(.*)\\.elf$",
+  "searchFor": "",
   "fileStructure": [],
   "supportedArchiveTypes": [],
   "supportedImageTypes": [
