@@ -1,6 +1,9 @@
 {
   "name": "Microsoft Xbox",
   "shortName": "xbox",
+  "hasGameCodes": false,
+  "hasDiscGameCodes": false,
+  "hasCoverLookupCodes": false,
   "releaseDate": {
     "us": "2001-11-15",
     "eu": "2002-03-14",

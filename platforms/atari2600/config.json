@@ -1,6 +1,9 @@
 {
   "name": "Atari 2600",
   "shortName": "atari2600",
+  "hasGameCodes": false,
+  "hasDiscGameCodes": false,
+  "hasCoverLookupCodes": false,
   "releaseDate": {
     "us": "1977-09",
     "eu": "1978",

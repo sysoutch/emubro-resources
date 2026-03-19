@@ -1,6 +1,9 @@
 {
   "name": "Game Boy",
   "shortName": "gameboy",
+  "hasGameCodes": false,
+  "hasDiscGameCodes": false,
+  "hasCoverLookupCodes": false,
   "releaseDate": {
     "us": "1989-07-31",
     "eu": "1990-09-28",

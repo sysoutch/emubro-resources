@@ -1,6 +1,9 @@
 {
   "name": "Microsoft Xbox 360",
   "shortName": "xbox360",
+  "hasGameCodes": false,
+  "hasDiscGameCodes": false,
+  "hasCoverLookupCodes": false,
   "releaseDate": {
     "us": "2005-11-22",
     "eu": "2005-12-02",

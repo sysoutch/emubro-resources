@@ -1,6 +1,9 @@
 {
   "name": "Atari 7800",
   "shortName": "atari7800",
+  "hasGameCodes": false,
+  "hasDiscGameCodes": false,
+  "hasCoverLookupCodes": false,
   "releaseDate": {
     "us": "1986-05",
     "eu": "1987",

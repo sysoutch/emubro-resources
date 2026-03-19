@@ -1,6 +1,9 @@
 {
   "name": "Nintendo Switch",
   "shortName": "switch",
+  "hasGameCodes": true,
+  "hasDiscGameCodes": false,
+  "hasCoverLookupCodes": true,
   "releaseDate": {
     "us": "2017-03-03",
     "eu": "2017-03-03",

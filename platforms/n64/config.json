@@ -1,6 +1,9 @@
 {
   "name": "Nintendo 64",
   "shortName": "n64",
+  "hasGameCodes": false,
+  "hasDiscGameCodes": false,
+  "hasCoverLookupCodes": false,
   "releaseDate": {
     "us": "1996-09-29",
     "eu": "1997-03-01",
@@ -204,10 +207,8 @@
           "https://www.pj64-emu.com/nightly-builds",
           "https://www.pj64-emu.com/public-releases"
         ],
-        "mac": [
-        ],
-        "linux": [
-        ]
+        "mac": [],
+        "linux": []
       }
     }
   ],

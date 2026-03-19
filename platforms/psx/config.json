@@ -1,6 +1,9 @@
 {
   "name": "Sony Playstation 1",
   "shortName": "psx",
+  "hasGameCodes": true,
+  "hasDiscGameCodes": true,
+  "hasCoverLookupCodes": true,
   "releaseDate": {
     "us": "1995-09-09",
     "eu": "1995-09-29",

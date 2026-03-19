@@ -1,6 +1,9 @@
 {
   "name": "Super Nintendo",
   "shortName": "snes",
+  "hasGameCodes": false,
+  "hasDiscGameCodes": false,
+  "hasCoverLookupCodes": false,
   "releaseDate": {
     "us": "1991-08-23",
     "eu": "1992-04-11",

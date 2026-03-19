@@ -1,6 +1,9 @@
 {
   "name": "NES",
   "shortName": "nes",
+  "hasGameCodes": false,
+  "hasDiscGameCodes": false,
+  "hasCoverLookupCodes": false,
   "releaseDate": {
     "us": "1985-10-18",
     "eu": "1986-09",

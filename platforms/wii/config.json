@@ -1,6 +1,9 @@
 {
   "name": "Nintendo Wii",
   "shortName": "wii",
+  "hasGameCodes": true,
+  "hasDiscGameCodes": false,
+  "hasCoverLookupCodes": true,
   "releaseDate": {
     "us": "2006-11-19",
     "eu": "2006-12-08",

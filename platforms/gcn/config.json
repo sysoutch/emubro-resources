@@ -1,6 +1,9 @@
 {
   "name": "Nintendo GameCube",
   "shortName": "gcn",
+  "hasGameCodes": true,
+  "hasDiscGameCodes": false,
+  "hasCoverLookupCodes": true,
   "releaseDate": {
     "us": "2001-11-18",
     "eu": "2002-05-03",

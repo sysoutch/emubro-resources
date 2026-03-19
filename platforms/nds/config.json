@@ -1,6 +1,9 @@
 {
   "name": "Nintendo DS",
   "shortName": "nds",
+  "hasGameCodes": true,
+  "hasDiscGameCodes": false,
+  "hasCoverLookupCodes": true,
   "releaseDate": {
     "us": "2004-11-21",
     "eu": "2005-03-11",

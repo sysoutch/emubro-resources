@@ -1,6 +1,9 @@
 {
   "name": "Sony Playstation 2",
   "shortName": "ps2",
+  "hasGameCodes": true,
+  "hasDiscGameCodes": true,
+  "hasCoverLookupCodes": true,
   "releaseDate": {
     "us": "2000-10-26",
     "eu": "2000-11-24",

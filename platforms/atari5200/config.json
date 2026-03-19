@@ -1,6 +1,9 @@
 {
   "name": "Atari 5200",
   "shortName": "atari5200",
+  "hasGameCodes": false,
+  "hasDiscGameCodes": false,
+  "hasCoverLookupCodes": false,
   "releaseDate": {
     "us": "1982-11",
     "eu": "Not released",

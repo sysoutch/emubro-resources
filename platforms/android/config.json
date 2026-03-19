@@ -1,6 +1,9 @@
 {
   "name": "Android",
   "shortName": "android",
+  "hasGameCodes": false,
+  "hasDiscGameCodes": false,
+  "hasCoverLookupCodes": false,
   "releaseDate": {
     "us": "2008-09-23",
     "eu": "2008-09-23",

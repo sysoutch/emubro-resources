@@ -1,6 +1,9 @@
 {
   "name": "Sony Playstation Portable",
   "shortName": "psp",
+  "hasGameCodes": true,
+  "hasDiscGameCodes": true,
+  "hasCoverLookupCodes": true,
   "releaseDate": {
     "us": "2005-03-24",
     "eu": "2005-09-01",

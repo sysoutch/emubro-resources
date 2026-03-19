@@ -1,6 +1,9 @@
 {
   "name": "Game Boy Advance",
   "shortName": "gba",
+  "hasGameCodes": false,
+  "hasDiscGameCodes": false,
+  "hasCoverLookupCodes": false,
   "releaseDate": {
     "us": "2001-06-11",
     "eu": "2001-06-22",

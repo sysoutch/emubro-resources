@@ -1,6 +1,9 @@
 {
   "name": "Atari ST",
   "shortName": "atari-st",
+  "hasGameCodes": false,
+  "hasDiscGameCodes": false,
+  "hasCoverLookupCodes": false,
   "releaseDate": {
     "us": "1985-07",
     "eu": "1985-07",
