@@ -1,6 +1,7 @@
 {
   "name": "NES",
   "shortName": "nes",
+  "aliases": ["nintendo-entertainment-system", "famicom"],
   "hasGameCodes": false,
   "hasDiscGameCodes": false,
   "hasCoverLookupCodes": false,

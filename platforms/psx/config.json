@@ -1,6 +1,7 @@
 {
   "name": "Sony Playstation 1",
   "shortName": "psx",
+  "aliases": ["playstation", "sony-playstation", "ps", "ps1"],
   "hasGameCodes": true,
   "hasDiscGameCodes": true,
   "hasCoverLookupCodes": true,

@@ -1,6 +1,7 @@
 {
   "name": "Sega Dreamcast",
   "shortName": "dreamcast",
+  "aliases": ["sega-dreamcast", "dc"],
   "hasGameCodes": false,
   "hasDiscGameCodes": false,
   "hasCoverLookupCodes": false,

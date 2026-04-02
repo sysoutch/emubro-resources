@@ -1,6 +1,7 @@
 {
   "name": "Game Boy",
   "shortName": "gameboy",
+  "aliases": ["nintendo-game-boy", "gb", "gbc", "game-boy-color", "nintendo-game-boy-color"],
   "hasGameCodes": false,
   "hasDiscGameCodes": false,
   "hasCoverLookupCodes": false,

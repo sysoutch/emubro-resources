@@ -1,6 +1,7 @@
 {
   "name": "Nintendo Switch",
   "shortName": "switch",
+  "aliases": ["nintendo-switch"],
   "hasGameCodes": true,
   "hasDiscGameCodes": false,
   "hasCoverLookupCodes": true,

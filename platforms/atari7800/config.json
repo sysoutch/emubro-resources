@@ -1,6 +1,7 @@
 {
   "name": "Atari 7800",
   "shortName": "atari7800",
+  "aliases": ["atari-7800"],
   "hasGameCodes": false,
   "hasDiscGameCodes": false,
   "hasCoverLookupCodes": false,

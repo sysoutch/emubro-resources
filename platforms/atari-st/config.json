@@ -1,6 +1,7 @@
 {
   "name": "Atari ST",
   "shortName": "atari-st",
+  "aliases": ["atarist"],
   "hasGameCodes": false,
   "hasDiscGameCodes": false,
   "hasCoverLookupCodes": false,

@@ -1,6 +1,7 @@
 {
   "name": "Game Boy Advance",
   "shortName": "gba",
+  "aliases": ["game-boy-advance", "nintendo-game-boy-advance"],
   "hasGameCodes": false,
   "hasDiscGameCodes": false,
   "hasCoverLookupCodes": false,

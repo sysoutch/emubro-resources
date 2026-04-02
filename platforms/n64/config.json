@@ -1,6 +1,7 @@
 {
   "name": "Nintendo 64",
   "shortName": "n64",
+  "aliases": ["nintendo-64"],
   "hasGameCodes": false,
   "hasDiscGameCodes": false,
   "hasCoverLookupCodes": false,

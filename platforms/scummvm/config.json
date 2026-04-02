@@ -1,6 +1,7 @@
 {
   "name": "ScummVM",
   "shortName": "scummvm",
+  "aliases": ["scumm-vm"],
   "hasGameCodes": false,
   "hasDiscGameCodes": false,
   "hasCoverLookupCodes": false,

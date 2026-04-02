@@ -1,6 +1,7 @@
 {
   "name": "Microsoft Windows",
   "shortName": "pc",
+  "aliases": ["pc", "microsoft-windows", "win32", "win64"],
   "hasGameCodes": false,
   "hasDiscGameCodes": false,
   "hasCoverLookupCodes": false,

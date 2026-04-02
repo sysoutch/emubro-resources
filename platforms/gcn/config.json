@@ -1,6 +1,7 @@
 {
   "name": "Nintendo GameCube",
   "shortName": "gcn",
+  "aliases": ["nintendo-gamecube", "gamecube", "ngc"],
   "hasGameCodes": true,
   "hasDiscGameCodes": false,
   "hasCoverLookupCodes": true,

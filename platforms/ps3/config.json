@@ -1,6 +1,7 @@
 {
   "name": "Sony Playstation 3",
   "shortName": "ps3",
+  "aliases": ["playstation-3", "sony-playstation-3"],
   "hasGameCodes": true,
   "hasDiscGameCodes": true,
   "hasCoverLookupCodes": true,

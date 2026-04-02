@@ -1,6 +1,7 @@
 {
   "name": "Atari 2600",
   "shortName": "atari2600",
+  "aliases": ["atari-2600"],
   "hasGameCodes": false,
   "hasDiscGameCodes": false,
   "hasCoverLookupCodes": false,

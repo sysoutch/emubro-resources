@@ -1,6 +1,7 @@
 {
   "name": "Nintendo DS",
   "shortName": "nds",
+  "aliases": ["nintendo-ds", "ds"],
   "hasGameCodes": true,
   "hasDiscGameCodes": false,
   "hasCoverLookupCodes": true,

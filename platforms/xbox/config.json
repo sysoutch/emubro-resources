@@ -1,6 +1,7 @@
 {
   "name": "Microsoft Xbox",
   "shortName": "xbox",
+  "aliases": ["microsoft-xbox"],
   "hasGameCodes": false,
   "hasDiscGameCodes": false,
   "hasCoverLookupCodes": false,

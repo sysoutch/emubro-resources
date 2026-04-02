@@ -1,6 +1,7 @@
 {
   "name": "Sony Playstation 2",
   "shortName": "ps2",
+  "aliases": ["playstation-2", "sony-playstation-2"],
   "hasGameCodes": true,
   "hasDiscGameCodes": true,
   "hasCoverLookupCodes": true,

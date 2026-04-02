@@ -1,6 +1,7 @@
 {
   "name": "Nintendo 3DS",
   "shortName": "3ds",
+  "aliases": ["nintendo-3ds"],
   "hasGameCodes": true,
   "hasDiscGameCodes": false,
   "hasCoverLookupCodes": true,

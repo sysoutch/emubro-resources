@@ -1,6 +1,7 @@
 {
   "name": "Microsoft Xbox 360",
   "shortName": "xbox360",
+  "aliases": ["microsoft-xbox-360", "xbox-360"],
   "hasGameCodes": false,
   "hasDiscGameCodes": false,
   "hasCoverLookupCodes": false,

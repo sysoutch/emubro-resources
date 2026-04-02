@@ -1,6 +1,7 @@
 {
   "name": "Atari 5200",
   "shortName": "atari5200",
+  "aliases": ["atari-5200"],
   "hasGameCodes": false,
   "hasDiscGameCodes": false,
   "hasCoverLookupCodes": false,

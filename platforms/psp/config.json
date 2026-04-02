@@ -1,6 +1,7 @@
 {
   "name": "Sony Playstation Portable",
   "shortName": "psp",
+  "aliases": ["playstation-portable", "sony-playstation-portable"],
   "hasGameCodes": true,
   "hasDiscGameCodes": true,
   "hasCoverLookupCodes": true,

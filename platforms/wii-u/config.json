@@ -1,6 +1,7 @@
 {
   "name": "Nintendo Wii U",
   "shortName": "wii-u",
+  "aliases": ["nintendo-wii-u", "wiiu"],
   "hasGameCodes": true,
   "hasDiscGameCodes": false,
   "hasCoverLookupCodes": true,
