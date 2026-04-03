@@ -33,6 +33,7 @@
   "supportedArchiveTypes": [
     ".zip"
   ],
+  "maxSizeForAutoArchiveCheck": 67108864,
   "supportedImageTypes": [
     ".bin"
   ],
