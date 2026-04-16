@@ -1,0 +1,38 @@
+{
+  "name": "AntiMicroX",
+  "shortName": "antimicrox",
+  "toolType": "external",
+  "os": [
+    "windows",
+    "linux",
+    "mac"
+  ],
+  "website": "https://github.com/AntiMicroX/antimicrox",
+  "downloadUrl": {
+    "win": [
+      "https://github.com/AntiMicroX/antimicrox/releases/latest"
+    ],
+    "linux": [
+      "https://github.com/AntiMicroX/antimicrox/releases/latest"
+    ],
+    "mac": [
+      "https://github.com/AntiMicroX/antimicrox/releases/latest"
+    ]
+  },
+  "downloadPageUrl": "https://github.com/AntiMicroX/antimicrox/releases",
+  "releaseApiUrl": "https://api.github.com/repos/AntiMicroX/antimicrox/releases/latest",
+  "path": "",
+  "filePath": "",
+  "filePaths": [],
+  "executablePath": "",
+  "searchString": "^(antimicrox|antimicrox-qt)(.*)\\.exe$",
+  "executableFileMatchWin": "^(antimicrox|antimicrox-qt)(.*)\\.exe$",
+  "executableFileMatchLinux": "^(antimicrox|antimicrox-qt)(.*)$|^(antimicrox(.*))\\.(AppImage|appimage)$",
+  "executableFileMatchMac": "^(AntiMicroX|antimicrox)(.*)\\.app$",
+  "autoSearchEnabled": true,
+  "enabled": false,
+  "autoRunOnGameLaunch": false,
+  "downloadedInstallerPath": "",
+  "lastDownloadUrl": "",
+  "lastDownloadedAtMs": 0
+}
